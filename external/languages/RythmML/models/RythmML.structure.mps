@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <child id="3348158742936976577" name="members" index="25R1y" />
@@ -132,6 +133,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6mhaJVXwsDH" resolve="Position" />
     </node>
+    <node concept="1TJgyi" id="6mhaJVXyZiv" role="1TKVEl">
+      <property role="IQ2nx" value="7318678144117634207" />
+      <property role="TrG5h" value="frequency" />
+      <ref role="AX2Wp" node="6mhaJVXyZij" resolve="NoteFrequencyEnum" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsD$">
     <property role="EcuMT" value="7318678144116968036" />
@@ -166,6 +172,11 @@
     <property role="EcuMT" value="7318678144116968045" />
     <property role="TrG5h" value="Position" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6mhaJVXzeNO" role="1TKVEl">
+      <property role="IQ2nx" value="7318678144117697780" />
+      <property role="TrG5h" value="division" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDI">
     <property role="EcuMT" value="7318678144116968046" />
@@ -182,6 +193,20 @@
     <node concept="25R33" id="6mhaJVXwzGK" role="25R1y">
       <property role="3tVfz5" value="7318678144116996912" />
       <property role="TrG5h" value="KickDrum" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6mhaJVXyZij">
+    <property role="3F6X1D" value="7318678144117634195" />
+    <property role="TrG5h" value="NoteFrequencyEnum" />
+    <node concept="25R33" id="6mhaJVXyZik" role="25R1y">
+      <property role="3tVfz5" value="7318678144117634196" />
+      <property role="TrG5h" value="Every" />
+      <property role="1L1pqM" value="every" />
+    </node>
+    <node concept="25R33" id="6mhaJVXyZil" role="25R1y">
+      <property role="3tVfz5" value="7318678144117634197" />
+      <property role="TrG5h" value="At" />
+      <property role="1L1pqM" value="at the" />
     </node>
   </node>
 </model>

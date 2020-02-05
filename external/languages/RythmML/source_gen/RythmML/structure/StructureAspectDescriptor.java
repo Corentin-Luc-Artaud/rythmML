@@ -13,6 +13,7 @@ import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptANote = createDescriptorForANote();
@@ -28,6 +29,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptTempo = createDescriptorForTempo();
   /*package*/ final ConceptDescriptor myConceptTrack = createDescriptorForTrack();
   /*package*/ final EnumerationDescriptor myEnumerationDrumEnum = new EnumerationDescriptor_DrumEnum();
+  /*package*/ final EnumerationDescriptor myEnumerationNoteFrequencyEnum = new EnumerationDescriptor_NoteFrequencyEnum();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -80,7 +82,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationDrumEnum);
+    return Arrays.asList(myEnumerationDrumEnum, myEnumerationNoteFrequencyEnum);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -92,6 +94,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.interface_();
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116968035");
     b.version(2);
+    b.property("frequency", 0x65912afefd8bf49fL).type(MetaIdFactory.dataTypeId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd8bf493L)).origin("7318678144117634207").done();
     b.aggregate("position", 0x65912afefd827d76L).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca6dL).optional(false).ordered(true).multiple(false).origin("7318678144117013878").done();
     return b.create();
   }
@@ -132,6 +135,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116968045");
     b.version(2);
+    b.property("division", 0x65912afefd8cecf4L).type(PrimitiveTypeId.STRING).origin("7318678144117697780").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSection() {

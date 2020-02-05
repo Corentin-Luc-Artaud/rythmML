@@ -10,11 +10,14 @@
       <concept id="7318678144116939997" name="RythmML.structure.Song" flags="ng" index="2o47oz">
         <child id="7318678144116968074" name="track" index="2o4e1O" />
       </concept>
-      <concept id="7318678144116968045" name="RythmML.structure.Position" flags="ng" index="2o4e2j" />
+      <concept id="7318678144116968045" name="RythmML.structure.Position" flags="ng" index="2o4e2j">
+        <property id="7318678144117697780" name="division" index="2o7soa" />
+      </concept>
       <concept id="7318678144116968039" name="RythmML.structure.DrumNote" flags="ng" index="2o4e2p">
         <property id="7318678144117008197" name="drum" index="2o4OQV" />
       </concept>
       <concept id="7318678144116968035" name="RythmML.structure.ANote" flags="ng" index="2o4e2t">
+        <property id="7318678144117634207" name="frequency" index="2o6HTx" />
         <child id="7318678144117013878" name="position" index="2o4Pu8" />
       </concept>
       <concept id="7318678144116968032" name="RythmML.structure.Bar" flags="ng" index="2o4e2u">
@@ -40,9 +43,19 @@
       <node concept="2o4e2z" id="6mhaJVXwBPB" role="2o4L77">
         <property role="TrG5h" value="Intro" />
         <node concept="2o4e2u" id="6mhaJVXwBPC" role="2o4L75">
+          <node concept="2o4e2p" id="6mhaJVXztWP" role="2o4RJb">
+            <property role="2o4OQV" value="6mhaJVXwzGK/KickDrum" />
+            <property role="2o6HTx" value="6mhaJVXyZil/At" />
+            <node concept="2o4e2j" id="6mhaJVXztWR" role="2o4Pu8">
+              <property role="2o7soa" value="third" />
+            </node>
+          </node>
           <node concept="2o4e2p" id="6mhaJVXwBPH" role="2o4RJb">
             <property role="2o4OQV" value="6mhaJVXwzGJ/Cimbal" />
-            <node concept="2o4e2j" id="6mhaJVXwEAZ" role="2o4Pu8" />
+            <property role="2o6HTx" value="6mhaJVXyZik/Every" />
+            <node concept="2o4e2j" id="6mhaJVXzeNk" role="2o4Pu8">
+              <property role="2o7soa" value="first" />
+            </node>
           </node>
         </node>
       </node>
