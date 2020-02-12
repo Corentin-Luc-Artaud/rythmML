@@ -13,7 +13,6 @@
         <child id="7318678144116968074" name="track" index="2o4e1O" />
       </concept>
       <concept id="7318678144116968045" name="RythmML.structure.Position" flags="ng" index="2o4e2j">
-        <property id="7318678144117697780" name="division" index="2o7soa" />
         <property id="5961830490442229227" name="beat" index="zm$zl" />
       </concept>
       <concept id="7318678144116968039" name="RythmML.structure.DrumNote" flags="ng" index="2o4e2p">
@@ -81,14 +80,13 @@
             </node>
             <node concept="zm$H4" id="5aWFjTLU69J" role="2o4RJb">
               <property role="zm$H1" value="0.5" />
-              <node concept="2o4e2p" id="5aWFjTLU6ai" role="zm$H3">
-                <property role="2o4OQV" value="5aWFjTLU69R/CloseHihat" />
-                <node concept="2o4e2j" id="5aWFjTLU6ak" role="2o4Pu8">
-                  <property role="2o7soa" value="1" />
+              <node concept="2o4e2j" id="5aWFjTLU69M" role="2o4Pu8" />
+              <node concept="2o4e2p" id="5aWFjTLVVh1" role="zm$H3">
+                <property role="2o4OQV" value="5aWFjTLU69R/ClosedHitHat" />
+                <node concept="2o4e2j" id="5aWFjTLVVh4" role="2o4Pu8">
                   <property role="zm$zl" value="1" />
                 </node>
               </node>
-              <node concept="2o4e2j" id="5aWFjTLU69M" role="2o4Pu8" />
             </node>
           </node>
         </node>

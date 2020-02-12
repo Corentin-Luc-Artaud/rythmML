@@ -7,7 +7,7 @@ import javax.sound.midi.Track;
 import javax.sound.midi.ShortMessage;
 import javax.sound.midi.MidiEvent;
 
-public class DrumUtils {
+public class SongUtils {
 
   public static void loadSoundBank(Sequencer sequencer, String soundBankPath) {
   }
@@ -20,19 +20,19 @@ public class DrumUtils {
     return pos;
   }
 
-  public static void addDrumHit(Track track, DrumElement de, long tick, int velocity) {
+  public static void addDrumHit(Track track, int noteType, long tick, int velocity, int duration) {
     final int NOTEON = 144;
     final int NOTEOFF = 128;
 
-    createEvent(track, NOTEON, 9, de, tick, velocity);
-    createEvent(track, NOTEOFF, 9, de, tick + 1, velocity);
+    createEvent(track, NOTEON, 9, noteType, tick, velocity);
+    createEvent(track, NOTEOFF, 9, noteType, tick + duration, velocity);
   }
 
-  public static void createEvent(Track track, int type, int chan, DrumElement de, long tick, int velocity) {
+  public static void createEvent(Track track, int type, int chan, int noteType, long tick, int velocity) {
     ShortMessage message = new ShortMessage();
 
     try {
-      message.setMessage(type, chan, de.noteNumber, velocity);
+      message.setMessage(type, chan, noteType, velocity);
       MidiEvent event = new MidiEvent(message, tick);
       track.add(event);
     } catch (Exception e) {

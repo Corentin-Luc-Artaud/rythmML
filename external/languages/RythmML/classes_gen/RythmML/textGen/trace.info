@@ -5,11 +5,13 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164879751025:jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
   <root>
@@ -20,133 +22,109 @@
   </root>
   <root nodeRef="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen)/7318678144117013936">
     <file name="Song_TextGen.java">
-      <node id="7318678144117013936" at="15,54,16,55" concept="7" />
-      <node id="7318678144117406713" at="17,9,18,34" concept="2" />
-      <node id="7318678144117400303" at="18,34,19,0" concept="9" />
-      <node id="7318678144117068459" at="19,0,20,54" concept="7" />
-      <node id="7318678144117402985" at="20,54,21,0" concept="9" />
-      <node id="7318678144117070738" at="21,0,22,21" concept="7" />
-      <node id="7318678144117073176" at="22,21,23,20" concept="7" />
-      <node id="7318678144117074033" at="23,20,24,27" concept="7" />
-      <node id="7318678144117074398" at="24,27,25,27" concept="7" />
-      <node id="7318678144117404525" at="25,27,26,0" concept="9" />
-      <node id="7318678144117074788" at="26,0,27,65" concept="7" />
-      <node id="7318678144117076521" at="27,65,28,0" concept="9" />
-      <node id="7318678144117076780" at="28,0,29,43" concept="7" />
-      <node id="7318678144117078071" at="29,43,30,0" concept="9" />
-      <node id="7318678144117097140" at="32,57,33,77" concept="7" />
-      <node id="7318678144117164407" at="33,77,34,77" concept="2" />
-      <node id="7318678144117169889" at="36,7,37,0" concept="9" />
-      <node id="7318678144117189244" at="39,57,40,77" concept="7" />
-      <node id="7318678144117194713" at="40,77,41,70" concept="2" />
-      <node id="7318678144117198495" at="43,7,44,0" concept="9" />
-      <node id="7318678144117229232" at="47,39,48,83" concept="7" />
-      <node id="7318678144117490911" at="48,83,49,44" concept="7" />
-      <node id="7318678144117242045" at="49,44,50,45" concept="7" />
-      <node id="7318678144117261125" at="50,45,51,81" concept="2" />
-      <node id="7318678144117269589" at="54,7,55,0" concept="9" />
-      <node id="7318678144117281918" at="56,45,57,76" concept="7" />
-      <node id="7318678144117295260" at="57,76,58,75" concept="2" />
-      <node id="7318678144117302959" at="59,7,60,0" concept="9" />
-      <node id="7318678144117304551" at="60,0,61,23" concept="2" />
-      <node id="7318678144117311970" at="61,23,62,38" concept="2" />
-      <node id="7318678144117318606" at="62,38,63,37" concept="2" />
-      <node id="7318678144117325270" at="63,37,64,24" concept="2" />
-      <node id="7318678144117329132" at="64,24,65,0" concept="9" />
-      <node id="7318678144117332158" at="65,0,66,70" concept="7" />
-      <node id="7318678144117355454" at="66,70,67,68" concept="2" />
-      <node id="7318678144117370322" at="67,68,68,41" concept="2" />
-      <node id="7318678144117377725" at="68,41,69,42" concept="2" />
-      <node id="7318678144117383462" at="69,42,70,0" concept="9" />
-      <node id="7318678144117395179" at="70,0,71,23" concept="2" />
-      <node id="7318678144117388141" at="71,23,72,24" concept="2" />
-      <node id="7318678144117338201" at="72,24,73,0" concept="9" />
-      <node id="7318678144117069165" at="74,27,75,26" concept="2" />
-      <node id="7318678144117090048" at="31,45,35,9" concept="4" />
-      <node id="7318678144117180341" at="38,45,42,9" concept="4" />
-      <node id="7318678144117270710" at="55,0,59,7" concept="4" />
-      <node id="7318678144117079691" at="30,0,36,7" concept="4" />
-      <node id="7318678144117171010" at="37,0,43,7" concept="4" />
-      <node id="7318678144117219660" at="46,57,52,11" concept="4" />
-      <node id="7318678144117209872" at="45,45,53,9" concept="4" />
-      <node id="7318678144117200056" at="44,0,54,7" concept="4" />
-      <node id="7318678144117068649" at="16,55,76,5" concept="11" />
-      <node id="7318678144117013936" at="14,0,78,0" concept="6" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
-      <scope id="7318678144117068652" at="74,0,75,26">
+      <node id="7318678144117013936" at="23,54,24,55" concept="8" />
+      <node id="7318678144117406713" at="25,9,26,34" concept="2" />
+      <node id="7318678144117400303" at="26,34,27,0" concept="10" />
+      <node id="7318678144117068459" at="27,0,28,54" concept="8" />
+      <node id="7318678144117402985" at="28,54,29,0" concept="10" />
+      <node id="7318678144117070738" at="29,0,30,90" concept="8" />
+      <node id="7318678144117074033" at="30,90,31,103" concept="8" />
+      <node id="7318678144117074398" at="31,103,32,27" concept="8" />
+      <node id="5961830490442418346" at="32,27,33,0" concept="10" />
+      <node id="7318678144117074788" at="33,0,34,65" concept="8" />
+      <node id="5961830490442748943" at="34,65,35,0" concept="10" />
+      <node id="5961830490442660792" at="35,0,36,21" concept="8" />
+      <node id="5961830490442750153" at="36,21,37,0" concept="10" />
+      <node id="5961830490442441497" at="37,0,38,0" concept="10" />
+      <node id="5961830490442430248" at="39,119,40,49" concept="8" />
+      <node id="5961830490442460646" at="40,49,41,0" concept="10" />
+      <node id="5961830490442681117" at="45,154,46,159" concept="2" />
+      <node id="5961830490442460657" at="50,9,51,0" concept="10" />
+      <node id="7318678144117304551" at="52,7,53,23" concept="2" />
+      <node id="7318678144117311970" at="53,23,54,38" concept="2" />
+      <node id="7318678144117318606" at="54,38,55,37" concept="2" />
+      <node id="7318678144117325270" at="55,37,56,24" concept="2" />
+      <node id="7318678144117329132" at="56,24,57,0" concept="10" />
+      <node id="7318678144117332158" at="57,0,58,71" concept="8" />
+      <node id="7318678144117355454" at="58,71,59,68" concept="2" />
+      <node id="7318678144117370322" at="59,68,60,41" concept="2" />
+      <node id="7318678144117377725" at="60,41,61,42" concept="2" />
+      <node id="7318678144117383462" at="61,42,62,0" concept="10" />
+      <node id="7318678144117395179" at="62,0,63,23" concept="2" />
+      <node id="7318678144117388141" at="63,23,64,24" concept="2" />
+      <node id="7318678144117338201" at="64,24,65,0" concept="10" />
+      <node id="7318678144117069165" at="66,27,67,26" concept="2" />
+      <node id="7318678144117013936" at="72,0,73,0" concept="11" trace="tempo$j9_s" />
+      <node id="7318678144117013936" at="73,0,74,0" concept="11" trace="musical_div$j9Aq" />
+      <node id="7318678144117013936" at="74,0,75,0" concept="11" trace="repetition$76S5" />
+      <node id="7318678144117013936" at="78,0,79,0" concept="11" trace="bar$76F0" />
+      <node id="7318678144117013936" at="79,0,80,0" concept="11" trace="notes$tuaG" />
+      <node id="7318678144117013936" at="80,0,81,0" concept="11" trace="bars$gCZp" />
+      <node id="7318678144117013936" at="81,0,82,0" concept="11" trace="sections$gCYo" />
+      <node id="7318678144117013936" at="82,0,83,0" concept="11" trace="track$4C47" />
+      <node id="5961830490442659066" at="44,117,47,15" concept="5" />
+      <node id="5961830490442474110" at="43,109,48,13" concept="4" />
+      <node id="5961830490442468265" at="42,110,49,11" concept="5" />
+      <node id="5961830490442462202" at="41,0,50,9" concept="5" />
+      <node id="5961830490442421230" at="38,0,52,7" concept="5" />
+      <node id="7318678144117068649" at="24,55,68,5" concept="13" />
+      <node id="7318678144117013936" at="22,0,70,0" concept="7" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="5961830490442659072" at="45,154,46,159" />
+      <scope id="7318678144117068652" at="66,0,67,26">
         <var name="e" id="7318678144117068654" />
       </scope>
-      <scope id="7318678144117068658" at="74,27,75,26" />
-      <scope id="7318678144117090050" at="32,57,34,77">
-        <var name="pos" id="7318678144117097143" />
+      <scope id="7318678144117068658" at="66,27,67,26" />
+      <scope id="5961830490442474112" at="44,117,47,15" />
+      <scope id="5961830490442659066" at="44,117,47,15">
+        <var name="note" id="5961830490442659068" />
       </scope>
-      <scope id="7318678144117180343" at="39,57,41,70">
-        <var name="pos" id="7318678144117189247" />
+      <scope id="5961830490442468268" at="43,109,48,13" />
+      <scope id="5961830490442474110" at="43,109,48,13">
+        <var name="bar" id="5961830490442474111" />
       </scope>
-      <scope id="7318678144117270712" at="56,45,58,75">
-        <var name="pos" id="7318678144117281921" />
+      <scope id="5961830490442462208" at="42,110,49,11" />
+      <scope id="5961830490442468265" at="42,110,49,11">
+        <var name="barrep" id="5961830490442468266" />
       </scope>
-      <scope id="7318678144117079693" at="31,45,35,9" />
-      <scope id="7318678144117090048" at="31,45,35,9">
-        <var name="beat" id="7318678144117090051" />
+      <scope id="5961830490442462202" at="41,0,50,9">
+        <var name="section" id="5961830490442462204" />
       </scope>
-      <scope id="7318678144117171012" at="38,45,42,9" />
-      <scope id="7318678144117180341" at="38,45,42,9">
-        <var name="beat" id="7318678144117180344" />
+      <scope id="5961830490442421236" at="39,119,51,0">
+        <var name="realTrack" id="5961830490442430249" />
       </scope>
-      <scope id="7318678144117219662" at="47,39,51,81">
-        <var name="pos" id="7318678144117229235" />
-        <var name="r" id="7318678144117490912" />
-        <var name="velocity" id="7318678144117242048" />
+      <scope id="5961830490442421230" at="38,0,52,7">
+        <var name="track" id="5961830490442421232" />
       </scope>
-      <scope id="7318678144117270710" at="55,0,59,7">
-        <var name="bar" id="7318678144117270713" />
-      </scope>
-      <scope id="7318678144117079691" at="30,0,36,7">
-        <var name="bar" id="7318678144117079694" />
-      </scope>
-      <scope id="7318678144117171010" at="37,0,43,7">
-        <var name="bar" id="7318678144117171013" />
-      </scope>
-      <scope id="7318678144117209874" at="46,57,52,11" />
-      <scope id="7318678144117219660" at="46,57,52,11">
-        <var name="d" id="7318678144117219663" />
-      </scope>
-      <scope id="7318678144117200058" at="45,45,53,9" />
-      <scope id="7318678144117209872" at="45,45,53,9">
-        <var name="beat" id="7318678144117209875" />
-      </scope>
-      <scope id="7318678144117200056" at="44,0,54,7">
-        <var name="bar" id="7318678144117200059" />
-      </scope>
-      <scope id="7318678144117068651" at="17,9,73,0">
+      <scope id="7318678144117068651" at="25,9,65,0">
+        <var name="curBar" id="5961830490442660795" />
         <var name="durationOfTheTrackMS" id="7318678144117332161" />
-        <var name="nbBar" id="7318678144117073179" />
         <var name="nbBeatPerBar" id="7318678144117074036" />
         <var name="resolution" id="7318678144117074401" />
         <var name="sequence" id="7318678144117074789" />
         <var name="sequencer" id="7318678144117068460" />
         <var name="tempo" id="7318678144117070741" />
-        <var name="track" id="7318678144117076781" />
       </scope>
-      <scope id="7318678144117013936" at="15,54,76,5">
+      <scope id="7318678144117013936" at="23,54,68,5">
         <var name="tgs" id="7318678144117013936" />
       </scope>
-      <scope id="7318678144117013936" at="14,0,78,0">
+      <scope id="7318678144117013936" at="22,0,70,0">
         <var name="ctx" id="7318678144117013936" />
       </scope>
-      <unit id="7318678144117013936" at="13,0,79,0" name="RythmML.textGen.Song_TextGen" />
+      <unit id="7318678144117013936" at="71,0,76,0" name="RythmML.textGen.Song_TextGen$PROPS" />
+      <unit id="7318678144117013936" at="77,0,84,0" name="RythmML.textGen.Song_TextGen$LINKS" />
+      <unit id="7318678144117013936" at="21,0,85,0" name="RythmML.textGen.Song_TextGen" />
     </file>
     <file name="TextGenAspectDescriptor.java">
-      <node id="7318678144117013936" at="26,38,27,34" concept="8" />
-      <node id="7318678144117013936" at="35,55,36,46" concept="7" />
-      <node id="7318678144117013936" at="36,46,37,49" concept="7" />
+      <node id="7318678144117013936" at="26,38,27,34" concept="9" />
+      <node id="7318678144117013936" at="35,55,36,46" concept="8" />
+      <node id="7318678144117013936" at="36,46,37,49" concept="8" />
       <node id="7318678144117013936" at="37,49,38,84" concept="2" />
       <node id="7318678144117013936" at="38,84,39,17" concept="1" />
-      <node id="7318678144117013936" at="43,54,44,26" concept="8" />
-      <node id="7318678144117013936" at="46,59,47,16" concept="8" />
-      <node id="7318678144117013936" at="43,0,46,0" concept="10" trace="getFileName_Song#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="7318678144117013936" at="46,0,49,0" concept="10" trace="getFileExtension_Song#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-      <node id="7318678144117013936" at="34,58,40,7" concept="5" />
+      <node id="7318678144117013936" at="43,54,44,26" concept="9" />
+      <node id="7318678144117013936" at="46,59,47,16" concept="9" />
+      <node id="7318678144117013936" at="43,0,46,0" concept="12" trace="getFileName_Song#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7318678144117013936" at="46,0,49,0" concept="12" trace="getFileExtension_Song#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7318678144117013936" at="34,58,40,7" concept="6" />
       <scope id="7318678144117013936" at="26,38,27,34" />
       <scope id="7318678144117013936" at="43,54,44,26" />
       <scope id="7318678144117013936" at="46,59,47,16" />
@@ -163,28 +141,28 @@
     </file>
   </root>
   <root nodeRef="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen)/7318678144117097656">
-    <file name="DrumUtils.java">
-      <node id="7318678144117098546" at="15,98,16,46" concept="7" />
+    <file name="SongUtils.java">
+      <node id="7318678144117098546" at="15,98,16,46" concept="8" />
       <node id="7318678144117106899" at="16,46,17,29" concept="2" />
-      <node id="7318678144117472801" at="17,29,18,24" concept="7" />
+      <node id="7318678144117472801" at="17,29,18,24" concept="8" />
       <node id="7318678144117459924" at="18,24,19,37" concept="2" />
-      <node id="7318678144117115725" at="19,37,20,15" concept="8" />
-      <node id="7318678144117147278" at="23,87,24,27" concept="7" />
-      <node id="7318678144117147445" at="24,27,25,28" concept="7" />
-      <node id="7318678144117147591" at="25,28,26,0" concept="9" />
-      <node id="7318678144117159611" at="26,0,27,54" concept="2" />
-      <node id="7318678144117160445" at="27,54,28,59" concept="2" />
-      <node id="7318678144117148543" at="31,108,32,46" concept="7" />
-      <node id="7318678144117150713" at="32,46,33,0" concept="9" />
-      <node id="7318678144117152100" at="34,9,35,62" concept="2" />
-      <node id="7318678144117156497" at="35,62,36,53" concept="7" />
+      <node id="7318678144117115725" at="19,37,20,15" concept="9" />
+      <node id="7318678144117147278" at="23,99,24,27" concept="8" />
+      <node id="7318678144117147445" at="24,27,25,28" concept="8" />
+      <node id="7318678144117147591" at="25,28,26,0" concept="10" />
+      <node id="7318678144117159611" at="26,0,27,60" concept="2" />
+      <node id="7318678144117160445" at="27,60,28,72" concept="2" />
+      <node id="7318678144117148543" at="31,106,32,46" concept="8" />
+      <node id="7318678144117150713" at="32,46,33,0" concept="10" />
+      <node id="7318678144117152100" at="34,9,35,57" concept="2" />
+      <node id="7318678144117156497" at="35,57,36,53" concept="8" />
       <node id="7318678144117158280" at="36,53,37,23" concept="2" />
       <node id="7318678144117150959" at="38,27,39,26" concept="2" />
-      <node id="7318678144117097775" at="12,0,14,0" concept="10" trace="loadSoundBank#(Ljavax/sound/midi/Sequencer;Ljava/lang/String;)V" />
-      <node id="7318678144117098159" at="15,0,22,0" concept="10" trace="toTick#(IIDII)I" />
-      <node id="7318678144117146960" at="23,0,30,0" concept="10" trace="addDrumHit#(Ljavax/sound/midi/Track;LRythmML/textGen/DrumElement;JI)V" />
-      <node id="7318678144117150778" at="33,0,40,5" concept="11" />
-      <node id="7318678144117147915" at="31,0,42,0" concept="10" trace="createEvent#(Ljavax/sound/midi/Track;IILRythmML/textGen/DrumElement;JI)V" />
+      <node id="7318678144117097775" at="12,0,14,0" concept="12" trace="loadSoundBank#(Ljavax/sound/midi/Sequencer;Ljava/lang/String;)V" />
+      <node id="7318678144117098159" at="15,0,22,0" concept="12" trace="toTick#(IIDII)I" />
+      <node id="7318678144117146960" at="23,0,30,0" concept="12" trace="addDrumHit#(Ljavax/sound/midi/Track;IJII)V" />
+      <node id="7318678144117150778" at="33,0,40,5" concept="13" />
+      <node id="7318678144117147915" at="31,0,42,0" concept="12" trace="createEvent#(Ljavax/sound/midi/Track;IIIJI)V" />
       <scope id="7318678144117097778" at="12,79,12,79" />
       <scope id="7318678144117150781" at="38,0,39,26">
         <var name="e" id="7318678144117150783" />
@@ -201,7 +179,7 @@
         <var name="d" id="7318678144117472802" />
         <var name="pos" id="7318678144117098549" />
       </scope>
-      <scope id="7318678144117146963" at="23,87,28,59">
+      <scope id="7318678144117146963" at="23,99,28,72">
         <var name="NOTEOFF" id="7318678144117147443" />
         <var name="NOTEON" id="7318678144117147276" />
       </scope>
@@ -213,23 +191,24 @@
         <var name="resolution" id="7318678144117098465" />
       </scope>
       <scope id="7318678144117146960" at="23,0,30,0">
-        <var name="de" id="7318678144117147078" />
+        <var name="duration" id="5961830490442397990" />
+        <var name="noteType" id="7318678144117147078" />
         <var name="tick" id="7318678144117147140" />
         <var name="track" id="7318678144117147039" />
         <var name="velocity" id="7318678144117147200" />
       </scope>
-      <scope id="7318678144117147918" at="31,108,40,5">
+      <scope id="7318678144117147918" at="31,106,40,5">
         <var name="message" id="7318678144117148544" />
       </scope>
       <scope id="7318678144117147915" at="31,0,42,0">
         <var name="chan" id="7318678144117148156" />
-        <var name="de" id="7318678144117148228" />
+        <var name="noteType" id="7318678144117148228" />
         <var name="tick" id="7318678144117148310" />
         <var name="track" id="7318678144117148021" />
         <var name="type" id="7318678144117148068" />
         <var name="velocity" id="7318678144117148386" />
       </scope>
-      <unit id="7318678144117097656" at="10,0,43,0" name="RythmML.textGen.DrumUtils" />
+      <unit id="7318678144117097656" at="10,0,43,0" name="RythmML.textGen.SongUtils" />
     </file>
   </root>
   <root nodeRef="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen)/7318678144117121309">

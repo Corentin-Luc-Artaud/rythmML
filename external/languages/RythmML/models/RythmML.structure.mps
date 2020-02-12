@@ -172,7 +172,7 @@
     <node concept="1TJgyi" id="6mhaJVXzeNO" role="1TKVEl">
       <property role="IQ2nx" value="7318678144117697780" />
       <property role="TrG5h" value="division" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
     <node concept="1TJgyi" id="5aWFjTLTInF" role="1TKVEl">
       <property role="IQ2nx" value="5961830490442229227" />

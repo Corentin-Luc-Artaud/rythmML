@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-am5sa0k6y1vchbwsjfl0agu6yi54xx3" />
+<product version="3" modelHash="39lm12lz5jlpq167opr4zn92f3tfeom">
+  <files names="ANote__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:DrumNote__BehaviorDescriptor.java:NoteFrequency__BehaviorDescriptor.java:SongUtils.java" />
+</product>
 

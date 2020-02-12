@@ -7,8 +7,16 @@ import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
 import javax.sound.midi.Sequencer;
 import javax.sound.midi.MidiSystem;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import javax.sound.midi.Sequence;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import javax.sound.midi.Track;
+import RythmML.behavior.ANote__BehaviorDescriptor;
+import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class Song_TextGen extends TextGenDescriptorBase {
   @Override
@@ -19,51 +27,35 @@ public class Song_TextGen extends TextGenDescriptorBase {
 
       Sequencer sequencer = MidiSystem.getSequencer();
 
-      int tempo = 80;
-      int nbBar = 2;
-      int nbBeatPerBar = 4;
+      int tempo = SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.tempo$j9_s);
+      int nbBeatPerBar = SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.musical_div$j9Aq);
       int resolution = 200;
 
       Sequence sequence = new Sequence(Sequence.PPQ, resolution);
 
-      Track track = sequence.createTrack();
+      int curBar = 0;
 
-      for (int bar = 0; bar < nbBar; bar++) {
-        for (int beat = 0; beat < nbBeatPerBar; beat++) {
-          int pos = DrumUtils.toTick(bar, beat, 0, nbBeatPerBar, resolution);
-          DrumUtils.addDrumHit(track, DrumElement.AcousticBassDrum, pos, 90);
-        }
-      }
 
-      for (int bar = 0; bar < nbBar; bar++) {
-        for (int beat = 0; beat < nbBeatPerBar; beat++) {
-          int pos = DrumUtils.toTick(bar, beat, 0, nbBeatPerBar, resolution);
-          DrumUtils.addDrumHit(track, DrumElement.HandClap, pos, 100);
-        }
-      }
+      for (SNode track : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.track$4C47))) {
+        Track realTrack = sequence.createTrack();
 
-      for (int bar = 0; bar < nbBar; bar++) {
-        for (int beat = 0; beat < nbBeatPerBar; beat++) {
-          for (int d = 0; d < 4; d++) {
-            int pos = DrumUtils.toTick(bar, beat, d / 4, nbBeatPerBar, resolution);
-            Double r = (Math.random() * 50);
-            int velocity = 50 + r.intValue();
-            DrumUtils.addDrumHit(track, DrumElement.ClosedHitHat, pos, velocity);
+        for (SNode section : ListSequence.fromList(SLinkOperations.getChildren(track, LINKS.sections$gCYo))) {
+          for (SNode barrep : ListSequence.fromList(SLinkOperations.getChildren(section, LINKS.bars$gCZp))) {
+            for (int bar = 0; bar < SPropertyOperations.getInteger(barrep, PROPS.repetition$76S5); bar++, curBar++) {
+              for (SNode note : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(barrep, LINKS.bar$76F0), LINKS.notes$tuaG))) {
+                ANote__BehaviorDescriptor.generate_id5aWFjTLUNx6.invoke(note, realTrack, ((int) curBar), ((int) nbBeatPerBar), ((int) resolution), ((int) 90));
+              }
+            }
           }
         }
-      }
 
-      for (int bar = 0; bar < nbBar; bar++) {
-        int pos = DrumUtils.toTick(bar, 1, 3 / 4, nbBeatPerBar, resolution);
-        DrumUtils.addDrumHit(track, DrumElement.AcousticBassDrum, pos, 80);
       }
-
       sequencer.open();
       sequencer.setSequence(sequence);
       sequencer.setTempoInBPM(tempo);
       sequencer.start();
 
-      int durationOfTheTrackMS = nbBar * nbBeatPerBar * 60000 / tempo;
+      int durationOfTheTrackMS = curBar * nbBeatPerBar * 60000 / tempo;
       System.out.println("sleeping " + durationOfTheTrackMS + "ms");
       Thread.sleep(durationOfTheTrackMS);
       System.out.println("stop sleeping");
@@ -74,5 +66,19 @@ public class Song_TextGen extends TextGenDescriptorBase {
     } catch (Exception e) {
       e.printStackTrace();
     }
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty tempo$j9_s = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x52bcad3e71e6e5e6L, "tempo");
+    /*package*/ static final SProperty musical_div$j9Aq = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x52bcad3e71e6e5e8L, "musical_div");
+    /*package*/ static final SProperty repetition$76S5 = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L, 0x52bcad3e71e6e53eL, "repetition");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink bar$76F0 = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L, 0x52bcad3e71e6e538L, "bar");
+    /*package*/ static final SContainmentLink notes$tuaG = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca60L, 0x65912afefd825135L, "notes");
+    /*package*/ static final SContainmentLink bars$gCZp = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL, 0x65912afefd823b3bL, "bars");
+    /*package*/ static final SContainmentLink sections$gCYo = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL, 0x65912afefd823b39L, "sections");
+    /*package*/ static final SContainmentLink track$4C47 = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x65912afefd81ca8aL, "track");
   }
 }
