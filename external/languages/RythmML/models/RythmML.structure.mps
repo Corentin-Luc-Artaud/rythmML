@@ -67,6 +67,16 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6mhaJVXwsDq" resolve="Track" />
     </node>
+    <node concept="1TJgyi" id="5aWFjTLTInA" role="1TKVEl">
+      <property role="IQ2nx" value="5961830490442229222" />
+      <property role="TrG5h" value="tempo" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="5aWFjTLTInC" role="1TKVEl">
+      <property role="IQ2nx" value="5961830490442229224" />
+      <property role="TrG5h" value="musical_div" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDq">
     <property role="EcuMT" value="7318678144116968026" />
@@ -82,6 +92,18 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6mhaJVXwsDt" resolve="Section" />
     </node>
+    <node concept="1TJgyj" id="5aWFjTLTInK" role="1TKVEi">
+      <property role="IQ2ns" value="5961830490442229232" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="paterns" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6mhaJVXwsDy" resolve="Pattern" />
+    </node>
+    <node concept="1TJgyi" id="5aWFjTLTInI" role="1TKVEl">
+      <property role="IQ2nx" value="5961830490442229230" />
+      <property role="TrG5h" value="instrument" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDt">
     <property role="EcuMT" value="7318678144116968029" />
@@ -93,9 +115,9 @@
     <node concept="1TJgyj" id="6mhaJVXwzGV" role="1TKVEi">
       <property role="IQ2ns" value="7318678144116996923" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="bar" />
+      <property role="20kJfa" value="bars" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="6mhaJVXwsDw" resolve="Bar" />
+      <ref role="20lvS9" node="5aWFjTLTIkR" resolve="BarRepetition" />
     </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDw">
@@ -108,19 +130,6 @@
       <property role="20kJfa" value="notes" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6mhaJVXwsDz" resolve="ANote" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6mhaJVXwsDx">
-    <property role="EcuMT" value="7318678144116968033" />
-    <property role="TrG5h" value="Beat" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="1TIwiD" id="6mhaJVXwsDy">
-    <property role="EcuMT" value="7318678144116968034" />
-    <property role="TrG5h" value="Pattern" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6mhaJVXwBPM" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="6mhaJVXwsDz">
@@ -177,11 +186,11 @@
       <property role="TrG5h" value="division" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6mhaJVXwsDI">
-    <property role="EcuMT" value="7318678144116968046" />
-    <property role="TrG5h" value="Tempo" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5aWFjTLTInF" role="1TKVEl">
+      <property role="IQ2nx" value="5961830490442229227" />
+      <property role="TrG5h" value="beat" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="25R3W" id="6mhaJVXwzGI">
     <property role="3F6X1D" value="7318678144116996910" />
@@ -207,6 +216,23 @@
       <property role="3tVfz5" value="7318678144117634197" />
       <property role="TrG5h" value="At" />
       <property role="1L1pqM" value="at the" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5aWFjTLTIkR">
+    <property role="EcuMT" value="5961830490442229047" />
+    <property role="TrG5h" value="BarRepetition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5aWFjTLTIkS" role="1TKVEi">
+      <property role="IQ2ns" value="5961830490442229048" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="bar" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6mhaJVXwsDw" resolve="Bar" />
+    </node>
+    <node concept="1TJgyi" id="5aWFjTLTIkY" role="1TKVEl">
+      <property role="IQ2nx" value="5961830490442229054" />
+      <property role="TrG5h" value="repetition" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
