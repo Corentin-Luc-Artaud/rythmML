@@ -126,20 +126,20 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new barListHandler_6s84j_b1a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new barsListHandler_6s84j_b1a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_bar");
+    editorCell.setCellId("refNodeList_bars");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class barListHandler_6s84j_b1a extends RefNodeListHandler {
+  private static class barsListHandler_6s84j_b1a extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public barListHandler_6s84j_b1a(SNode ownerNode, EditorContext context) {
+    public barsListHandler_6s84j_b1a(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -149,10 +149,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.bar$gCZp;
+      return LINKS.bars$gCZp;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Bar$1O;
+      return CONCEPTS.BarRepetition$tE;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -162,7 +162,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(barListHandler_6s84j_b1a.this.getNode(), LINKS.bar$gCZp));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(barsListHandler_6s84j_b1a.this.getNode(), LINKS.bars$gCZp));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -193,10 +193,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PropertyAttribute$jT = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
-    /*package*/ static final SConcept Bar$1O = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca60L, "RythmML.structure.Bar");
+    /*package*/ static final SConcept BarRepetition$tE = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L, "RythmML.structure.BarRepetition");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink bar$gCZp = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL, 0x65912afefd823b3bL, "bar");
+    /*package*/ static final SContainmentLink bars$gCZp = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL, 0x65912afefd823b3bL, "bars");
   }
 }

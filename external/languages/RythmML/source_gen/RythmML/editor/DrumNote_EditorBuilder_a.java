@@ -59,7 +59,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createProperty_0());
-    editorCell.addEditorCell(createProperty_1());
     editorCell.addEditorCell(createRefNode_0());
     return editorCell;
   }
@@ -88,40 +87,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().popCellContext();
     }
   }
-  private EditorCell createProperty_1() {
-    getCellFactory().pushCellContext();
-    try {
-      final SProperty property = PROPS.frequency$59aP;
-      getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
-      EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no frequency>");
-      editorCell.setCellId("property_frequency");
-      editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
-      setCellContext(editorCell);
-      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
-      Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
-        public boolean accept(SNode it) {
-          return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
-        }
-      });
-      if (Sequence.fromIterable(currentPropertyAttributes).isNotEmpty()) {
-        EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
-        return manager.createNodeRoleAttributeCell(Sequence.fromIterable(currentPropertyAttributes).first(), AttributeKind.PROPERTY, editorCell);
-      } else
-      return editorCell;
-    } finally {
-      getCellFactory().popCellContext();
-    }
-  }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new positionSingleRoleHandler_ano0ve_c0(myNode, LINKS.position$ezGg, getEditorContext());
+    SingleRoleCellProvider provider = new positionSingleRoleHandler_ano0ve_b0(myNode, LINKS.position$ezGg, getEditorContext());
     return provider.createCell();
   }
-  private static class positionSingleRoleHandler_ano0ve_c0 extends SingleRoleCellProvider {
+  private static class positionSingleRoleHandler_ano0ve_b0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public positionSingleRoleHandler_ano0ve_c0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public positionSingleRoleHandler_ano0ve_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -171,7 +145,6 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private static final class PROPS {
     /*package*/ static final SProperty drum$Mb34 = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L, 0x65912afefd826745L, "drum");
-    /*package*/ static final SProperty frequency$59aP = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L, 0x65912afefd8bf49fL, "frequency");
   }
 
   private static final class CONCEPTS {

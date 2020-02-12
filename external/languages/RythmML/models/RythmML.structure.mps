@@ -6,13 +6,13 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
-        <property id="672037151186491528" name="presentation" index="1L1pqM" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <child id="3348158742936976577" name="members" index="25R1y" />
@@ -92,13 +92,6 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6mhaJVXwsDt" resolve="Section" />
     </node>
-    <node concept="1TJgyj" id="5aWFjTLTInK" role="1TKVEi">
-      <property role="IQ2ns" value="5961830490442229232" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="paterns" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6mhaJVXwsDy" resolve="Pattern" />
-    </node>
     <node concept="1TJgyi" id="5aWFjTLTInI" role="1TKVEl">
       <property role="IQ2nx" value="5961830490442229230" />
       <property role="TrG5h" value="instrument" />
@@ -141,11 +134,6 @@
       <property role="20kJfa" value="position" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6mhaJVXwsDH" resolve="Position" />
-    </node>
-    <node concept="1TJgyi" id="6mhaJVXyZiv" role="1TKVEl">
-      <property role="IQ2nx" value="7318678144117634207" />
-      <property role="TrG5h" value="frequency" />
-      <ref role="AX2Wp" node="6mhaJVXyZij" resolve="NoteFrequencyEnum" />
     </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsD$">
@@ -204,20 +192,6 @@
       <property role="TrG5h" value="KickDrum" />
     </node>
   </node>
-  <node concept="25R3W" id="6mhaJVXyZij">
-    <property role="3F6X1D" value="7318678144117634195" />
-    <property role="TrG5h" value="NoteFrequencyEnum" />
-    <node concept="25R33" id="6mhaJVXyZik" role="25R1y">
-      <property role="3tVfz5" value="7318678144117634196" />
-      <property role="TrG5h" value="Every" />
-      <property role="1L1pqM" value="every" />
-    </node>
-    <node concept="25R33" id="6mhaJVXyZil" role="25R1y">
-      <property role="3tVfz5" value="7318678144117634197" />
-      <property role="TrG5h" value="At" />
-      <property role="1L1pqM" value="at the" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="5aWFjTLTIkR">
     <property role="EcuMT" value="5961830490442229047" />
     <property role="TrG5h" value="BarRepetition" />
@@ -233,6 +207,26 @@
       <property role="IQ2nx" value="5961830490442229054" />
       <property role="TrG5h" value="repetition" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5aWFjTLTIpU">
+    <property role="EcuMT" value="5961830490442229370" />
+    <property role="TrG5h" value="NoteFrequency" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5aWFjTLTIpV" role="PzmwI">
+      <ref role="PrY4T" node="6mhaJVXwsDz" resolve="ANote" />
+    </node>
+    <node concept="1TJgyj" id="5aWFjTLTIpX" role="1TKVEi">
+      <property role="IQ2ns" value="5961830490442229373" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="note" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6mhaJVXwsDz" resolve="ANote" />
+    </node>
+    <node concept="1TJgyi" id="5aWFjTLTIpZ" role="1TKVEl">
+      <property role="IQ2nx" value="5961830490442229375" />
+      <property role="TrG5h" value="frequency" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
 </model>

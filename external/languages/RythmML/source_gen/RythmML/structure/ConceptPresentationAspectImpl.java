@@ -11,15 +11,14 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_ANote;
   private ConceptPresentation props_Bar;
-  private ConceptPresentation props_Beat;
+  private ConceptPresentation props_BarRepetition;
   private ConceptPresentation props_DrumNote;
-  private ConceptPresentation props_Pattern;
+  private ConceptPresentation props_NoteFrequency;
   private ConceptPresentation props_Position;
   private ConceptPresentation props_Section;
   private ConceptPresentation props_Silence;
   private ConceptPresentation props_Song;
   private ConceptPresentation props_StandarNote;
-  private ConceptPresentation props_Tempo;
   private ConceptPresentation props_Track;
 
   @Override
@@ -40,13 +39,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Bar = cpb.create();
         }
         return props_Bar;
-      case LanguageConceptSwitch.Beat:
-        if (props_Beat == null) {
+      case LanguageConceptSwitch.BarRepetition:
+        if (props_BarRepetition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Beat");
-          props_Beat = cpb.create();
+          cpb.rawPresentation("BarRepetition");
+          props_BarRepetition = cpb.create();
         }
-        return props_Beat;
+        return props_BarRepetition;
       case LanguageConceptSwitch.DrumNote:
         if (props_DrumNote == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -54,13 +53,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DrumNote = cpb.create();
         }
         return props_DrumNote;
-      case LanguageConceptSwitch.Pattern:
-        if (props_Pattern == null) {
+      case LanguageConceptSwitch.NoteFrequency:
+        if (props_NoteFrequency == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
-          props_Pattern = cpb.create();
+          cpb.rawPresentation("NoteFrequency");
+          props_NoteFrequency = cpb.create();
         }
-        return props_Pattern;
+        return props_NoteFrequency;
       case LanguageConceptSwitch.Position:
         if (props_Position == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -96,13 +95,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_StandarNote = cpb.create();
         }
         return props_StandarNote;
-      case LanguageConceptSwitch.Tempo:
-        if (props_Tempo == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Tempo");
-          props_Tempo = cpb.create();
-        }
-        return props_Tempo;
       case LanguageConceptSwitch.Track:
         if (props_Track == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
