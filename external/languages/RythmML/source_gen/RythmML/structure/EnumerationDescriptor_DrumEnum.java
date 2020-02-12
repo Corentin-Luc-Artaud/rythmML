@@ -17,9 +17,12 @@ public class EnumerationDescriptor_DrumEnum extends EnumerationDescriptorBase {
 
   private final EnumerationDescriptor.MemberDescriptor myMember_Cimbal_0 = new EnumerationDescriptor.MemberDescriptor("Cimbal", "Cimbal", 0x65912afefd823b2fL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116996911");
   private final EnumerationDescriptor.MemberDescriptor myMember_KickDrum_0 = new EnumerationDescriptor.MemberDescriptor("KickDrum", "KickDrum", 0x65912afefd823b30L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116996912");
+  private final EnumerationDescriptor.MemberDescriptor myMember_CloseHihat_0 = new EnumerationDescriptor.MemberDescriptor("CloseHihat", "CloseHihat", 0x52bcad3e71e86277L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5961830490442326647");
+  private final EnumerationDescriptor.MemberDescriptor myMember_BassDrum_0 = new EnumerationDescriptor.MemberDescriptor("BassDrum", "BassDrum", 0x52bcad3e71e8627bL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5961830490442326651");
+  private final EnumerationDescriptor.MemberDescriptor myMember_Snare_0 = new EnumerationDescriptor.MemberDescriptor("Snare", "Snare", 0x52bcad3e71e86280L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5961830490442326656");
 
-  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd823b2eL, 0x65912afefd823b2fL, 0x65912afefd823b30L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_Cimbal_0, myMember_KickDrum_0);
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd823b2eL, 0x65912afefd823b2fL, 0x65912afefd823b30L, 0x52bcad3e71e86277L, 0x52bcad3e71e8627bL, 0x52bcad3e71e86280L);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_Cimbal_0, myMember_KickDrum_0, myMember_CloseHihat_0, myMember_BassDrum_0, myMember_Snare_0);
 
   @Nullable
   @Override
@@ -44,6 +47,12 @@ public class EnumerationDescriptor_DrumEnum extends EnumerationDescriptorBase {
         return myMember_Cimbal_0;
       case "KickDrum":
         return myMember_KickDrum_0;
+      case "CloseHihat":
+        return myMember_CloseHihat_0;
+      case "BassDrum":
+        return myMember_BassDrum_0;
+      case "Snare":
+        return myMember_Snare_0;
     }
     return null;
   }

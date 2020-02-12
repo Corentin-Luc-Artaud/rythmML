@@ -183,13 +183,21 @@
   <node concept="25R3W" id="6mhaJVXwzGI">
     <property role="3F6X1D" value="7318678144116996910" />
     <property role="TrG5h" value="DrumEnum" />
-    <node concept="25R33" id="6mhaJVXwzGJ" role="25R1y">
-      <property role="3tVfz5" value="7318678144116996911" />
-      <property role="TrG5h" value="Cimbal" />
-    </node>
     <node concept="25R33" id="6mhaJVXwzGK" role="25R1y">
       <property role="3tVfz5" value="7318678144116996912" />
       <property role="TrG5h" value="KickDrum" />
+    </node>
+    <node concept="25R33" id="5aWFjTLU69R" role="25R1y">
+      <property role="3tVfz5" value="5961830490442326647" />
+      <property role="TrG5h" value="ClosedHitHat" />
+    </node>
+    <node concept="25R33" id="5aWFjTLU69V" role="25R1y">
+      <property role="3tVfz5" value="5961830490442326651" />
+      <property role="TrG5h" value="BassDrum1" />
+    </node>
+    <node concept="25R33" id="5aWFjTLU6a0" role="25R1y">
+      <property role="3tVfz5" value="5961830490442326656" />
+      <property role="TrG5h" value="AcousticSnare" />
     </node>
   </node>
   <node concept="1TIwiD" id="5aWFjTLTIkR">

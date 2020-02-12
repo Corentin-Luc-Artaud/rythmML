@@ -411,46 +411,55 @@
       <node id="7318678144116996910" at="14,43,15,166" concept="9" />
       <node id="7318678144116996911" at="18,0,19,0" concept="2" trace="myMember_Cimbal_0" />
       <node id="7318678144116996912" at="19,0,20,0" concept="2" trace="myMember_KickDrum_0" />
-      <node id="7318678144116996910" at="21,0,22,0" concept="2" trace="myIndex" />
-      <node id="7318678144116996910" at="22,0,23,0" concept="2" trace="myMembers" />
-      <node id="7318678144116996910" at="26,62,27,16" concept="6" />
-      <node id="7318678144116996910" at="32,68,33,21" concept="6" />
-      <node id="7318678144116996910" at="39,29,40,18" concept="6" />
-      <node id="7318678144116996911" at="43,20,44,33" concept="6" />
-      <node id="7318678144116996912" at="45,22,46,35" concept="6" />
-      <node id="7318678144116996910" at="47,5,48,16" concept="6" />
-      <node id="7318678144116996910" at="53,73,54,39" concept="5" />
-      <node id="7318678144116996910" at="55,22,56,18" concept="6" />
-      <node id="7318678144116996910" at="57,5,58,32" concept="6" />
+      <node id="5961830490442326647" at="20,0,21,0" concept="2" trace="myMember_CloseHihat_0" />
+      <node id="5961830490442326651" at="21,0,22,0" concept="2" trace="myMember_BassDrum_0" />
+      <node id="5961830490442326656" at="22,0,23,0" concept="2" trace="myMember_Snare_0" />
+      <node id="7318678144116996910" at="24,0,25,0" concept="2" trace="myIndex" />
+      <node id="7318678144116996910" at="25,0,26,0" concept="2" trace="myMembers" />
+      <node id="7318678144116996910" at="29,62,30,16" concept="6" />
+      <node id="7318678144116996910" at="35,68,36,21" concept="6" />
+      <node id="7318678144116996910" at="42,29,43,18" concept="6" />
+      <node id="7318678144116996911" at="46,20,47,33" concept="6" />
+      <node id="7318678144116996912" at="48,22,49,35" concept="6" />
+      <node id="5961830490442326647" at="50,24,51,37" concept="6" />
+      <node id="5961830490442326651" at="52,22,53,35" concept="6" />
+      <node id="5961830490442326656" at="54,19,55,32" concept="6" />
+      <node id="7318678144116996910" at="56,5,57,16" concept="6" />
+      <node id="7318678144116996910" at="62,73,63,39" concept="5" />
+      <node id="7318678144116996910" at="64,22,65,18" concept="6" />
+      <node id="7318678144116996910" at="66,5,67,32" concept="6" />
       <node id="7318678144116996910" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_DrumEnum#()V" />
-      <node id="7318678144116996910" at="38,88,41,5" concept="3" />
-      <node id="7318678144116996910" at="54,39,57,5" concept="3" />
-      <node id="7318678144116996910" at="24,0,29,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
-      <node id="7318678144116996910" at="30,0,35,0" concept="4" trace="getMembers#()Ljava/util/List;" />
-      <node id="7318678144116996910" at="41,5,47,5" concept="10" />
-      <node id="7318678144116996910" at="51,0,60,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
-      <node id="7318678144116996910" at="36,0,50,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="7318678144116996910" at="41,88,44,5" concept="3" />
+      <node id="7318678144116996910" at="63,39,66,5" concept="3" />
+      <node id="7318678144116996910" at="27,0,32,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="7318678144116996910" at="33,0,38,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="7318678144116996910" at="60,0,69,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="7318678144116996910" at="44,5,56,5" concept="10" />
+      <node id="7318678144116996910" at="39,0,59,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
       <scope id="7318678144116996910" at="14,43,15,166" />
-      <scope id="7318678144116996910" at="26,62,27,16" />
-      <scope id="7318678144116996910" at="32,68,33,21" />
-      <scope id="7318678144116996910" at="39,29,40,18" />
-      <scope id="7318678144116996911" at="43,20,44,33" />
-      <scope id="7318678144116996912" at="45,22,46,35" />
-      <scope id="7318678144116996910" at="55,22,56,18" />
+      <scope id="7318678144116996910" at="29,62,30,16" />
+      <scope id="7318678144116996910" at="35,68,36,21" />
+      <scope id="7318678144116996910" at="42,29,43,18" />
+      <scope id="7318678144116996911" at="46,20,47,33" />
+      <scope id="7318678144116996912" at="48,22,49,35" />
+      <scope id="5961830490442326647" at="50,24,51,37" />
+      <scope id="5961830490442326651" at="52,22,53,35" />
+      <scope id="5961830490442326656" at="54,19,55,32" />
+      <scope id="7318678144116996910" at="64,22,65,18" />
       <scope id="7318678144116996910" at="14,0,17,0" />
-      <scope id="7318678144116996910" at="24,0,29,0" />
-      <scope id="7318678144116996910" at="30,0,35,0" />
-      <scope id="7318678144116996910" at="53,73,58,32">
+      <scope id="7318678144116996910" at="27,0,32,0" />
+      <scope id="7318678144116996910" at="33,0,38,0" />
+      <scope id="7318678144116996910" at="62,73,67,32">
         <var name="index" id="7318678144116996910" />
       </scope>
-      <scope id="7318678144116996910" at="51,0,60,0">
+      <scope id="7318678144116996910" at="60,0,69,0">
         <var name="idValue" id="7318678144116996910" />
       </scope>
-      <scope id="7318678144116996910" at="38,88,48,16" />
-      <scope id="7318678144116996910" at="36,0,50,0">
+      <scope id="7318678144116996910" at="41,88,57,16" />
+      <scope id="7318678144116996910" at="39,0,59,0">
         <var name="memberName" id="7318678144116996910" />
       </scope>
-      <unit id="7318678144116996910" at="12,0,61,0" name="RythmML.structure.EnumerationDescriptor_DrumEnum" />
+      <unit id="7318678144116996910" at="12,0,70,0" name="RythmML.structure.EnumerationDescriptor_DrumEnum" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7318678144116996910" at="30,0,31,0" concept="2" trace="myEnumerationDrumEnum" />

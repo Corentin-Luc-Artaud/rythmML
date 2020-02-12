@@ -144,7 +144,7 @@
     <ref role="1XX52x" to="wvci:6mhaJVXwsDH" resolve="Position" />
     <node concept="3EZMnI" id="6mhaJVXzik1" role="2wV5jI">
       <node concept="3F0A7n" id="6mhaJVXzik8" role="3EZMnx">
-        <ref role="1NtTu8" to="wvci:6mhaJVXzeNO" resolve="division" />
+        <ref role="1NtTu8" to="wvci:5aWFjTLTInF" resolve="beat" />
       </node>
       <node concept="3F0ifn" id="6mhaJVXzike" role="3EZMnx">
         <property role="3F0ifm" value="beat" />

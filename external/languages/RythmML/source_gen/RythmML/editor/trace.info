@@ -1262,12 +1262,12 @@
       <node id="7318678144117712142" at="54,49,55,49" concept="1" />
       <node id="7318678144117697778" at="55,49,56,22" concept="6" />
       <node id="7318678144117712136" at="58,41,59,39" concept="1" />
-      <node id="7318678144117712136" at="60,9,61,53" concept="5" />
-      <node id="7318678144117712136" at="61,53,62,76" concept="1" />
+      <node id="7318678144117712136" at="60,9,61,49" concept="5" />
+      <node id="7318678144117712136" at="61,49,62,76" concept="1" />
       <node id="7318678144117712136" at="62,76,63,149" concept="5" />
-      <node id="7318678144117712136" at="63,149,64,49" concept="1" />
-      <node id="7318678144117712136" at="64,49,65,48" concept="1" />
-      <node id="7318678144117712136" at="65,48,66,86" concept="1" />
+      <node id="7318678144117712136" at="63,149,64,45" concept="1" />
+      <node id="7318678144117712136" at="64,45,65,44" concept="1" />
+      <node id="7318678144117712136" at="65,44,66,86" concept="1" />
       <node id="7318678144117712136" at="66,86,67,33" concept="1" />
       <node id="7318678144117712136" at="67,33,68,188" concept="5" />
       <node id="7318678144117712136" at="70,41,71,118" concept="6" />
@@ -1279,7 +1279,7 @@
       <node id="7318678144117712142" at="84,97,85,46" concept="1" />
       <node id="7318678144117712142" at="85,46,86,34" concept="1" />
       <node id="7318678144117712142" at="86,34,87,22" concept="6" />
-      <node id="7318678144117697778" at="91,0,92,0" concept="7" trace="division$v_0r" />
+      <node id="7318678144117697778" at="91,0,92,0" concept="7" trace="beat$t$AP" />
       <node id="7318678144117697778" at="95,0,96,0" concept="7" trace="PropertyAttribute$jT" />
       <node id="7318678144117697778" at="31,0,33,0" concept="2" trace="myNode" />
       <node id="7318678144117697778" at="45,0,48,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
