@@ -151,11 +151,11 @@
   <node concept="24kQdi" id="6mhaJVXzeNM">
     <ref role="1XX52x" to="wvci:6mhaJVXwsDH" resolve="Position" />
     <node concept="3EZMnI" id="6mhaJVXzik1" role="2wV5jI">
+      <node concept="3F0ifn" id="2Zk4BgZ9Ni2" role="3EZMnx">
+        <property role="3F0ifm" value="start at" />
+      </node>
       <node concept="3F0A7n" id="6mhaJVXzik8" role="3EZMnx">
         <ref role="1NtTu8" to="wvci:5aWFjTLTInF" resolve="beat" />
-      </node>
-      <node concept="3F0ifn" id="6mhaJVXzike" role="3EZMnx">
-        <property role="3F0ifm" value="beat" />
       </node>
       <node concept="l2Vlx" id="6mhaJVXzik4" role="2iSdaV" />
     </node>
@@ -228,17 +228,14 @@
   <node concept="24kQdi" id="5aWFjTLTIDv">
     <ref role="1XX52x" to="wvci:5aWFjTLTIpU" resolve="NoteFrequency" />
     <node concept="3EZMnI" id="5aWFjTLTIDx" role="2wV5jI">
-      <node concept="3F0ifn" id="5aWFjTLTIDC" role="3EZMnx">
-        <property role="3F0ifm" value="frequency: " />
-      </node>
-      <node concept="3F0A7n" id="5aWFjTLTIDI" role="3EZMnx">
-        <ref role="1NtTu8" to="wvci:5aWFjTLTIpZ" resolve="frequency" />
-      </node>
-      <node concept="3F0ifn" id="5aWFjTLTIE5" role="3EZMnx">
-        <property role="3F0ifm" value="note:" />
-      </node>
       <node concept="3F1sOY" id="5aWFjTLTIDV" role="3EZMnx">
         <ref role="1NtTu8" to="wvci:5aWFjTLTIpX" resolve="note" />
+      </node>
+      <node concept="3F0ifn" id="2Zk4BgZ9rYF" role="3EZMnx">
+        <property role="3F0ifm" value="every" />
+      </node>
+      <node concept="3F0A7n" id="2Zk4BgZ9rYT" role="3EZMnx">
+        <ref role="1NtTu8" to="wvci:5aWFjTLTIpZ" resolve="frequency" />
       </node>
       <node concept="l2Vlx" id="5aWFjTLTID$" role="2iSdaV" />
     </node>

@@ -73,7 +73,7 @@
               <node concept="2o4e2p" id="1ggJHVJ9c8a" role="zm$H3">
                 <property role="2o4OQV" value="1ggJHVIKOcj/AcousticBassDrum" />
                 <node concept="2o4e2j" id="1ggJHVJ9c8c" role="2o4Pu8">
-                  <property role="zm$zl" value="4." />
+                  <property role="zm$zl" value="5." />
                 </node>
               </node>
               <node concept="2o4e2j" id="1ggJHVJ9c81" role="2o4Pu8" />
