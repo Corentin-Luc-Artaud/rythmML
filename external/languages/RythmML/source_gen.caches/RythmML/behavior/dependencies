@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="RythmML.behavior.ANote__BehaviorDescriptor">
+    <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
@@ -40,6 +41,7 @@
   <dependency className="RythmML.behavior.DrumNote__BehaviorDescriptor">
     <classNode dependClassName="RythmML.behavior.DrumElement" />
     <classNode dependClassName="RythmML.behavior.SongUtils" />
+    <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
@@ -63,6 +65,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
+  <dependency className="RythmML.behavior.GeneratedNote" />
   <dependency className="RythmML.behavior.NoteFrequency__BehaviorDescriptor">
     <classNode dependClassName="RythmML.behavior.ANote__BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Double" />

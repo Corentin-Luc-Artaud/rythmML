@@ -182,7 +182,7 @@
     <node concept="1TJgyi" id="5aWFjTLTInF" role="1TKVEl">
       <property role="IQ2nx" value="5961830490442229227" />
       <property role="TrG5h" value="beat" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
   <node concept="25R3W" id="6mhaJVXwzGI">

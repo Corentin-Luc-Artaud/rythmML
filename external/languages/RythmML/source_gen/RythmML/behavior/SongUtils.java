@@ -12,7 +12,7 @@ public class SongUtils {
   public static void loadSoundBank(Sequencer sequencer, String soundBankPath) {
   }
 
-  public static long toTick(int bar, int beat, double division, int nbBeatPerBar, int resolution) {
+  public static long toTick(int bar, double beat, double division, int nbBeatPerBar, int resolution) {
     return 1;
   }
 

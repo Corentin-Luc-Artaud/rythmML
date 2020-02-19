@@ -135,7 +135,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116968045");
     b.version(2);
     b.property("division", 0x65912afefd8cecf4L).type(MetaIdFactory.dataTypeId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10324579ea7L)).origin("7318678144117697780").done();
-    b.property("beat", 0x52bcad3e71e6e5ebL).type(PrimitiveTypeId.INTEGER).origin("5961830490442229227").done();
+    b.property("beat", 0x52bcad3e71e6e5ebL).type(MetaIdFactory.dataTypeId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10324579ea7L)).origin("5961830490442229227").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSection() {
