@@ -50,6 +50,19 @@
     <property role="TrG5h" value="Rosanna-Toto" />
     <property role="zm$zo" value="456" />
     <property role="zm$zm" value="3" />
+    <node concept="2o4e2$" id="1ggJHVJaYBf" role="2o4e1O">
+      <property role="TrG5h" value="BassLine" />
+      <property role="zm$zg" value="Bass" />
+      <node concept="2o4e2z" id="1ggJHVJaYBg" role="2o4L77">
+        <property role="TrG5h" value="Intro" />
+        <node concept="zm$w9" id="1ggJHVJaYBh" role="2o4L75">
+          <property role="zm$w0" value="4" />
+          <node concept="2o4e2u" id="1ggJHVJaYBi" role="zm$w6">
+            <node concept="2o4e2t" id="1ggJHVJaYBj" role="2o4RJb" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2o4e2$" id="1ggJHVJaf7K" role="2o4e1O">
       <property role="TrG5h" value="DrumLine" />
       <property role="zm$zg" value="Drum" />

@@ -245,5 +245,26 @@
       <node concept="l2Vlx" id="5aWFjTLTID$" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1ggJHVJaLxh">
+    <ref role="1XX52x" to="wvci:1ggJHVJaLwP" resolve="BassNote" />
+    <node concept="3EZMnI" id="1ggJHVJaLxj" role="2wV5jI">
+      <node concept="3F0A7n" id="1ggJHVJaLxq" role="3EZMnx">
+        <ref role="1NtTu8" to="wvci:1ggJHVJaLwM" resolve="note" />
+      </node>
+      <node concept="3F1sOY" id="1ggJHVJaLxw" role="3EZMnx">
+        <ref role="1NtTu8" to="wvci:6mhaJVXwBPQ" resolve="position" />
+      </node>
+      <node concept="3F0ifn" id="1ggJHVJaLxC" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+      </node>
+      <node concept="3F0A7n" id="1ggJHVJaLxM" role="3EZMnx">
+        <ref role="1NtTu8" to="wvci:1ggJHVJau00" resolve="duration" />
+      </node>
+      <node concept="3F0ifn" id="1ggJHVJaLxY" role="3EZMnx">
+        <property role="3F0ifm" value="beat" />
+      </node>
+      <node concept="l2Vlx" id="1ggJHVJaLxm" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

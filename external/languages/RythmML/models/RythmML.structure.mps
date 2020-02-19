@@ -148,6 +148,11 @@
     <node concept="PrWs8" id="6mhaJVXwsD_" role="PzmwI">
       <ref role="PrY4T" node="6mhaJVXwsDz" resolve="ANote" />
     </node>
+    <node concept="1TJgyi" id="1ggJHVJaLr4" role="1TKVEl">
+      <property role="IQ2nx" value="1445865345090524868" />
+      <property role="TrG5h" value="duration" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDB">
     <property role="EcuMT" value="7318678144116968039" />
@@ -173,6 +178,11 @@
       <property role="IQ2nx" value="1445865345090445312" />
       <property role="TrG5h" value="duration" />
       <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
+    <node concept="1TJgyi" id="1ggJHVJaLwM" role="1TKVEl">
+      <property role="IQ2nx" value="1445865345090525234" />
+      <property role="TrG5h" value="note" />
+      <ref role="AX2Wp" node="1ggJHVJaLr6" resolve="NoteEnum" />
     </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDH">
@@ -262,6 +272,43 @@
       <property role="TrG5h" value="frequency" />
       <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
+  </node>
+  <node concept="25R3W" id="1ggJHVJaLr6">
+    <property role="3F6X1D" value="1445865345090524870" />
+    <property role="TrG5h" value="NoteEnum" />
+    <node concept="25R33" id="1ggJHVJaLr7" role="25R1y">
+      <property role="3tVfz5" value="1445865345090524871" />
+      <property role="TrG5h" value="A" />
+    </node>
+    <node concept="25R33" id="1ggJHVJaLr8" role="25R1y">
+      <property role="3tVfz5" value="1445865345090524872" />
+      <property role="TrG5h" value="B" />
+    </node>
+    <node concept="25R33" id="1ggJHVJaLrb" role="25R1y">
+      <property role="3tVfz5" value="1445865345090524875" />
+      <property role="TrG5h" value="C" />
+    </node>
+    <node concept="25R33" id="1ggJHVJaLrf" role="25R1y">
+      <property role="3tVfz5" value="1445865345090524879" />
+      <property role="TrG5h" value="D" />
+    </node>
+    <node concept="25R33" id="1ggJHVJaLrk" role="25R1y">
+      <property role="3tVfz5" value="1445865345090524884" />
+      <property role="TrG5h" value="E" />
+    </node>
+    <node concept="25R33" id="1ggJHVJaLrq" role="25R1y">
+      <property role="3tVfz5" value="1445865345090524890" />
+      <property role="TrG5h" value="F" />
+    </node>
+    <node concept="25R33" id="1ggJHVJaLrx" role="25R1y">
+      <property role="3tVfz5" value="1445865345090524897" />
+      <property role="TrG5h" value="G" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1ggJHVJaLwP">
+    <property role="EcuMT" value="1445865345090525237" />
+    <property role="TrG5h" value="BassNote" />
+    <ref role="1TJDcQ" node="6mhaJVXwsDE" resolve="StandarNote" />
   </node>
 </model>
 
