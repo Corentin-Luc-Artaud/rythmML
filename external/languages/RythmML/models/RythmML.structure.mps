@@ -200,6 +200,26 @@
       <property role="3tVfz5" value="1445865345083720470" />
       <property role="TrG5h" value="AcousticSnare" />
     </node>
+    <node concept="25R33" id="2Zk4BgZ9qZF" role="25R1y">
+      <property role="3tVfz5" value="3446399905330212843" />
+      <property role="TrG5h" value="HandClap" />
+    </node>
+    <node concept="25R33" id="2Zk4BgZ9qZK" role="25R1y">
+      <property role="3tVfz5" value="3446399905330212848" />
+      <property role="TrG5h" value="BassDrum1" />
+    </node>
+    <node concept="25R33" id="2Zk4BgZ9qZQ" role="25R1y">
+      <property role="3tVfz5" value="3446399905330212854" />
+      <property role="TrG5h" value="SideStick" />
+    </node>
+    <node concept="25R33" id="2Zk4BgZ9r05" role="25R1y">
+      <property role="3tVfz5" value="3446399905330212869" />
+      <property role="TrG5h" value="LowFloorTom" />
+    </node>
+    <node concept="25R33" id="2Zk4BgZ9r0K" role="25R1y">
+      <property role="3tVfz5" value="3446399905330212912" />
+      <property role="TrG5h" value="OpenHitHat" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5aWFjTLTIkR">
     <property role="EcuMT" value="5961830490442229047" />
