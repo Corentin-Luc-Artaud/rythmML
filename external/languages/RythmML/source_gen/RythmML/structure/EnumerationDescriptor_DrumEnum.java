@@ -18,9 +18,14 @@ public class EnumerationDescriptor_DrumEnum extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_ClosedHitHat_0 = new EnumerationDescriptor.MemberDescriptor("ClosedHitHat", "ClosedHitHat", 0x6b5ecd4a5bdc4992L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7736846929121528210");
   private final EnumerationDescriptor.MemberDescriptor myMember_AcousticBassDrum_0 = new EnumerationDescriptor.MemberDescriptor("AcousticBassDrum", "AcousticBassDrum", 0x1410bedeeec34313L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345083720467");
   private final EnumerationDescriptor.MemberDescriptor myMember_AcousticSnare_0 = new EnumerationDescriptor.MemberDescriptor("AcousticSnare", "AcousticSnare", 0x1410bedeeec34316L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345083720470");
+  private final EnumerationDescriptor.MemberDescriptor myMember_HandClap_0 = new EnumerationDescriptor.MemberDescriptor("HandClap", "HandClap", 0x2fd412743f25afebL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212843");
+  private final EnumerationDescriptor.MemberDescriptor myMember_BassDrum1_0 = new EnumerationDescriptor.MemberDescriptor("BassDrum1", "BassDrum1", 0x2fd412743f25aff0L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212848");
+  private final EnumerationDescriptor.MemberDescriptor myMember_SideStick_0 = new EnumerationDescriptor.MemberDescriptor("SideStick", "SideStick", 0x2fd412743f25aff6L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212854");
+  private final EnumerationDescriptor.MemberDescriptor myMember_LowFloorTom_0 = new EnumerationDescriptor.MemberDescriptor("LowFloorTom", "LowFloorTom", 0x2fd412743f25b005L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212869");
+  private final EnumerationDescriptor.MemberDescriptor myMember_OpenHitHat_0 = new EnumerationDescriptor.MemberDescriptor("OpenHitHat", "OpenHitHat", 0x2fd412743f25b030L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212912");
 
-  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd823b2eL, 0x6b5ecd4a5bdc4992L, 0x1410bedeeec34313L, 0x1410bedeeec34316L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ClosedHitHat_0, myMember_AcousticBassDrum_0, myMember_AcousticSnare_0);
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd823b2eL, 0x6b5ecd4a5bdc4992L, 0x1410bedeeec34313L, 0x1410bedeeec34316L, 0x2fd412743f25afebL, 0x2fd412743f25aff0L, 0x2fd412743f25aff6L, 0x2fd412743f25b005L, 0x2fd412743f25b030L);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ClosedHitHat_0, myMember_AcousticBassDrum_0, myMember_AcousticSnare_0, myMember_HandClap_0, myMember_BassDrum1_0, myMember_SideStick_0, myMember_LowFloorTom_0, myMember_OpenHitHat_0);
 
   @Nullable
   @Override
@@ -47,6 +52,16 @@ public class EnumerationDescriptor_DrumEnum extends EnumerationDescriptorBase {
         return myMember_AcousticBassDrum_0;
       case "AcousticSnare":
         return myMember_AcousticSnare_0;
+      case "HandClap":
+        return myMember_HandClap_0;
+      case "BassDrum1":
+        return myMember_BassDrum1_0;
+      case "SideStick":
+        return myMember_SideStick_0;
+      case "LowFloorTom":
+        return myMember_LowFloorTom_0;
+      case "OpenHitHat":
+        return myMember_OpenHitHat_0;
     }
     return null;
   }

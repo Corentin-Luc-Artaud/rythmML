@@ -56,84 +56,37 @@
       <node concept="2o4e2z" id="5aWFjTLU69A" role="2o4L77">
         <property role="TrG5h" value="Intro" />
         <node concept="zm$w9" id="5aWFjTLU69B" role="2o4L75">
-          <property role="zm$w0" value="2" />
+          <property role="zm$w0" value="8" />
           <node concept="2o4e2u" id="5aWFjTLU69C" role="zm$w6">
-            <node concept="zm$H4" id="5aWFjTLUjAM" role="2o4RJb">
+            <node concept="zm$H4" id="1ggJHVJ8DNp" role="2o4RJb">
               <property role="zm$H1" value="2." />
-              <node concept="2o4e2p" id="5aWFjTLUjB2" role="zm$H3">
-                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
-                <node concept="2o4e2j" id="5aWFjTLUjB4" role="2o4Pu8">
-                  <property role="zm$zl" value="2." />
-                </node>
-              </node>
-              <node concept="2o4e2j" id="5aWFjTLUjAP" role="2o4Pu8" />
-            </node>
-            <node concept="zm$H4" id="5aWFjTLUjAm" role="2o4RJb">
-              <property role="zm$H1" value="2." />
-              <node concept="2o4e2p" id="5aWFjTLUjAy" role="zm$H3">
-                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
-                <node concept="2o4e2j" id="5aWFjTLUjA$" role="2o4Pu8">
+              <node concept="2o4e2p" id="1ggJHVJ8DN_" role="zm$H3">
+                <property role="2o4OQV" value="2Zk4BgZ9r0K/OpenHitHat" />
+                <node concept="2o4e2j" id="1ggJHVJ8DNB" role="2o4Pu8">
                   <property role="zm$zl" value="1." />
                 </node>
               </node>
-              <node concept="2o4e2j" id="5aWFjTLUjAp" role="2o4Pu8" />
+              <node concept="2o4e2j" id="1ggJHVJ8DNs" role="2o4Pu8" />
             </node>
-            <node concept="zm$H4" id="5aWFjTLU69J" role="2o4RJb">
-              <property role="zm$H1" value="0.5" />
-              <node concept="2o4e2j" id="5aWFjTLU69M" role="2o4Pu8" />
-              <node concept="2o4e2p" id="5aWFjTLVVh1" role="zm$H3">
-                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
-                <node concept="2o4e2j" id="5aWFjTLVVh4" role="2o4Pu8">
-                  <property role="zm$zl" value="1." />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2o47oz" id="6mhaJVXw_4F">
-    <property role="TrG5h" value="Johnny be good, Chuck Berry" />
-    <property role="zm$zo" value="170" />
-    <property role="zm$zm" value="4" />
-    <node concept="2o4e2$" id="6mhaJVXw_4G" role="2o4e1O">
-      <property role="TrG5h" value="DrumLine" />
-      <property role="zm$zg" value="Drum" />
-      <node concept="2o4e2z" id="1ggJHVIKNId" role="2o4L77">
-        <property role="TrG5h" value="Intro" />
-        <node concept="zm$w9" id="1ggJHVIKNIe" role="2o4L75">
-          <property role="zm$w0" value="4" />
-          <node concept="2o4e2u" id="1ggJHVIKNIf" role="zm$w6">
-            <node concept="zm$H4" id="1ggJHVILeQt" role="2o4RJb">
+            <node concept="zm$H4" id="1ggJHVJ8DQn" role="2o4RJb">
               <property role="zm$H1" value="2." />
-              <node concept="2o4e2p" id="1ggJHVILeQH" role="zm$H3">
-                <property role="2o4OQV" value="1ggJHVIKOcm/AcousticSnare" />
-                <node concept="2o4e2j" id="1ggJHVILeQJ" role="2o4Pu8">
-                  <property role="zm$zl" value="2." />
-                </node>
-              </node>
-              <node concept="2o4e2j" id="1ggJHVILeQw" role="2o4Pu8" />
-            </node>
-            <node concept="zm$H4" id="1ggJHVILeQ1" role="2o4RJb">
-              <property role="zm$H1" value="2." />
-              <node concept="2o4e2p" id="1ggJHVILeQd" role="zm$H3">
+              <node concept="2o4e2p" id="1ggJHVJ8DQB" role="zm$H3">
                 <property role="2o4OQV" value="1ggJHVIKOcj/AcousticBassDrum" />
-                <node concept="2o4e2j" id="1ggJHVILeQf" role="2o4Pu8">
-                  <property role="zm$zl" value="1." />
+                <node concept="2o4e2j" id="1ggJHVJ8DQD" role="2o4Pu8">
+                  <property role="zm$zl" value="0." />
                 </node>
               </node>
-              <node concept="2o4e2j" id="1ggJHVILeQ4" role="2o4Pu8" />
+              <node concept="2o4e2j" id="1ggJHVJ8DQq" role="2o4Pu8" />
             </node>
-            <node concept="zm$H4" id="1ggJHVILeAF" role="2o4RJb">
-              <property role="zm$H1" value="0.5" />
-              <node concept="2o4e2p" id="1ggJHVILeAL" role="zm$H3">
+            <node concept="zm$H4" id="1ggJHVJ86l8" role="2o4RJb">
+              <property role="zm$H1" value="1." />
+              <node concept="2o4e2p" id="1ggJHVJ86lk" role="zm$H3">
                 <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
-                <node concept="2o4e2j" id="1ggJHVILeAN" role="2o4Pu8">
-                  <property role="zm$zl" value="1." />
+                <node concept="2o4e2j" id="1ggJHVJ86lm" role="2o4Pu8">
+                  <property role="zm$zl" value="0." />
                 </node>
               </node>
-              <node concept="2o4e2j" id="1ggJHVILeAH" role="2o4Pu8" />
+              <node concept="2o4e2j" id="1ggJHVJ86lb" role="2o4Pu8" />
             </node>
           </node>
         </node>

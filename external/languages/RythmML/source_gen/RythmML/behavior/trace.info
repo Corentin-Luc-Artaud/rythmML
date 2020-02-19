@@ -40,7 +40,7 @@
       <node id="5961830490442430248" at="54,110,55,49" concept="7" />
       <node id="1445865345084774051" at="55,49,56,0" concept="9" />
       <node id="1445865345088354437" at="59,107,60,26" concept="1" />
-      <node id="1445865345085421599" at="61,154,62,156" concept="1" />
+      <node id="1445865345085421599" at="61,154,62,159" concept="1" />
       <node id="7736846929121513846" at="67,7,68,0" concept="9" />
       <node id="7318678144117304551" at="68,0,69,23" concept="1" />
       <node id="7318678144117311970" at="69,23,70,38" concept="1" />
@@ -96,7 +96,7 @@
       <node id="1445865345086665810" at="40,0,88,0" concept="11" trace="main_id1ggJHVIW3ht#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/sound/midi/Sequencer;" />
       <scope id="1445865345086665810" at="37,63,37,63" />
       <scope id="1445865345086665810" at="89,42,89,42" />
-      <scope id="1445865345085409129" at="61,154,62,156" />
+      <scope id="1445865345085409129" at="61,154,62,159" />
       <scope id="1445865345086665810" at="93,114,94,21" />
       <scope id="1445865345086665810" at="100,26,101,56" />
       <scope id="1445865345086665810" at="104,13,105,58" />
@@ -248,58 +248,81 @@
   </root>
   <root nodeRef="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior)/5961830490442512817">
     <file name="DrumNote__BehaviorDescriptor.java">
-      <node id="5961830490442512817" at="25,0,26,0" concept="10" trace="CONCEPT" />
-      <node id="5961830490442512817" at="27,0,28,0" concept="10" trace="generate_id5aWFjTLUNx6" />
-      <node id="5961830490442512817" at="28,0,29,0" concept="10" trace="generate_id1ggJHVJ3VK6" />
-      <node id="5961830490442512817" at="30,0,31,0" concept="10" trace="BH_METHODS" />
-      <node id="5961830490442547168" at="35,147,36,0" concept="9" />
-      <node id="1445865345084485615" at="36,0,37,147" concept="1" />
-      <node id="1445865345088734015" at="39,162,40,147" concept="1" />
-      <node id="5961830490442512817" at="47,114,48,21" concept="1" />
-      <node id="5961830490442512817" at="52,114,53,49" concept="7" />
-      <node id="5961830490442512817" at="54,26,55,56" concept="13" />
-      <node id="5961830490442512817" at="58,13,59,192" concept="1" />
-      <node id="5961830490442512817" at="59,192,60,20" concept="8" />
-      <node id="5961830490442512817" at="61,13,62,227" concept="1" />
-      <node id="5961830490442512817" at="62,227,63,20" concept="8" />
-      <node id="5961830490442512817" at="64,14,65,58" concept="13" />
-      <node id="5961830490442512817" at="70,128,71,49" concept="7" />
-      <node id="5961830490442512817" at="72,26,73,56" concept="13" />
-      <node id="5961830490442512817" at="76,14,77,58" concept="13" />
-      <node id="5961830490442512817" at="83,48,84,22" concept="8" />
-      <node id="5961830490442512817" at="89,40,90,19" concept="8" />
-      <node id="5961830490442512817" at="94,0,95,0" concept="10" trace="drum$Mb34" />
-      <node id="5961830490442512817" at="32,0,34,0" concept="11" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="5961830490442512817" at="43,0,45,0" concept="0" trace="DrumNote__BehaviorDescriptor#()V" />
-      <node id="5961830490442512817" at="39,0,42,0" concept="11" trace="generate_id1ggJHVJ3VK6#(Lorg/jetbrains/mps/openapi/model/SNode;Ljavax/sound/midi/Track;IIIID)V" />
-      <node id="5961830490442512817" at="53,49,56,5" concept="5" />
-      <node id="5961830490442512817" at="71,49,74,5" concept="5" />
-      <node id="5961830490442512817" at="35,0,39,0" concept="11" trace="generate_id5aWFjTLUNx6#(Lorg/jetbrains/mps/openapi/model/SNode;Ljavax/sound/midi/Track;IIII)V" />
-      <node id="5961830490442512817" at="46,0,50,0" concept="6" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
-      <node id="5961830490442512817" at="74,5,78,5" concept="12" />
-      <node id="5961830490442512817" at="81,0,86,0" concept="6" trace="getDeclaredMethods#()Ljava/util/List;" />
-      <node id="5961830490442512817" at="87,0,92,0" concept="6" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="5961830490442512817" at="56,5,66,5" concept="12" />
-      <node id="5961830490442512817" at="69,0,80,0" concept="6" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
-      <node id="5961830490442512817" at="51,0,68,0" concept="6" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
-      <scope id="5961830490442512817" at="32,63,32,63" />
-      <scope id="5961830490442512817" at="43,46,43,46" />
-      <scope id="1445865345088733403" at="39,162,40,147" />
-      <scope id="5961830490442512817" at="47,114,48,21" />
-      <scope id="5961830490442512817" at="54,26,55,56" />
-      <scope id="5961830490442512817" at="64,14,65,58" />
-      <scope id="5961830490442512817" at="72,26,73,56" />
-      <scope id="5961830490442512817" at="76,14,77,58" />
-      <scope id="5961830490442512817" at="83,48,84,22" />
-      <scope id="5961830490442512817" at="89,40,90,19" />
-      <scope id="5961830490442512817" at="32,0,34,0">
+      <node id="5961830490442512817" at="27,0,28,0" concept="10" trace="CONCEPT" />
+      <node id="5961830490442512817" at="29,0,30,0" concept="10" trace="generate_id5aWFjTLUNx6" />
+      <node id="5961830490442512817" at="30,0,31,0" concept="10" trace="generate_id1ggJHVJ3VK6" />
+      <node id="5961830490442512817" at="32,0,33,0" concept="10" trace="BH_METHODS" />
+      <node id="5961830490442547168" at="37,147,38,0" concept="9" />
+      <node id="1445865345084485615" at="38,0,39,147" concept="1" />
+      <node id="1445865345089104347" at="41,162,42,46" concept="7" />
+      <node id="1445865345089325452" at="42,46,43,171" concept="7" />
+      <node id="1445865345089199164" at="43,171,44,29" concept="1" />
+      <node id="1445865345088734015" at="44,29,45,150" concept="1" />
+      <node id="5961830490442512817" at="52,114,53,21" concept="1" />
+      <node id="5961830490442512817" at="57,114,58,49" concept="7" />
+      <node id="5961830490442512817" at="59,26,60,56" concept="13" />
+      <node id="5961830490442512817" at="63,13,64,192" concept="1" />
+      <node id="5961830490442512817" at="64,192,65,20" concept="8" />
+      <node id="5961830490442512817" at="66,13,67,227" concept="1" />
+      <node id="5961830490442512817" at="67,227,68,20" concept="8" />
+      <node id="5961830490442512817" at="69,14,70,58" concept="13" />
+      <node id="5961830490442512817" at="75,128,76,49" concept="7" />
+      <node id="5961830490442512817" at="77,26,78,56" concept="13" />
+      <node id="5961830490442512817" at="81,14,82,58" concept="13" />
+      <node id="5961830490442512817" at="88,48,89,22" concept="8" />
+      <node id="5961830490442512817" at="94,40,95,19" concept="8" />
+      <node id="5961830490442512817" at="99,0,100,0" concept="10" trace="drum$Mb34" />
+      <node id="5961830490442512817" at="100,0,101,0" concept="10" trace="beat$t$AP" />
+      <node id="5961830490442512817" at="104,0,105,0" concept="10" trace="position$ezGg" />
+      <node id="5961830490442512817" at="34,0,36,0" concept="11" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5961830490442512817" at="48,0,50,0" concept="0" trace="DrumNote__BehaviorDescriptor#()V" />
+      <node id="5961830490442512817" at="58,49,61,5" concept="5" />
+      <node id="5961830490442512817" at="76,49,79,5" concept="5" />
+      <node id="5961830490442512817" at="37,0,41,0" concept="11" trace="generate_id5aWFjTLUNx6#(Lorg/jetbrains/mps/openapi/model/SNode;Ljavax/sound/midi/Track;IIII)V" />
+      <node id="5961830490442512817" at="51,0,55,0" concept="6" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="5961830490442512817" at="79,5,83,5" concept="12" />
+      <node id="5961830490442512817" at="86,0,91,0" concept="6" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="5961830490442512817" at="92,0,97,0" concept="6" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5961830490442512817" at="41,0,47,0" concept="11" trace="generate_id1ggJHVJ3VK6#(Lorg/jetbrains/mps/openapi/model/SNode;Ljavax/sound/midi/Track;IIIID)V" />
+      <node id="5961830490442512817" at="61,5,71,5" concept="12" />
+      <node id="5961830490442512817" at="74,0,85,0" concept="6" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="5961830490442512817" at="56,0,73,0" concept="6" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="5961830490442512817" at="34,63,34,63" />
+      <scope id="5961830490442512817" at="48,46,48,46" />
+      <scope id="5961830490442512817" at="52,114,53,21" />
+      <scope id="5961830490442512817" at="59,26,60,56" />
+      <scope id="5961830490442512817" at="69,14,70,58" />
+      <scope id="5961830490442512817" at="77,26,78,56" />
+      <scope id="5961830490442512817" at="81,14,82,58" />
+      <scope id="5961830490442512817" at="88,48,89,22" />
+      <scope id="5961830490442512817" at="94,40,95,19" />
+      <scope id="5961830490442512817" at="34,0,36,0">
         <var name="__thisNode__" id="5961830490442512817" />
       </scope>
-      <scope id="5961830490442512836" at="35,147,37,147" />
-      <scope id="5961830490442512817" at="43,0,45,0" />
-      <scope id="5961830490442512817" at="58,13,60,20" />
-      <scope id="5961830490442512817" at="61,13,63,20" />
-      <scope id="5961830490442512817" at="39,0,42,0">
+      <scope id="5961830490442512836" at="37,147,39,147" />
+      <scope id="5961830490442512817" at="48,0,50,0" />
+      <scope id="5961830490442512817" at="63,13,65,20" />
+      <scope id="5961830490442512817" at="66,13,68,20" />
+      <scope id="5961830490442512817" at="37,0,41,0">
+        <var name="__thisNode__" id="5961830490442512817" />
+        <var name="bar" id="5961830490442521150" />
+        <var name="beatPerBar" id="5961830490442521152" />
+        <var name="resolution" id="5961830490442521154" />
+        <var name="track" id="5961830490442521148" />
+        <var name="velocity" id="5961830490442546234" />
+      </scope>
+      <scope id="1445865345088733403" at="41,162,45,150">
+        <var name="beat" id="1445865345089325453" />
+        <var name="tick" id="1445865345089104350" />
+      </scope>
+      <scope id="5961830490442512817" at="51,0,55,0">
+        <var name="constructor" id="5961830490442512817" />
+        <var name="node" id="5961830490442512817" />
+        <var name="parameters" id="5961830490442512817" />
+      </scope>
+      <scope id="5961830490442512817" at="86,0,91,0" />
+      <scope id="5961830490442512817" at="92,0,97,0" />
+      <scope id="5961830490442512817" at="41,0,47,0">
         <var name="__thisNode__" id="5961830490442512817" />
         <var name="bar" id="1445865345088733406" />
         <var name="beatPerBar" id="1445865345088733408" />
@@ -308,39 +331,25 @@
         <var name="track" id="1445865345088733404" />
         <var name="velocity" id="1445865345088733412" />
       </scope>
-      <scope id="5961830490442512817" at="35,0,39,0">
-        <var name="__thisNode__" id="5961830490442512817" />
-        <var name="bar" id="5961830490442521150" />
-        <var name="beatPerBar" id="5961830490442521152" />
-        <var name="resolution" id="5961830490442521154" />
-        <var name="track" id="5961830490442521148" />
-        <var name="velocity" id="5961830490442546234" />
-      </scope>
-      <scope id="5961830490442512817" at="46,0,50,0">
-        <var name="constructor" id="5961830490442512817" />
-        <var name="node" id="5961830490442512817" />
-        <var name="parameters" id="5961830490442512817" />
-      </scope>
-      <scope id="5961830490442512817" at="81,0,86,0" />
-      <scope id="5961830490442512817" at="87,0,92,0" />
-      <scope id="5961830490442512817" at="70,128,78,5">
+      <scope id="5961830490442512817" at="75,128,83,5">
         <var name="methodIndex" id="5961830490442512817" />
       </scope>
-      <scope id="5961830490442512817" at="69,0,80,0">
+      <scope id="5961830490442512817" at="74,0,85,0">
         <var name="concept" id="5961830490442512817" />
         <var name="method" id="5961830490442512817" />
         <var name="parameters" id="5961830490442512817" />
       </scope>
-      <scope id="5961830490442512817" at="52,114,66,5">
+      <scope id="5961830490442512817" at="57,114,71,5">
         <var name="methodIndex" id="5961830490442512817" />
       </scope>
-      <scope id="5961830490442512817" at="51,0,68,0">
+      <scope id="5961830490442512817" at="56,0,73,0">
         <var name="method" id="5961830490442512817" />
         <var name="node" id="5961830490442512817" />
         <var name="parameters" id="5961830490442512817" />
       </scope>
-      <unit id="5961830490442512817" at="93,0,96,0" name="RythmML.behavior.DrumNote__BehaviorDescriptor$PROPS" />
-      <unit id="5961830490442512817" at="24,0,97,0" name="RythmML.behavior.DrumNote__BehaviorDescriptor" />
+      <unit id="5961830490442512817" at="103,0,106,0" name="RythmML.behavior.DrumNote__BehaviorDescriptor$LINKS" />
+      <unit id="5961830490442512817" at="98,0,102,0" name="RythmML.behavior.DrumNote__BehaviorDescriptor$PROPS" />
+      <unit id="5961830490442512817" at="26,0,107,0" name="RythmML.behavior.DrumNote__BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior)/5961830490442562056">

@@ -16,10 +16,12 @@ import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class DrumNote__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L, "RythmML.structure.DrumNote");
@@ -37,7 +39,10 @@ public final class DrumNote__BehaviorDescriptor extends BaseBHDescriptor {
     SongUtils.addHit(track, DrumElement.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.drum$Mb34).toString()).noteNumber, 1, velocity, 1);
   }
   /*package*/ static void generate_id1ggJHVJ3VK6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity, double offset) {
-    SongUtils.addHit(track, DrumElement.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.drum$Mb34).toString()).noteNumber, 1, velocity, 1);
+    long tick = bar * beatPerBar * resolution;
+    Double beat = (Double.parseDouble(SPropertyOperations.getString(SLinkOperations.getTarget(__thisNode__, LINKS.position$ezGg), PROPS.beat$t$AP)) + offset) * resolution;
+    tick += beat.longValue();
+    SongUtils.addHit(track, DrumElement.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.drum$Mb34).toString()).noteNumber, tick, velocity, 1);
   }
 
   /*package*/ DrumNote__BehaviorDescriptor() {
@@ -92,5 +97,10 @@ public final class DrumNote__BehaviorDescriptor extends BaseBHDescriptor {
 
   private static final class PROPS {
     /*package*/ static final SProperty drum$Mb34 = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L, 0x65912afefd826745L, "drum");
+    /*package*/ static final SProperty beat$t$AP = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca6dL, 0x52bcad3e71e6e5ebL, "beat");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink position$ezGg = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L, 0x65912afefd827d76L, "position");
   }
 }

@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="RythmML.textGen.SongUtils">
-    <classNode dependClassName="java.lang.Double" />
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.sound.midi.MidiEvent" />
-    <classNode dependClassName="javax.sound.midi.Sequencer" />
-    <classNode dependClassName="javax.sound.midi.ShortMessage" />
-    <classNode dependClassName="javax.sound.midi.Track" />
-  </dependency>
   <dependency className="RythmML.textGen.Song_TextGen">
     <classNode dependClassName="RythmML.behavior.Song__BehaviorDescriptor" />
     <classNode dependClassName="java.io.File" />
