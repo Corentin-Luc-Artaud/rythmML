@@ -25,63 +25,150 @@
   <root nodeRef="r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524870">
     <file name="EnumerationDescriptor_NoteEnum.java">
       <node id="1445865345090524870" at="14,43,15,166" concept="9" />
-      <node id="1445865345090524871" at="18,0,19,0" concept="2" trace="myMember_A_0" />
-      <node id="1445865345090524872" at="19,0,20,0" concept="2" trace="myMember_B_0" />
-      <node id="1445865345090524875" at="20,0,21,0" concept="2" trace="myMember_C_0" />
-      <node id="1445865345090524879" at="21,0,22,0" concept="2" trace="myMember_D_0" />
-      <node id="1445865345090524884" at="22,0,23,0" concept="2" trace="myMember_E_0" />
-      <node id="1445865345090524890" at="23,0,24,0" concept="2" trace="myMember_F_0" />
-      <node id="1445865345090524897" at="24,0,25,0" concept="2" trace="myMember_G_0" />
-      <node id="1445865345090524870" at="26,0,27,0" concept="2" trace="myIndex" />
-      <node id="1445865345090524870" at="27,0,28,0" concept="2" trace="myMembers" />
-      <node id="1445865345090524870" at="31,62,32,16" concept="6" />
-      <node id="1445865345090524870" at="37,68,38,21" concept="6" />
-      <node id="1445865345090524870" at="44,29,45,18" concept="6" />
-      <node id="1445865345090524871" at="48,15,49,28" concept="6" />
-      <node id="1445865345090524872" at="50,15,51,28" concept="6" />
-      <node id="1445865345090524875" at="52,15,53,28" concept="6" />
-      <node id="1445865345090524879" at="54,15,55,28" concept="6" />
-      <node id="1445865345090524884" at="56,15,57,28" concept="6" />
-      <node id="1445865345090524890" at="58,15,59,28" concept="6" />
-      <node id="1445865345090524897" at="60,15,61,28" concept="6" />
-      <node id="1445865345090524870" at="62,5,63,16" concept="6" />
-      <node id="1445865345090524870" at="68,73,69,39" concept="5" />
-      <node id="1445865345090524870" at="70,22,71,18" concept="6" />
-      <node id="1445865345090524870" at="72,5,73,32" concept="6" />
+      <node id="1445865345090913846" at="18,0,19,0" concept="2" trace="myMember_A1_0" />
+      <node id="1445865345090913891" at="19,0,20,0" concept="2" trace="myMember_A2_0" />
+      <node id="1445865345090524871" at="20,0,21,0" concept="2" trace="myMember_A5_0" />
+      <node id="1445865345090913860" at="21,0,22,0" concept="2" trace="myMember_AS1_0" />
+      <node id="1445865345090913908" at="22,0,23,0" concept="2" trace="myMember_AS2_0" />
+      <node id="1445865345090752622" at="23,0,24,0" concept="2" trace="myMember_AS5_0" />
+      <node id="1445865345090913875" at="24,0,25,0" concept="2" trace="myMember_B1_0" />
+      <node id="1445865345090913926" at="25,0,26,0" concept="2" trace="myMember_B2_0" />
+      <node id="1445865345090524872" at="26,0,27,0" concept="2" trace="myMember_B5_0" />
+      <node id="1445865345090913945" at="27,0,28,0" concept="2" trace="myMember_C1_0" />
+      <node id="1445865345090913965" at="28,0,29,0" concept="2" trace="myMember_C2_0" />
+      <node id="1445865345090524875" at="29,0,30,0" concept="2" trace="myMember_C5_0" />
+      <node id="1445865345090913986" at="30,0,31,0" concept="2" trace="myMember_CS1_0" />
+      <node id="1445865345090914008" at="31,0,32,0" concept="2" trace="myMember_CS2_0" />
+      <node id="1445865345090752631" at="32,0,33,0" concept="2" trace="myMember_CS5_0" />
+      <node id="1445865345090914031" at="33,0,34,0" concept="2" trace="myMember_D1_0" />
+      <node id="1445865345090914055" at="34,0,35,0" concept="2" trace="myMember_D2_0" />
+      <node id="1445865345090524879" at="35,0,36,0" concept="2" trace="myMember_D5_0" />
+      <node id="1445865345090914080" at="36,0,37,0" concept="2" trace="myMember_DS1_0" />
+      <node id="1445865345090914106" at="37,0,38,0" concept="2" trace="myMember_DS2_0" />
+      <node id="1445865345090752641" at="38,0,39,0" concept="2" trace="myMember_DS5_0" />
+      <node id="1445865345090914133" at="39,0,40,0" concept="2" trace="myMember_E1_0" />
+      <node id="1445865345090914161" at="40,0,41,0" concept="2" trace="myMember_E2_0" />
+      <node id="1445865345090524884" at="41,0,42,0" concept="2" trace="myMember_E5_0" />
+      <node id="1445865345090914190" at="42,0,43,0" concept="2" trace="myMember_F1_0" />
+      <node id="1445865345090914220" at="43,0,44,0" concept="2" trace="myMember_F2_0" />
+      <node id="1445865345090524890" at="44,0,45,0" concept="2" trace="myMember_F5_0" />
+      <node id="1445865345090914251" at="45,0,46,0" concept="2" trace="myMember_FS1_0" />
+      <node id="1445865345090914283" at="46,0,47,0" concept="2" trace="myMember_FS2_0" />
+      <node id="1445865345090752652" at="47,0,48,0" concept="2" trace="myMember_FS5_0" />
+      <node id="1445865345090914316" at="48,0,49,0" concept="2" trace="myMember_G1_0" />
+      <node id="1445865345090914350" at="49,0,50,0" concept="2" trace="myMember_G2_0" />
+      <node id="1445865345090524897" at="50,0,51,0" concept="2" trace="myMember_G5_0" />
+      <node id="1445865345090914385" at="51,0,52,0" concept="2" trace="myMember_GS1_0" />
+      <node id="1445865345090914421" at="52,0,53,0" concept="2" trace="myMember_GS2_0" />
+      <node id="1445865345090752664" at="53,0,54,0" concept="2" trace="myMember_GS5_0" />
+      <node id="1445865345090524870" at="55,0,56,0" concept="2" trace="myIndex" />
+      <node id="1445865345090524870" at="56,0,57,0" concept="2" trace="myMembers" />
+      <node id="1445865345090524870" at="60,62,61,16" concept="6" />
+      <node id="1445865345090524870" at="66,68,67,21" concept="6" />
+      <node id="1445865345090524870" at="73,29,74,18" concept="6" />
+      <node id="1445865345090913846" at="77,16,78,29" concept="6" />
+      <node id="1445865345090913891" at="79,16,80,29" concept="6" />
+      <node id="1445865345090524871" at="81,16,82,29" concept="6" />
+      <node id="1445865345090913860" at="83,17,84,30" concept="6" />
+      <node id="1445865345090913908" at="85,17,86,30" concept="6" />
+      <node id="1445865345090752622" at="87,17,88,30" concept="6" />
+      <node id="1445865345090913875" at="89,16,90,29" concept="6" />
+      <node id="1445865345090913926" at="91,16,92,29" concept="6" />
+      <node id="1445865345090524872" at="93,16,94,29" concept="6" />
+      <node id="1445865345090913945" at="95,16,96,29" concept="6" />
+      <node id="1445865345090913965" at="97,16,98,29" concept="6" />
+      <node id="1445865345090524875" at="99,16,100,29" concept="6" />
+      <node id="1445865345090913986" at="101,17,102,30" concept="6" />
+      <node id="1445865345090914008" at="103,17,104,30" concept="6" />
+      <node id="1445865345090752631" at="105,17,106,30" concept="6" />
+      <node id="1445865345090914031" at="107,16,108,29" concept="6" />
+      <node id="1445865345090914055" at="109,16,110,29" concept="6" />
+      <node id="1445865345090524879" at="111,16,112,29" concept="6" />
+      <node id="1445865345090914080" at="113,17,114,30" concept="6" />
+      <node id="1445865345090914106" at="115,17,116,30" concept="6" />
+      <node id="1445865345090752641" at="117,17,118,30" concept="6" />
+      <node id="1445865345090914133" at="119,16,120,29" concept="6" />
+      <node id="1445865345090914161" at="121,16,122,29" concept="6" />
+      <node id="1445865345090524884" at="123,16,124,29" concept="6" />
+      <node id="1445865345090914190" at="125,16,126,29" concept="6" />
+      <node id="1445865345090914220" at="127,16,128,29" concept="6" />
+      <node id="1445865345090524890" at="129,16,130,29" concept="6" />
+      <node id="1445865345090914251" at="131,17,132,30" concept="6" />
+      <node id="1445865345090914283" at="133,17,134,30" concept="6" />
+      <node id="1445865345090752652" at="135,17,136,30" concept="6" />
+      <node id="1445865345090914316" at="137,16,138,29" concept="6" />
+      <node id="1445865345090914350" at="139,16,140,29" concept="6" />
+      <node id="1445865345090524897" at="141,16,142,29" concept="6" />
+      <node id="1445865345090914385" at="143,17,144,30" concept="6" />
+      <node id="1445865345090914421" at="145,17,146,30" concept="6" />
+      <node id="1445865345090752664" at="147,17,148,30" concept="6" />
+      <node id="1445865345090524870" at="149,5,150,16" concept="6" />
+      <node id="1445865345090524870" at="155,73,156,39" concept="5" />
+      <node id="1445865345090524870" at="157,22,158,18" concept="6" />
+      <node id="1445865345090524870" at="159,5,160,32" concept="6" />
       <node id="1445865345090524870" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_NoteEnum#()V" />
-      <node id="1445865345090524870" at="43,88,46,5" concept="3" />
-      <node id="1445865345090524870" at="69,39,72,5" concept="3" />
-      <node id="1445865345090524870" at="29,0,34,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
-      <node id="1445865345090524870" at="35,0,40,0" concept="4" trace="getMembers#()Ljava/util/List;" />
-      <node id="1445865345090524870" at="66,0,75,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
-      <node id="1445865345090524870" at="46,5,62,5" concept="10" />
-      <node id="1445865345090524870" at="41,0,65,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1445865345090524870" at="72,88,75,5" concept="3" />
+      <node id="1445865345090524870" at="156,39,159,5" concept="3" />
+      <node id="1445865345090524870" at="58,0,63,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1445865345090524870" at="64,0,69,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="1445865345090524870" at="153,0,162,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1445865345090524870" at="75,5,149,5" concept="10" />
+      <node id="1445865345090524870" at="70,0,152,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
       <scope id="1445865345090524870" at="14,43,15,166" />
-      <scope id="1445865345090524870" at="31,62,32,16" />
-      <scope id="1445865345090524870" at="37,68,38,21" />
-      <scope id="1445865345090524870" at="44,29,45,18" />
-      <scope id="1445865345090524871" at="48,15,49,28" />
-      <scope id="1445865345090524872" at="50,15,51,28" />
-      <scope id="1445865345090524875" at="52,15,53,28" />
-      <scope id="1445865345090524879" at="54,15,55,28" />
-      <scope id="1445865345090524884" at="56,15,57,28" />
-      <scope id="1445865345090524890" at="58,15,59,28" />
-      <scope id="1445865345090524897" at="60,15,61,28" />
-      <scope id="1445865345090524870" at="70,22,71,18" />
+      <scope id="1445865345090524870" at="60,62,61,16" />
+      <scope id="1445865345090524870" at="66,68,67,21" />
+      <scope id="1445865345090524870" at="73,29,74,18" />
+      <scope id="1445865345090913846" at="77,16,78,29" />
+      <scope id="1445865345090913891" at="79,16,80,29" />
+      <scope id="1445865345090524871" at="81,16,82,29" />
+      <scope id="1445865345090913860" at="83,17,84,30" />
+      <scope id="1445865345090913908" at="85,17,86,30" />
+      <scope id="1445865345090752622" at="87,17,88,30" />
+      <scope id="1445865345090913875" at="89,16,90,29" />
+      <scope id="1445865345090913926" at="91,16,92,29" />
+      <scope id="1445865345090524872" at="93,16,94,29" />
+      <scope id="1445865345090913945" at="95,16,96,29" />
+      <scope id="1445865345090913965" at="97,16,98,29" />
+      <scope id="1445865345090524875" at="99,16,100,29" />
+      <scope id="1445865345090913986" at="101,17,102,30" />
+      <scope id="1445865345090914008" at="103,17,104,30" />
+      <scope id="1445865345090752631" at="105,17,106,30" />
+      <scope id="1445865345090914031" at="107,16,108,29" />
+      <scope id="1445865345090914055" at="109,16,110,29" />
+      <scope id="1445865345090524879" at="111,16,112,29" />
+      <scope id="1445865345090914080" at="113,17,114,30" />
+      <scope id="1445865345090914106" at="115,17,116,30" />
+      <scope id="1445865345090752641" at="117,17,118,30" />
+      <scope id="1445865345090914133" at="119,16,120,29" />
+      <scope id="1445865345090914161" at="121,16,122,29" />
+      <scope id="1445865345090524884" at="123,16,124,29" />
+      <scope id="1445865345090914190" at="125,16,126,29" />
+      <scope id="1445865345090914220" at="127,16,128,29" />
+      <scope id="1445865345090524890" at="129,16,130,29" />
+      <scope id="1445865345090914251" at="131,17,132,30" />
+      <scope id="1445865345090914283" at="133,17,134,30" />
+      <scope id="1445865345090752652" at="135,17,136,30" />
+      <scope id="1445865345090914316" at="137,16,138,29" />
+      <scope id="1445865345090914350" at="139,16,140,29" />
+      <scope id="1445865345090524897" at="141,16,142,29" />
+      <scope id="1445865345090914385" at="143,17,144,30" />
+      <scope id="1445865345090914421" at="145,17,146,30" />
+      <scope id="1445865345090752664" at="147,17,148,30" />
+      <scope id="1445865345090524870" at="157,22,158,18" />
       <scope id="1445865345090524870" at="14,0,17,0" />
-      <scope id="1445865345090524870" at="29,0,34,0" />
-      <scope id="1445865345090524870" at="35,0,40,0" />
-      <scope id="1445865345090524870" at="68,73,73,32">
+      <scope id="1445865345090524870" at="58,0,63,0" />
+      <scope id="1445865345090524870" at="64,0,69,0" />
+      <scope id="1445865345090524870" at="155,73,160,32">
         <var name="index" id="1445865345090524870" />
       </scope>
-      <scope id="1445865345090524870" at="66,0,75,0">
+      <scope id="1445865345090524870" at="153,0,162,0">
         <var name="idValue" id="1445865345090524870" />
       </scope>
-      <scope id="1445865345090524870" at="43,88,63,16" />
-      <scope id="1445865345090524870" at="41,0,65,0">
+      <scope id="1445865345090524870" at="72,88,150,16" />
+      <scope id="1445865345090524870" at="70,0,152,0">
         <var name="memberName" id="1445865345090524870" />
       </scope>
-      <unit id="1445865345090524870" at="12,0,76,0" name="RythmML.structure.EnumerationDescriptor_NoteEnum" />
+      <unit id="1445865345090524870" at="12,0,163,0" name="RythmML.structure.EnumerationDescriptor_NoteEnum" />
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1445865345090524870" at="32,0,33,0" concept="2" trace="myEnumerationNoteEnum" />

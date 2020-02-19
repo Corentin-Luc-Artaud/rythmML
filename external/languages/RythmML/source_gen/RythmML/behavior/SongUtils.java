@@ -24,6 +24,14 @@ public class SongUtils {
     createEvent(track, NOTEOFF, 9, noteType, tick + duration, velocity);
   }
 
+  public static void addBassNote(Track track, int noteType, long tick, int velocity, int duration) {
+    final int NOTEON = 144;
+    final int NOTEOFF = 128;
+
+    createEvent(track, NOTEON, 33, noteType, tick, velocity);
+    createEvent(track, NOTEOFF, 33, noteType, tick + duration, velocity);
+  }
+
   public static void createEvent(Track track, int type, int chan, int noteType, long tick, int velocity) {
     ShortMessage message = new ShortMessage();
 
