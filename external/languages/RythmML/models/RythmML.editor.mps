@@ -56,18 +56,26 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="l2Vlx" id="6mhaJVXwsFf" role="2iSdaV" />
-        <node concept="3F0ifn" id="5aWFjTLTIoJ" role="3EZMnx">
-          <property role="3F0ifm" value="tempo :" />
+      </node>
+      <node concept="3EZMnI" id="6HuNkDrR1$3" role="3EZMnx">
+        <node concept="VPM3Z" id="6HuNkDrR1$5" role="3F10Kt" />
+        <node concept="3F0ifn" id="6HuNkDrR1$7" role="3EZMnx">
+          <property role="3F0ifm" value="Tempo : " />
         </node>
-        <node concept="3F0A7n" id="5aWFjTLTIop" role="3EZMnx">
+        <node concept="3F0A7n" id="6HuNkDrR1$B" role="3EZMnx">
           <ref role="1NtTu8" to="wvci:5aWFjTLTInA" resolve="tempo" />
         </node>
-        <node concept="3F0ifn" id="5aWFjTLTIoX" role="3EZMnx">
-          <property role="3F0ifm" value="beat/bar:" />
+        <node concept="l2Vlx" id="6HuNkDrR1$8" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="6HuNkDrR1_e" role="3EZMnx">
+        <node concept="VPM3Z" id="6HuNkDrR1_g" role="3F10Kt" />
+        <node concept="3F0ifn" id="6HuNkDrR1_i" role="3EZMnx">
+          <property role="3F0ifm" value="Beat / Bar : " />
         </node>
-        <node concept="3F0A7n" id="5aWFjTLTIoz" role="3EZMnx">
+        <node concept="3F0A7n" id="6HuNkDrR1_R" role="3EZMnx">
           <ref role="1NtTu8" to="wvci:5aWFjTLTInC" resolve="musical_div" />
         </node>
+        <node concept="l2Vlx" id="6HuNkDrR1_j" role="2iSdaV" />
       </node>
       <node concept="35HoNQ" id="6mhaJVXwsEO" role="3EZMnx" />
       <node concept="3EZMnI" id="6mhaJVXwsFu" role="3EZMnx">

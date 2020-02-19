@@ -12,12 +12,8 @@ public class SongUtils {
   public static void loadSoundBank(Sequencer sequencer, String soundBankPath) {
   }
 
-  public static int toTick(int bar, int beat, double division, int nbBeatPerBar, int resolution) {
-    int pos = bar * nbBeatPerBar * resolution;
-    pos += beat * resolution;
-    Double d = division;
-    pos += d.intValue() * resolution;
-    return pos;
+  public static long toTick(int bar, int beat, double division, int nbBeatPerBar, int resolution) {
+    return 1;
   }
 
   public static void addHit(Track track, int noteType, long tick, int velocity, int duration) {

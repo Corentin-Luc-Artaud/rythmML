@@ -13,6 +13,7 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor {
   private final BHDescriptor myNoteFrequency__BehaviorDescriptor = new NoteFrequency__BehaviorDescriptor();
+  private final BHDescriptor mySong__BehaviorDescriptor = new Song__BehaviorDescriptor();
   private final BHDescriptor myANote__BehaviorDescriptor = new ANote__BehaviorDescriptor();
   private final BHDescriptor myDrumNote__BehaviorDescriptor = new DrumNote__BehaviorDescriptor();
 
@@ -29,9 +30,11 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
         return myDrumNote__BehaviorDescriptor;
       case 2:
         return myNoteFrequency__BehaviorDescriptor;
+      case 3:
+        return mySong__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL)).seal();
 }

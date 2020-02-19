@@ -47,7 +47,7 @@
     </language>
   </registry>
   <node concept="2o47oz" id="6mhaJVXwsDp">
-    <property role="TrG5h" value="Billie Jean, Mickael Jackson" />
+    <property role="TrG5h" value="BillieJeans-MickaelJackson" />
     <property role="zm$zo" value="118" />
     <property role="zm$zm" value="4" />
     <node concept="2o4e2$" id="5aWFjTLU69_" role="2o4e1O">
@@ -61,7 +61,7 @@
             <node concept="zm$H4" id="5aWFjTLUjAM" role="2o4RJb">
               <property role="zm$H1" value="2." />
               <node concept="2o4e2p" id="5aWFjTLUjB2" role="zm$H3">
-                <property role="2o4OQV" value="5aWFjTLU6a0/Snare" />
+                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
                 <node concept="2o4e2j" id="5aWFjTLUjB4" role="2o4Pu8">
                   <property role="zm$zl" value="2" />
                 </node>
@@ -71,7 +71,7 @@
             <node concept="zm$H4" id="5aWFjTLUjAm" role="2o4RJb">
               <property role="zm$H1" value="2." />
               <node concept="2o4e2p" id="5aWFjTLUjAy" role="zm$H3">
-                <property role="2o4OQV" value="5aWFjTLU69V/BassDrum" />
+                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
                 <node concept="2o4e2j" id="5aWFjTLUjA$" role="2o4Pu8">
                   <property role="zm$zl" value="1" />
                 </node>
@@ -82,7 +82,7 @@
               <property role="zm$H1" value="0.5" />
               <node concept="2o4e2j" id="5aWFjTLU69M" role="2o4Pu8" />
               <node concept="2o4e2p" id="5aWFjTLVVh1" role="zm$H3">
-                <property role="2o4OQV" value="5aWFjTLU69R/ClosedHitHat" />
+                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
                 <node concept="2o4e2j" id="5aWFjTLVVh4" role="2o4Pu8">
                   <property role="zm$zl" value="1" />
                 </node>
@@ -95,14 +95,46 @@
   </node>
   <node concept="2o47oz" id="6mhaJVXw_4F">
     <property role="TrG5h" value="Johnny be good, Chuck Berry" />
+    <property role="zm$zo" value="170" />
+    <property role="zm$zm" value="4" />
     <node concept="2o4e2$" id="6mhaJVXw_4G" role="2o4e1O">
-      <property role="TrG5h" value="Drum" />
-      <node concept="2o4e2z" id="6mhaJVXw_4H" role="2o4L77">
+      <property role="TrG5h" value="DrumLine" />
+      <property role="zm$zg" value="Drum" />
+      <node concept="2o4e2z" id="1ggJHVIKNId" role="2o4L77">
         <property role="TrG5h" value="Intro" />
-        <node concept="2o4e2u" id="6mhaJVXw_4I" role="2o4L75">
-          <node concept="2o4e2p" id="6mhaJVXwBPK" role="2o4RJb">
-            <property role="2o4OQV" value="6mhaJVXwzGK/KickDrum" />
-            <node concept="2o4e2j" id="6mhaJVXwEB2" role="2o4Pu8" />
+        <node concept="zm$w9" id="1ggJHVIKNIe" role="2o4L75">
+          <property role="zm$w0" value="4" />
+          <node concept="2o4e2u" id="1ggJHVIKNIf" role="zm$w6">
+            <node concept="zm$H4" id="1ggJHVILeQt" role="2o4RJb">
+              <property role="zm$H1" value="2." />
+              <node concept="2o4e2p" id="1ggJHVILeQH" role="zm$H3">
+                <property role="2o4OQV" value="1ggJHVIKOcm/AcousticSnare" />
+                <node concept="2o4e2j" id="1ggJHVILeQJ" role="2o4Pu8">
+                  <property role="zm$zl" value="2" />
+                </node>
+              </node>
+              <node concept="2o4e2j" id="1ggJHVILeQw" role="2o4Pu8" />
+            </node>
+            <node concept="zm$H4" id="1ggJHVILeQ1" role="2o4RJb">
+              <property role="zm$H1" value="2." />
+              <node concept="2o4e2p" id="1ggJHVILeQd" role="zm$H3">
+                <property role="2o4OQV" value="1ggJHVIKOcj/AcousticBassDrum" />
+                <node concept="2o4e2j" id="1ggJHVILeQf" role="2o4Pu8">
+                  <property role="zm$zl" value="1" />
+                </node>
+              </node>
+              <node concept="2o4e2j" id="1ggJHVILeQ4" role="2o4Pu8" />
+            </node>
+            <node concept="zm$H4" id="1ggJHVILeAF" role="2o4RJb">
+              <property role="zm$H1" value="0.5" />
+              <node concept="2o4e2p" id="1ggJHVILeAL" role="zm$H3">
+                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
+                <node concept="2o4e2j" id="1ggJHVILeAN" role="2o4Pu8">
+                  <property role="zm$zl" value="1" />
+                </node>
+              </node>
+              <node concept="2o4e2j" id="1ggJHVILeAH" role="2o4Pu8" />
+            </node>
           </node>
         </node>
       </node>

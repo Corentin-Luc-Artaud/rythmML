@@ -36,7 +36,7 @@ public final class NoteFrequency__BehaviorDescriptor extends BaseBHDescriptor {
   /*package*/ static void generate_id5aWFjTLUNx6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity) {
 
     for (double current = SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(__thisNode__, LINKS.note$7tSu), LINKS.position$ezGg), PROPS.beat$t$AP); current < beatPerBar; current += Double.parseDouble(SPropertyOperations.getString(__thisNode__, PROPS.frequency$7tTs))) {
-      SPropertyOperations.assign(SLinkOperations.getTarget(SLinkOperations.getTarget(__thisNode__, LINKS.note$7tSu), LINKS.position$ezGg), PROPS.beat$t$AP, as_4i6cpx_a2a0a1a8(Math.ceil(current), Integer.class));
+      double something = current;
       ANote__BehaviorDescriptor.generate_id5aWFjTLUNx6.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.note$7tSu), track, ((int) bar), ((int) beatPerBar), ((int) resolution), ((int) velocity));
     }
   }
@@ -86,9 +86,6 @@ public final class NoteFrequency__BehaviorDescriptor extends BaseBHDescriptor {
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
-  }
-  private static <T> T as_4i6cpx_a2a0a1a8(Object o, Class<T> type) {
-    return (type.isInstance(o) ? (T) o : null);
   }
 
   private static final class LINKS {

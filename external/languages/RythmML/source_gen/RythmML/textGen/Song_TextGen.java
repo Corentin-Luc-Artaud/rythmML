@@ -6,79 +6,46 @@ import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
 import javax.sound.midi.Sequencer;
+import RythmML.behavior.Song__BehaviorDescriptor;
 import javax.sound.midi.MidiSystem;
+import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import javax.sound.midi.Sequence;
-import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import javax.sound.midi.Track;
-import RythmML.behavior.ANote__BehaviorDescriptor;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class Song_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    try {
-      System.out.println("start");
-
-      Sequencer sequencer = MidiSystem.getSequencer();
-
-      int tempo = SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.tempo$j9_s);
-      int nbBeatPerBar = SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.musical_div$j9Aq);
-      int resolution = 200;
-
-      Sequence sequence = new Sequence(Sequence.PPQ, resolution);
-
-      int curBar = 0;
-
-
-      for (SNode track : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.track$4C47))) {
-        Track realTrack = sequence.createTrack();
-
-        for (SNode section : ListSequence.fromList(SLinkOperations.getChildren(track, LINKS.sections$gCYo))) {
-          for (SNode barrep : ListSequence.fromList(SLinkOperations.getChildren(section, LINKS.bars$gCZp))) {
-            for (int bar = 0; bar < SPropertyOperations.getInteger(barrep, PROPS.repetition$76S5); bar++, curBar++) {
-              for (SNode note : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(barrep, LINKS.bar$76F0), LINKS.notes$tuaG))) {
-                ANote__BehaviorDescriptor.generate_id5aWFjTLUNx6.invoke(note, realTrack, ((int) curBar), ((int) nbBeatPerBar), ((int) resolution), ((int) 90));
-              }
-            }
-          }
-        }
-
+    Sequencer sequencer = Song__BehaviorDescriptor.main_id1ggJHVIW3ht.invoke(ctx.getPrimaryInput());
+    if (sequencer == null) {
+      tgs.append("Null");
+      tgs.newLine();
+    } else {
+      tgs.append("Reussi");
+      tgs.newLine();
+      tgs.append(String.valueOf(sequencer.getSequence().getTracks()[0].size()));
+      tgs.newLine();
+      tgs.append(sequencer.getSequence().getTracks()[0].toString());
+      tgs.newLine();
+      try {
+        MidiSystem.write(sequencer.getSequence(), 0, new File("~/" + SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$tAp1) + ".mid"));
+        tgs.append("Write");
+        tgs.newLine();
+      } catch (Exception e) {
+        e.printStackTrace();
+        tgs.append("Failed");
+        tgs.newLine();
+        tgs.append(e.getMessage());
+        tgs.newLine();
       }
-      sequencer.open();
-      sequencer.setSequence(sequence);
-      sequencer.setTempoInBPM(tempo);
-      sequencer.start();
-
-      int durationOfTheTrackMS = curBar * nbBeatPerBar * 60000 / tempo;
-      System.out.println("sleeping " + durationOfTheTrackMS + "ms");
-      Thread.sleep(durationOfTheTrackMS);
-      System.out.println("stop sleeping");
-
-      sequencer.stop();
       sequencer.close();
-
-    } catch (Exception e) {
-      e.printStackTrace();
+      tgs.append("Finish");
+      tgs.newLine();
     }
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty tempo$j9_s = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x52bcad3e71e6e5e6L, "tempo");
-    /*package*/ static final SProperty musical_div$j9Aq = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x52bcad3e71e6e5e8L, "musical_div");
-    /*package*/ static final SProperty repetition$76S5 = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L, 0x52bcad3e71e6e53eL, "repetition");
-  }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink bar$76F0 = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L, 0x52bcad3e71e6e538L, "bar");
-    /*package*/ static final SContainmentLink notes$tuaG = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca60L, 0x65912afefd825135L, "notes");
-    /*package*/ static final SContainmentLink bars$gCZp = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL, 0x65912afefd823b3bL, "bars");
-    /*package*/ static final SContainmentLink sections$gCYo = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL, 0x65912afefd823b39L, "sections");
-    /*package*/ static final SContainmentLink track$4C47 = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x65912afefd81ca8aL, "track");
+    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 }

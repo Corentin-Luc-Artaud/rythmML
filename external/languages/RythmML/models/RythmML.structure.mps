@@ -3,11 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="73c1a490-99fa-4d0d-8292-b8985697c74b" name="jetbrains.mps.execution.common" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -59,6 +61,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6mhaJVXwlNu" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="1ggJHVIW$uw" role="PzmwI">
+      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
     <node concept="1TJgyj" id="6mhaJVXwsEa" role="1TKVEi">
       <property role="IQ2ns" value="7318678144116968074" />
@@ -183,20 +188,16 @@
   <node concept="25R3W" id="6mhaJVXwzGI">
     <property role="3F6X1D" value="7318678144116996910" />
     <property role="TrG5h" value="DrumEnum" />
-    <node concept="25R33" id="6mhaJVXwzGK" role="25R1y">
-      <property role="3tVfz5" value="7318678144116996912" />
-      <property role="TrG5h" value="KickDrum" />
-    </node>
-    <node concept="25R33" id="5aWFjTLU69R" role="25R1y">
-      <property role="3tVfz5" value="5961830490442326647" />
+    <node concept="25R33" id="6HuNkDrR4Ai" role="25R1y">
+      <property role="3tVfz5" value="7736846929121528210" />
       <property role="TrG5h" value="ClosedHitHat" />
     </node>
-    <node concept="25R33" id="5aWFjTLU69V" role="25R1y">
-      <property role="3tVfz5" value="5961830490442326651" />
-      <property role="TrG5h" value="BassDrum1" />
+    <node concept="25R33" id="1ggJHVIKOcj" role="25R1y">
+      <property role="3tVfz5" value="1445865345083720467" />
+      <property role="TrG5h" value="AcousticBassDrum" />
     </node>
-    <node concept="25R33" id="5aWFjTLU6a0" role="25R1y">
-      <property role="3tVfz5" value="5961830490442326656" />
+    <node concept="25R33" id="1ggJHVIKOcm" role="25R1y">
+      <property role="3tVfz5" value="1445865345083720470" />
       <property role="TrG5h" value="AcousticSnare" />
     </node>
   </node>

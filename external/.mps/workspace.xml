@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarksTool">
+    <option name="myTreeState">
+      <TreeState />
+    </option>
+  </component>
+  <component name="BreakpointViewSettings">
+    <option name="myTreeState">
+      <TreeState>
+        <option name="expansion">
+          <list>
+            <option value="/" />
+          </list>
+        </option>
+      </TreeState>
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75ac2c4c-1529-4632-afc0-798847cc90f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$trackListHandler_su75kb_a3a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$trackListHandler_su75kb_a4a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$trackListHandler_su75kb_b2a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/RythmML.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/RythmML.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/BehaviorAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/BehaviorAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/DrumNote__BehaviorDescriptor$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/DrumNote__BehaviorDescriptor$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/DrumNote__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/DrumNote__BehaviorDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/SongUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/SongUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Song_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/EnumerationDescriptor_DrumEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/EnumerationDescriptor_DrumEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/DrumElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/TextGenAspectDescriptor$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/TextGenAspectDescriptor$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/TextGenAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/TextGenAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.textGen.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.textGen.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/classes_gen/RythmML/sandbox/Billie Jean, Mickael Jackson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/classes_gen/RythmML/sandbox/Johnny be good, Chuck Berry" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/classes_gen/RythmML/sandbox/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen.caches/RythmML/sandbox/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen.caches/RythmML/sandbox/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen/RythmML/sandbox/Billie Jean, Mickael Jackson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen/RythmML/sandbox/Johnny be good, Chuck Berry" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen/RythmML/sandbox/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/BehaviorAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/BehaviorAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/DrumNote__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/DrumNote__BehaviorDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/NoteFrequency__BehaviorDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/SongUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/SongUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/Song_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/Song_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/EnumerationDescriptor_DrumEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/EnumerationDescriptor_DrumEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/DrumElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/Song_TextGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/Song_TextGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/TextGenAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/TextGenAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/trace.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="e7ddb436-b23e-4034-ab2f-7368267c187e/r:fa0090d6-5903-4a31-9ed7-57c556ae2b65(TempModulee7ddb436-b23e-4034-ab2f-7368267c187e/ConsoleModel_1511007192557)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="1ggJHVIKiqC">
+                <node concept="3balQm" id="1ggJHVIKiqD" role="aymYE" />
+                <node concept="2Clz$F" id="1ggJHVIKiqE" role="aymYO" />
+                <node concept="2_V_lH" id="1ggJHVIKiqF" role="1PhJh3">
+                  <ref role="2_V_lI" node="1ggJHVIKiqE" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.mps" />
+      </set>
+    </option>
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XNnJL3Djfc3vy5BRnhwkAgKJ0b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.vcs.mergehints.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RythmML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f7b8fcd5-58d0-4629-a6c2-208a38facd99(RythmML.sandbox) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/sandbox/models/RythmML.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RythmML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:157d8961-beec-4a6b-a0fc-86d36105315d(RythmML.editor) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5961830490442562056" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="JUnit Tests.Tests in 'RythmML.sandbox'">
+    <configuration name="All Tests in Project" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModelRef" />
+          <option name="myModuleRef" />
+          <option name="myInProcess" value="false" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myOverrideCachesLocation" value="false" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="$USER_HOME$/.MPSJUnitRC/config0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="0" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="$APPLICATION_HOME_DIR$/bin" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <myDeploySettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myDeploySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'ArduinoML.sandbox' (1)" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModelRef" />
+          <option name="myModuleRef" value="488c452e-9b07-4c7c-b9c9-38adce5d0b2d(ArduinoML.sandbox)" />
+          <option name="myInProcess" value="false" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myOverrideCachesLocation" value="false" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="$USER_HOME$/.MPSJUnitRC/config0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="1" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="$APPLICATION_HOME_DIR$/bin" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <myDeploySettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myDeploySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'ArduinoML.sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModelRef" value="r:0cc5680a-c7af-477e-83f7-a2447a773d50(ArduinoML.sandbox)" />
+          <option name="myModuleRef" value="488c452e-9b07-4c7c-b9c9-38adce5d0b2d(ArduinoML.sandbox)" />
+          <option name="myInProcess" value="false" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myOverrideCachesLocation" value="false" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="$USER_HOME$/.MPSJUnitRC/config0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="2" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="$APPLICATION_HOME_DIR$/bin" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <myDeploySettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myDeploySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'RythmML.sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModelRef" value="r:f7b8fcd5-58d0-4629-a6c2-208a38facd99(RythmML.sandbox)" />
+          <option name="myModuleRef" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6(RythmML.sandbox)" />
+          <option name="myInProcess" value="false" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myOverrideCachesLocation" value="false" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="$USER_HOME$/.MPSJUnitRC/config0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="1" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" value="" />
+              <option name="programParameters" value="" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" value="" />
+              <option name="workingDirectory" value="$APPLICATION_HOME_DIR$/bin" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <myDeploySettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myDeploySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit Tests.Tests in 'RythmML.sandbox'" />
+        <item itemvalue="JUnit Tests.Tests in 'ArduinoML.sandbox'" />
+        <item itemvalue="JUnit Tests.Tests in 'ArduinoML.sandbox' (1)" />
+        <item itemvalue="JUnit Tests.All Tests in Project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75ac2c4c-1529-4632-afc0-798847cc90f6" name="Default Changelist" comment="" />
+      <created>1580895346485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580895346485</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1580916800078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580916800078</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change editor">
+      <created>1580919759923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580919759923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="change editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="change editor" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="218" key="#MPSPropertiesConfigurable" timestamp="1582096758563">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="560" y="218" key="#MPSPropertiesConfigurable/0.0.1920.1044@0.0.1920.1044" timestamp="1582096758563" />
+    <state x="676" y="136" key="#Tests_in_'ArduinoML.sandbox'" timestamp="1580931833801">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="676" y="136" key="#Tests_in_'ArduinoML.sandbox'/0.0.1920.1044@0.0.1920.1044" timestamp="1580931833801" />
+    <state x="676" y="136" key="#Tests_in_'ArduinoML.sandbox'_(1)" timestamp="1580931840203">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="676" y="136" key="#Tests_in_'ArduinoML.sandbox'_(1)/0.0.1920.1044@0.0.1920.1044" timestamp="1580931840203" />
+    <state x="676" y="136" key="#Tests_in_'RythmML.sandbox'" timestamp="1582046572145">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="676" y="136" key="#Tests_in_'RythmML.sandbox'/0.0.1920.1044@0.0.1920.1044" timestamp="1582046572145" />
+    <state x="676" y="136" key="#Tests_in_'RythmML.sandbox'_(1)" timestamp="1582046581942">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="676" y="136" key="#Tests_in_'RythmML.sandbox'_(1)/0.0.1920.1044@0.0.1920.1044" timestamp="1582046581942" />
+    <state x="647" y="281" width="682" height="482" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard" timestamp="1582046760483">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="647" y="281" width="682" height="482" key="#jetbrains.mps.ide.migration.MigrationAssistantWizard/0.0.1920.1044@0.0.1920.1044" timestamp="1582046760483" />
+    <state x="660" y="422" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog" timestamp="1580930039888">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="660" y="422" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1580930039888" />
+    <state x="693" y="281" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1582095705371">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="693" y="281" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1582095705371" />
+    <state x="564" y="117" key="CommitChangelistDialog2" timestamp="1582101113266">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="564" y="117" key="CommitChangelistDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1582101113265" />
+    <state x="747" y="281" key="FileChooserDialogImpl" timestamp="1581500683172">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="747" y="281" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1581500683172" />
+    <state x="547" y="269" key="IDE.errors.dialog" timestamp="1582097440882">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="547" y="269" key="IDE.errors.dialog/0.0.1920.1044@0.0.1920.1044" timestamp="1582097440882" />
+    <state x="675" y="239" key="MultipleFileMergeDialog" timestamp="1581510778593">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="675" y="239" key="MultipleFileMergeDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581510778593" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1582061527755">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1582061527755" />
+    <state x="559" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580919783058">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="559" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1580919783058" />
+    <state x="639" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1581491039926">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="639" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581491039926" />
+    <state x="628" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580912345503">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="628" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1580912345503" />
+    <state x="750" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581510770190">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="750" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1044@0.0.1920.1044" timestamp="1581510770190" />
+    <state x="640" y="316" key="git4idea.merge.GitPullDialog" timestamp="1580919777270">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="640" y="316" key="git4idea.merge.GitPullDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1580919777270" />
+    <state x="602" y="373" key="git4idea.ui.GitUnstashDialog" timestamp="1581500881596">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="602" y="373" key="git4idea.ui.GitUnstashDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581500881596" />
+    <state x="697" y="231" key="jetbrains.mps.debugger.api.ui.breakpoints.BreakpointsBrowserDialog" timestamp="1582066202757">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="697" y="231" key="jetbrains.mps.debugger.api.ui.breakpoints.BreakpointsBrowserDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1582066202757" />
+    <state x="803" y="325" width="554" height="515" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog" timestamp="1582096755113">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="803" y="325" width="554" height="515" key="jetbrains.mps.ide.ui.dialogs.properties.choosers.ChooserDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1582096755113" />
+    <state x="684" y="384" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog" timestamp="1581496860888">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="684" y="384" key="jetbrains.mps.workbench.dialogs.project.properties.project.ProjectPropertiesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581496860888" />
+  </component>
+  <component name="mpsMakeService">
+    <option name="makeInBackground" value="true" />
+  </component>
+</project>

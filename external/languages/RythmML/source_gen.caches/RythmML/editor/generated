@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="bmax4kn7rt6c11r9el4hvs6o0rkmi0c">
+<product version="3" modelHash="5xl1wlo5h5r3tn9p26na483pxamj4r5">
   <files names="BarRepetition_Editor.java:BarRepetition_EditorBuilder_a.java:Bar_Editor.java:Bar_EditorBuilder_a.java:DrumNote_Editor.java:DrumNote_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:NoteFrequency_Editor.java:NoteFrequency_EditorBuilder_a.java:Position_Editor.java:Position_EditorBuilder_a.java:Section_Editor.java:Section_EditorBuilder_a.java:Song_Editor.java:Song_EditorBuilder_a.java:Track_Editor.java:Track_EditorBuilder_a.java" />
 </product>
 
