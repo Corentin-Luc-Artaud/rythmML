@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="RythmML.Language">
     <classNode dependClassName="RythmML.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="RythmML.constraints.ConstraintsAspectDescriptor" />
     <classNode dependClassName="RythmML.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="RythmML.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="RythmML.structure.StructureAspectDescriptor" />
@@ -14,6 +15,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />

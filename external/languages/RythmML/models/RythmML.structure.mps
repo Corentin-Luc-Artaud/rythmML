@@ -169,6 +169,11 @@
     <node concept="PrWs8" id="6mhaJVXwsDF" role="PzmwI">
       <ref role="PrY4T" node="6mhaJVXwsDz" resolve="ANote" />
     </node>
+    <node concept="1TJgyi" id="1ggJHVJau00" role="1TKVEl">
+      <property role="IQ2nx" value="1445865345090445312" />
+      <property role="TrG5h" value="duration" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDH">
     <property role="EcuMT" value="7318678144116968045" />

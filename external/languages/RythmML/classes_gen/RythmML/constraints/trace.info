@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="ConstraintsAspectDescriptor.java">
-      <unit at="10,0,20,0" name="RythmML.constraints.ConstraintsAspectDescriptor" />
+      <unit at="13,0,29,0" name="RythmML.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ce1e5a9c-7f28-4db5-97ed-2d20b56c6af8(RythmML.constraints)/3446399905330366667">
+    <file name="Position_Constraints.java">
+      <node id="3446399905330366667" at="20,33,21,32" concept="9" />
+      <node id="3446399905330383346" at="25,59,26,40" concept="9" />
+      <node id="3446399905330383346" at="29,38,30,18" concept="5" />
+      <node id="3446399905330383346" at="32,0,33,0" concept="7" trace="validatePropertyBreakingPoint" />
+      <node id="3446399905330383346" at="34,109,35,99" concept="4" />
+      <node id="3446399905330383346" at="36,53,37,75" concept="1" />
+      <node id="3446399905330383346" at="38,7,39,20" concept="5" />
+      <node id="3446399905330383947" at="41,85,42,90" concept="5" />
+      <node id="3446399905330418636" at="42,90,43,0" concept="6" />
+      <node id="3446399905330366667" at="47,84,48,119" concept="4" />
+      <node id="3446399905330383346" at="48,119,49,61" concept="1" />
+      <node id="3446399905330366667" at="49,61,50,22" concept="5" />
+      <node id="3446399905330366667" at="54,0,55,0" concept="7" trace="Position$ii" />
+      <node id="3446399905330366667" at="58,0,59,0" concept="7" trace="beat$t$AP" />
+      <node id="3446399905330366667" at="20,0,23,0" concept="0" trace="Position_Constraints#()V" />
+      <node id="3446399905330383346" at="25,0,28,0" concept="0" trace="Beat_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="3446399905330383346" at="35,99,38,7" concept="2" />
+      <node id="3446399905330383346" at="28,0,32,0" concept="3" trace="hasOwnValidator#()Z" />
+      <node id="3446399905330383346" at="41,0,45,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="3446399905330366667" at="46,0,52,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="3446399905330383346" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="3446399905330366667" at="20,33,21,32" />
+      <scope id="3446399905330383346" at="25,59,26,40" />
+      <scope id="3446399905330383346" at="29,38,30,18" />
+      <scope id="3446399905330383346" at="36,53,37,75" />
+      <scope id="3446399905330383646" at="41,85,43,0" />
+      <scope id="3446399905330366667" at="20,0,23,0" />
+      <scope id="3446399905330383346" at="25,0,28,0">
+        <var name="container" id="3446399905330383346" />
+      </scope>
+      <scope id="3446399905330366667" at="47,84,50,22">
+        <var name="properties" id="3446399905330366667" />
+      </scope>
+      <scope id="3446399905330383346" at="28,0,32,0" />
+      <scope id="3446399905330383346" at="41,0,45,0">
+        <var name="node" id="3446399905330383346" />
+        <var name="propertyValue" id="3446399905330383346" />
+      </scope>
+      <scope id="3446399905330383346" at="34,109,39,20">
+        <var name="result" id="3446399905330383346" />
+      </scope>
+      <scope id="3446399905330366667" at="46,0,52,0" />
+      <scope id="3446399905330383346" at="33,0,41,0">
+        <var name="checkingNodeContext" id="3446399905330383346" />
+        <var name="node" id="3446399905330383346" />
+        <var name="propertyValue" id="3446399905330383346" />
+      </scope>
+      <unit id="3446399905330366667" at="53,0,56,0" name="RythmML.constraints.Position_Constraints$CONCEPTS" />
+      <unit id="3446399905330366667" at="57,0,60,0" name="RythmML.constraints.Position_Constraints$PROPS" />
+      <unit id="3446399905330383346" at="24,0,46,0" name="RythmML.constraints.Position_Constraints$Beat_Property" />
+      <unit id="3446399905330366667" at="19,0,61,0" name="RythmML.constraints.Position_Constraints" />
     </file>
   </root>
 </debug-info>
