@@ -39,6 +39,7 @@
   </dependency>
   <dependency className="RythmML.behavior.DrumElement" />
   <dependency className="RythmML.behavior.DrumNote__BehaviorDescriptor">
+    <classNode dependClassName="RythmML.behavior.ANote__BehaviorDescriptor" />
     <classNode dependClassName="RythmML.behavior.DrumElement" />
     <classNode dependClassName="RythmML.behavior.SongUtils" />
     <classNode dependClassName="java.lang.Double" />

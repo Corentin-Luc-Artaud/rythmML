@@ -20,8 +20,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class NoteFrequency__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL, "RythmML.structure.NoteFrequency");
@@ -35,9 +35,8 @@ public final class NoteFrequency__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static void generate_id5aWFjTLUNx6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity) {
-    double beat = Double.parseDouble(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(__thisNode__, LINKS.note$7tSu), LINKS.position$ezGg), PROPS.beat$t$AP));
     double increment = Double.parseDouble(SPropertyOperations.getString(__thisNode__, PROPS.frequency$7tTs));
-    for (double current = beat; current < beatPerBar; current += increment) {
+    for (double current = 0.; current < beatPerBar; current += increment) {
       ANote__BehaviorDescriptor.generate_id1ggJHVJ3VK6.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.note$7tSu), track, ((int) bar), ((int) beatPerBar), ((int) resolution), ((int) velocity), ((double) current));
     }
   }
@@ -94,13 +93,11 @@ public final class NoteFrequency__BehaviorDescriptor extends BaseBHDescriptor {
     return CONCEPT;
   }
 
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink note$7tSu = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL, 0x52bcad3e71e6e67dL, "note");
-    /*package*/ static final SContainmentLink position$ezGg = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L, 0x65912afefd827d76L, "position");
+  private static final class PROPS {
+    /*package*/ static final SProperty frequency$7tTs = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL, 0x52bcad3e71e6e67fL, "frequency");
   }
 
-  private static final class PROPS {
-    /*package*/ static final SProperty beat$t$AP = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca6dL, 0x52bcad3e71e6e5ebL, "beat");
-    /*package*/ static final SProperty frequency$7tTs = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL, 0x52bcad3e71e6e67fL, "frequency");
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink note$7tSu = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL, 0x52bcad3e71e6e67dL, "note");
   }
 }
