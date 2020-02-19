@@ -12,16 +12,16 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
-import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptANote = createDescriptorForANote();
   /*package*/ final ConceptDescriptor myConceptBar = createDescriptorForBar();
-  /*package*/ final ConceptDescriptor myConceptBarRepetition = createDescriptorForBarRepetition();
   /*package*/ final ConceptDescriptor myConceptDrumNote = createDescriptorForDrumNote();
   /*package*/ final ConceptDescriptor myConceptNoteFrequency = createDescriptorForNoteFrequency();
   /*package*/ final ConceptDescriptor myConceptPosition = createDescriptorForPosition();
+  /*package*/ final ConceptDescriptor myConceptRepetition = createDescriptorForRepetition();
   /*package*/ final ConceptDescriptor myConceptSection = createDescriptorForSection();
   /*package*/ final ConceptDescriptor myConceptSilence = createDescriptorForSilence();
   /*package*/ final ConceptDescriptor myConceptSong = createDescriptorForSong();
@@ -42,7 +42,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptANote, myConceptBar, myConceptBarRepetition, myConceptDrumNote, myConceptNoteFrequency, myConceptPosition, myConceptSection, myConceptSilence, myConceptSong, myConceptStandarNote, myConceptTrack);
+    return Arrays.asList(myConceptANote, myConceptBar, myConceptDrumNote, myConceptNoteFrequency, myConceptPosition, myConceptRepetition, myConceptSection, myConceptSilence, myConceptSong, myConceptStandarNote, myConceptTrack);
   }
 
   @Override
@@ -53,14 +53,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptANote;
       case LanguageConceptSwitch.Bar:
         return myConceptBar;
-      case LanguageConceptSwitch.BarRepetition:
-        return myConceptBarRepetition;
       case LanguageConceptSwitch.DrumNote:
         return myConceptDrumNote;
       case LanguageConceptSwitch.NoteFrequency:
         return myConceptNoteFrequency;
       case LanguageConceptSwitch.Position:
         return myConceptPosition;
+      case LanguageConceptSwitch.Repetition:
+        return myConceptRepetition;
       case LanguageConceptSwitch.Section:
         return myConceptSection;
       case LanguageConceptSwitch.Silence:
@@ -101,15 +101,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("notes", 0x65912afefd825135L).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L).optional(false).ordered(true).multiple(true).origin("7318678144117002549").done();
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForBarRepetition() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("RythmML", "BarRepetition", 0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L);
-    b.class_(false, false, false);
-    b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5961830490442229047");
-    b.version(2);
-    b.property("repetition", 0x52bcad3e71e6e53eL).type(PrimitiveTypeId.INTEGER).origin("5961830490442229054").done();
-    b.aggregate("bar", 0x52bcad3e71e6e538L).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca60L).optional(false).ordered(true).multiple(false).origin("5961830490442229048").done();
-    return b.create();
-  }
   private static ConceptDescriptor createDescriptorForDrumNote() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("RythmML", "DrumNote", 0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L);
     b.class_(false, false, false);
@@ -138,13 +129,22 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("beat", 0x52bcad3e71e6e5ebL).type(MetaIdFactory.dataTypeId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10324579ea7L)).origin("5961830490442229227").done();
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForRepetition() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("RythmML", "Repetition", 0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L);
+    b.class_(false, false, false);
+    b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5961830490442229047");
+    b.version(2);
+    b.property("repetition", 0x52bcad3e71e6e53eL).type(PrimitiveTypeId.INTEGER).origin("5961830490442229054").done();
+    b.aggregate("bars", 0x52bcad3e71e6e538L).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca60L).optional(false).ordered(true).multiple(true).origin("5961830490442229048").done();
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForSection() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("RythmML", "Section", 0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL);
     b.class_(false, false, false);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116968029");
     b.version(2);
-    b.aggregate("bars", 0x65912afefd823b3bL).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L).optional(false).ordered(true).multiple(true).origin("7318678144116996923").done();
+    b.aggregate("repetitions", 0x65912afefd823b3bL).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L).optional(false).ordered(true).multiple(true).origin("7318678144116996923").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSilence() {
