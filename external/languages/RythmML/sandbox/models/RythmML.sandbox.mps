@@ -25,15 +25,15 @@
         <child id="7318678144117002549" name="notes" index="2o4RJb" />
       </concept>
       <concept id="7318678144116968029" name="RythmML.structure.Section" flags="ng" index="2o4e2z">
-        <child id="7318678144116996923" name="bars" index="2o4L75" />
+        <child id="7318678144116996923" name="repetitions" index="2o4L75" />
       </concept>
       <concept id="7318678144116968026" name="RythmML.structure.Track" flags="ng" index="2o4e2$">
         <property id="5961830490442229230" name="instrument" index="zm$zg" />
         <child id="7318678144116996921" name="sections" index="2o4L77" />
       </concept>
-      <concept id="5961830490442229047" name="RythmML.structure.BarRepetition" flags="ng" index="zm$w9">
+      <concept id="5961830490442229047" name="RythmML.structure.Repetition" flags="ng" index="zm$w9">
         <property id="5961830490442229054" name="repetition" index="zm$w0" />
-        <child id="5961830490442229048" name="bar" index="zm$w6" />
+        <child id="5961830490442229048" name="bars" index="zm$w6" />
       </concept>
       <concept id="5961830490442229370" name="RythmML.structure.NoteFrequency" flags="ng" index="zm$H4">
         <property id="5961830490442229375" name="frequency" index="zm$H1" />
@@ -69,11 +69,11 @@
               <node concept="2o4e2j" id="1ggJHVJ9cbP" role="2o4Pu8" />
             </node>
             <node concept="zm$H4" id="1ggJHVJ9c7Y" role="2o4RJb">
-              <property role="zm$H1" value="8." />
+              <property role="zm$H1" value="2." />
               <node concept="2o4e2p" id="1ggJHVJ9c8a" role="zm$H3">
                 <property role="2o4OQV" value="1ggJHVIKOcj/AcousticBassDrum" />
                 <node concept="2o4e2j" id="1ggJHVJ9c8c" role="2o4Pu8">
-                  <property role="zm$zl" value="5." />
+                  <property role="zm$zl" value="0." />
                 </node>
               </node>
               <node concept="2o4e2j" id="1ggJHVJ9c81" role="2o4Pu8" />
@@ -87,6 +87,18 @@
                 </node>
               </node>
               <node concept="2o4e2j" id="1ggJHVJ9c5c" role="2o4Pu8" />
+            </node>
+          </node>
+          <node concept="2o4e2u" id="1ggJHVJabIL" role="zm$w6">
+            <node concept="zm$H4" id="1ggJHVJabJu" role="2o4RJb">
+              <property role="zm$H1" value="0.5" />
+              <node concept="2o4e2p" id="1ggJHVJabJA" role="zm$H3">
+                <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
+                <node concept="2o4e2j" id="1ggJHVJabJC" role="2o4Pu8">
+                  <property role="zm$zl" value="0." />
+                </node>
+              </node>
+              <node concept="2o4e2j" id="1ggJHVJabJx" role="2o4Pu8" />
             </node>
           </node>
         </node>

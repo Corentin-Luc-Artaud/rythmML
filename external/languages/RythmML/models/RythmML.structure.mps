@@ -113,9 +113,9 @@
     <node concept="1TJgyj" id="6mhaJVXwzGV" role="1TKVEi">
       <property role="IQ2ns" value="7318678144116996923" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="bars" />
+      <property role="20kJfa" value="repetitions" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="5aWFjTLTIkR" resolve="BarRepetition" />
+      <ref role="20lvS9" node="5aWFjTLTIkR" resolve="Repetition" />
     </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDw">
@@ -223,13 +223,13 @@
   </node>
   <node concept="1TIwiD" id="5aWFjTLTIkR">
     <property role="EcuMT" value="5961830490442229047" />
-    <property role="TrG5h" value="BarRepetition" />
+    <property role="TrG5h" value="Repetition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5aWFjTLTIkS" role="1TKVEi">
       <property role="IQ2ns" value="5961830490442229048" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="bar" />
-      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="bars" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6mhaJVXwsDw" resolve="Bar" />
     </node>
     <node concept="1TJgyi" id="5aWFjTLTIkY" role="1TKVEl">

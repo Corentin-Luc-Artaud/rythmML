@@ -117,7 +117,7 @@
         <node concept="VPM3Z" id="6mhaJVXyR9z" role="3F10Kt" />
         <node concept="3XFhqQ" id="6mhaJVXyR9L" role="3EZMnx" />
         <node concept="3F2HdR" id="6mhaJVXyRa4" role="3EZMnx">
-          <ref role="1NtTu8" to="wvci:6mhaJVXwzGV" resolve="bars" />
+          <ref role="1NtTu8" to="wvci:6mhaJVXwzGV" resolve="repetitions" />
           <node concept="2iRkQZ" id="6mhaJVXyRa7" role="2czzBx" />
           <node concept="VPM3Z" id="6mhaJVXyRa8" role="3F10Kt" />
         </node>
@@ -128,6 +128,9 @@
   <node concept="24kQdi" id="6mhaJVXyV8v">
     <ref role="1XX52x" to="wvci:6mhaJVXwsDw" resolve="Bar" />
     <node concept="3EZMnI" id="5aWFjTLTInl" role="2wV5jI">
+      <node concept="3F0ifn" id="1ggJHVJ9sKh" role="3EZMnx">
+        <property role="3F0ifm" value="Bar : " />
+      </node>
       <node concept="3F2HdR" id="5aWFjTLTIns" role="3EZMnx">
         <ref role="1NtTu8" to="wvci:6mhaJVXw_4P" resolve="notes" />
         <node concept="2iRkQZ" id="5aWFjTLTInv" role="2czzBx" />
@@ -199,7 +202,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5aWFjTLTIlr">
-    <ref role="1XX52x" to="wvci:5aWFjTLTIkR" resolve="BarRepetition" />
+    <ref role="1XX52x" to="wvci:5aWFjTLTIkR" resolve="Repetition" />
     <node concept="3EZMnI" id="5aWFjTLTIlz" role="2wV5jI">
       <node concept="3EZMnI" id="5aWFjTLTIlE" role="3EZMnx">
         <node concept="VPM3Z" id="5aWFjTLTIlG" role="3F10Kt" />
@@ -210,15 +213,17 @@
           <ref role="1NtTu8" to="wvci:5aWFjTLTIkY" resolve="repetition" />
         </node>
         <node concept="3F0ifn" id="5aWFjTLTIm3" role="3EZMnx">
-          <property role="3F0ifm" value="bar: " />
+          <property role="3F0ifm" value=": " />
         </node>
         <node concept="l2Vlx" id="5aWFjTLTIlJ" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="5aWFjTLTImg" role="3EZMnx">
         <node concept="VPM3Z" id="5aWFjTLTImi" role="3F10Kt" />
         <node concept="3XFhqQ" id="5aWFjTLTImx" role="3EZMnx" />
-        <node concept="3F1sOY" id="5aWFjTLTImB" role="3EZMnx">
-          <ref role="1NtTu8" to="wvci:5aWFjTLTIkS" resolve="bar" />
+        <node concept="3F2HdR" id="1ggJHVJ9sK3" role="3EZMnx">
+          <ref role="1NtTu8" to="wvci:5aWFjTLTIkS" resolve="bars" />
+          <node concept="2iRkQZ" id="1ggJHVJ9sK6" role="2czzBx" />
+          <node concept="VPM3Z" id="1ggJHVJ9sK7" role="3F10Kt" />
         </node>
         <node concept="l2Vlx" id="5aWFjTLTIml" role="2iSdaV" />
       </node>
