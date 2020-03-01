@@ -30,14 +30,9 @@
   <component name="ChangeListManager">
     <list default="true" id="75ac2c4c-1529-4632-afc0-798847cc90f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/Song__BehaviorDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/Song__BehaviorDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/Song__BehaviorDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/Song__BehaviorDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.delivery.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.delivery.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen.caches/RythmML/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen.caches/RythmML/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen/RythmML/sandbox/test.mid" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/sandbox/source_gen/RythmML/sandbox/test.mid" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="2dc0c2de-293d-4c4f-934e-c10050c63e7f/r:86efee5d-c6dc-49c9-a236-57516cdf4dc8(TempModule2dc0c2de-293d-4c4f-934e-c10050c63e7f/ConsoleModel_97918154263)">
+            <model ref="e9fbb17c-b99d-4505-8b03-97d54ef85527/r:efe4bb4a-d7cf-4354-9bbe-3a4be67b8a72(TempModulee9fbb17c-b99d-4505-8b03-97d54ef85527/ConsoleModel_315285894955)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -70,11 +65,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4SUcQre65nM">
-                <node concept="3balQm" id="4SUcQre65nN" role="aymYE" />
-                <node concept="2Clz$F" id="4SUcQre65nO" role="aymYO" />
-                <node concept="2_V_lH" id="4SUcQre65nP" role="1PhJh3">
-                  <ref role="2_V_lI" node="4SUcQre65nO" resolve="CommandHolder" />
+              <node concept="aymSD" id="jh6ZyWqVbj">
+                <node concept="3balQm" id="jh6ZyWqVbk" role="aymYE" />
+                <node concept="2Clz$F" id="jh6ZyWqVbl" role="aymYO" />
+                <node concept="2_V_lH" id="jh6ZyWqVbm" role="1PhJh3">
+                  <ref role="2_V_lI" node="jh6ZyWqVbl" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -194,6 +189,16 @@
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,12 +206,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
               <option name="myItemType" value="" />
@@ -216,17 +215,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:2b182134-fc44-4b1e-9ff3-ac7a9d55ae7d(RythmML.delivery) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/sandbox/models/RythmML.delivery.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemId" value="r:2b182134-fc44-4b1e-9ff3-ac7a9d55ae7d(RythmML.delivery) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/sandbox/models/RythmML.delivery.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,7 +233,87 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:f7b8fcd5-58d0-4629-a6c2-208a38facd99(RythmML.sandbox) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/sandbox/models/RythmML.sandbox.mps]" />
+              <option name="myItemId" value="r:f7b8fcd5-58d0-4629-a6c2-208a38facd99(RythmML.sandbox) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/sandbox/models/RythmML.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:157d8961-beec-4a6b-a0fc-86d36105315d(RythmML.editor) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RythmML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RythmML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f7b8fcd5-58d0-4629-a6c2-208a38facd99(RythmML.sandbox) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/sandbox/models/RythmML.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -258,15 +327,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RythmML" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:f7b8fcd5-58d0-4629-a6c2-208a38facd99(RythmML.sandbox) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/sandbox/models/RythmML.sandbox.mps]" />
+              <option name="myItemId" value="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.behavior.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,80 +342,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RythmML#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:94c992ab-9078-41cb-9b53-72c45bc3e5cc(main@generator) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/generator/templates/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/models/RythmML.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RythmML#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/models/RythmML.behavior.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,8 +354,18 @@
               <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RythmML" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ce1e5a9c-7f28-4db5-97ed-2d20b56c6af8(RythmML.constraints) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,24 +383,10 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:f7b8fcd5-58d0-4629-a6c2-208a38facd99(RythmML.sandbox) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/sandbox/models/RythmML.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3423575700059164906" />
+              <option name="myItemId" value="r:2b182134-fc44-4b1e-9ff3-ac7a9d55ae7d(RythmML.delivery) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/sandbox/models/RythmML.delivery.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
         </subPane>
       </pane>
     </panes>
