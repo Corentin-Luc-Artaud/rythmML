@@ -15,6 +15,7 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
@@ -22,6 +23,10 @@
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -198,6 +203,16 @@
         </node>
         <node concept="l2Vlx" id="6mhaJVXztYk" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="2Y2YZnnG$mR" role="3EZMnx">
+        <node concept="VPM3Z" id="2Y2YZnnG$mT" role="3F10Kt" />
+        <node concept="3XFhqQ" id="2Y2YZnnG$no" role="3EZMnx" />
+        <node concept="3F2HdR" id="2Y2YZnnG$nu" role="3EZMnx">
+          <ref role="1NtTu8" to="wvci:2Y2YZnnG$kV" resolve="sequence" />
+          <node concept="2iRfu4" id="2Y2YZnnG$nx" role="2czzBx" />
+          <node concept="VPM3Z" id="2Y2YZnnG$ny" role="3F10Kt" />
+        </node>
+        <node concept="l2Vlx" id="2Y2YZnnG$mW" role="2iSdaV" />
+      </node>
       <node concept="2iRkQZ" id="6mhaJVXztXt" role="2iSdaV" />
     </node>
   </node>
@@ -264,6 +279,20 @@
         <property role="3F0ifm" value="beat" />
       </node>
       <node concept="l2Vlx" id="1ggJHVJaLxm" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2Y2YZnnG$ka">
+    <ref role="1XX52x" to="wvci:2Y2YZnnG$jG" resolve="sequence" />
+    <node concept="3EZMnI" id="37_aAvBW1Nh" role="2wV5jI">
+      <node concept="l2Vlx" id="37_aAvBW1Ni" role="2iSdaV" />
+      <node concept="1iCGBv" id="37_aAvBW1Ny" role="3EZMnx">
+        <ref role="1NtTu8" to="wvci:2Y2YZnnG$jH" resolve="section" />
+        <node concept="1sVBvm" id="37_aAvBW1N$" role="1sWHZn">
+          <node concept="3F2HdR" id="37_aAvBW1NF" role="2wV5jI">
+            <ref role="1NtTu8" to="wvci:6mhaJVXwzGV" resolve="repetitions" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

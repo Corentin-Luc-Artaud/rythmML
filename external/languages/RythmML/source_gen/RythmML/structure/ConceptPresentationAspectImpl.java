@@ -21,6 +21,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Song;
   private ConceptPresentation props_StandarNote;
   private ConceptPresentation props_Track;
+  private ConceptPresentation props_sequence;
 
   @Override
   @Nullable
@@ -110,6 +111,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Track = cpb.create();
         }
         return props_Track;
+      case LanguageConceptSwitch.sequence:
+        if (props_sequence == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("object to reference track ");
+          cpb.rawPresentation("seq");
+          props_sequence = cpb.create();
+        }
+        return props_sequence;
     }
     return null;
   }

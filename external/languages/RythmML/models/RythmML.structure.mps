@@ -98,6 +98,13 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6mhaJVXwsDt" resolve="Section" />
     </node>
+    <node concept="1TJgyj" id="2Y2YZnnG$kV" role="1TKVEi">
+      <property role="IQ2ns" value="3423575700059342139" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sequence" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2Y2YZnnG$jG" resolve="sequence" />
+    </node>
     <node concept="1TJgyi" id="5aWFjTLTInI" role="1TKVEl">
       <property role="IQ2nx" value="5961830490442229230" />
       <property role="TrG5h" value="instrument" />
@@ -462,6 +469,17 @@
     <property role="EcuMT" value="1445865345090525237" />
     <property role="TrG5h" value="BassNote" />
     <ref role="1TJDcQ" node="6mhaJVXwsDE" resolve="StandarNote" />
+  </node>
+  <node concept="1TIwiD" id="2Y2YZnnG$jG">
+    <property role="EcuMT" value="3423575700059342060" />
+    <property role="TrG5h" value="sequence" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2Y2YZnnG$jH" role="1TKVEi">
+      <property role="IQ2ns" value="3423575700059342061" />
+      <property role="20kJfa" value="section" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6mhaJVXwsDt" resolve="Section" />
+    </node>
   </node>
 </model>
 

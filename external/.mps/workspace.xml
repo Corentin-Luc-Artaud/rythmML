@@ -19,18 +19,35 @@
   <component name="ChangeListManager">
     <list default="true" id="75ac2c4c-1529-4632-afc0-798847cc90f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/Song_TextGen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/textGen/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.textGen.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.textGen.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/EditorAspectDescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/EditorAspectDescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$sectionsListHandler_97q2ds_b1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a$sectionsListHandler_97q2ds_b1a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/Track_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/ConceptPresentationAspectImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/ConceptPresentationAspectImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/LanguageConceptSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/LanguageConceptSwitch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/StructureAspectDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/textGen/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/Song_TextGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/Song_TextGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/textGen/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/Track_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/Track_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/LanguageConceptSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +60,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="fa271ebe-5c59-43be-bc92-1948016511c3/r:ddf8cc37-2e64-4bcf-bbe6-3608546da3f6(TempModulefa271ebe-5c59-43be-bc92-1948016511c3/ConsoleModel_2211379922416)">
+            <model ref="1265d838-73cc-48ab-8dac-89c79e8960fd/r:1e061929-83f3-47da-b063-a74d44ccdbc8(TempModule1265d838-73cc-48ab-8dac-89c79e8960fd/ConsoleModel_123093559752)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -63,11 +80,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2Y2YZnnFmDO">
-                <node concept="3balQm" id="2Y2YZnnFmDP" role="aymYE" />
-                <node concept="2Clz$F" id="2Y2YZnnFmDQ" role="aymYO" />
-                <node concept="2_V_lH" id="2Y2YZnnFmDR" role="1PhJh3">
-                  <ref role="2_V_lI" node="2Y2YZnnFmDQ" resolve="CommandHolder" />
+              <node concept="aymSD" id="37_aAvBVWQz">
+                <node concept="3balQm" id="37_aAvBVWQ$" role="aymYE" />
+                <node concept="2Clz$F" id="37_aAvBVWQ_" role="aymYO" />
+                <node concept="2_V_lH" id="37_aAvBVWQA" role="1PhJh3">
+                  <ref role="2_V_lI" node="37_aAvBVWQ_" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -187,6 +204,16 @@
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,11 +226,55 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RythmML#01" />
+              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:94c992ab-9078-41cb-9b53-72c45bc3e5cc(main@generator) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/generator/templates/main@generator.mps]" />
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RythmML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:2b182134-fc44-4b1e-9ff3-ac7a9d55ae7d(RythmML.delivery) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/sandbox/models/RythmML.delivery.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RythmML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,48 +305,8 @@
               <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/models/RythmML.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,42 +330,28 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RythmML" />
+              <option name="myItemId" value="RythmML#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:94c992ab-9078-41cb-9b53-72c45bc3e5cc(main@generator) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/generator/templates/main@generator.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/vanargand/workspace/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7318678144117013936" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -651,9 +668,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="BASS" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="218" key="#MPSPropertiesConfigurable" timestamp="1582096758563">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="397" y="142" width="774" height="426" key="#MPSPropertiesConfigurable" timestamp="1583064228951">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="397" y="142" width="774" height="426" key="#MPSPropertiesConfigurable/0.0.1366.768@0.0.1366.768" timestamp="1583064228951" />
     <state x="560" y="218" key="#MPSPropertiesConfigurable/0.0.1920.1044@0.0.1920.1044" timestamp="1582096758563" />
     <state x="676" y="136" key="#Tests_in_'ArduinoML.sandbox'" timestamp="1580931833801">
       <screen x="0" y="0" width="1920" height="1044" />
@@ -683,9 +701,10 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="660" y="422" width="600" height="200" key="#jetbrains.mps.vcs.mergedriver.MergeDriverOptionDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1580930039888" />
-    <state x="693" y="281" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1582095705371">
-      <screen x="0" y="0" width="1920" height="1044" />
+    <state x="492" y="189" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2" timestamp="1583064251716">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="492" y="189" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583064251716" />
     <state x="693" y="281" key="#jetbrains.mps.workbench.dialogs.project.utildialogs.addmodelimport.AddRequiredModelImportsDialog2/0.0.1920.1044@0.0.1920.1044" timestamp="1582095705371" />
     <state x="564" y="117" key="CommitChangelistDialog2" timestamp="1582122850754">
       <screen x="0" y="0" width="1920" height="1044" />
