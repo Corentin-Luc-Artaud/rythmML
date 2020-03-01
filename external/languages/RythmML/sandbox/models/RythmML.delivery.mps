@@ -108,7 +108,7 @@
       <property role="TrG5h" value="bass" />
       <property role="zm$zg" value="bass" />
       <node concept="2o4e2z" id="2Y2YZnnGe3C" role="2o4L77">
-        <property role="TrG5h" value="intro" />
+        <property role="TrG5h" value="intro_bass" />
         <node concept="zm$w9" id="2Y2YZnnGe3D" role="2o4L75">
           <property role="zm$w0" value="4" />
           <node concept="2o4e2u" id="jh6ZyWs1el" role="zm$w6">
@@ -172,7 +172,7 @@
         </node>
       </node>
       <node concept="3ScbWp" id="jh6ZyWs1dV" role="3ScbVe">
-        <ref role="3ScbWo" node="2Y2YZnnGe3C" resolve="intro" />
+        <ref role="3ScbWo" node="2Y2YZnnGe3C" resolve="intro_bass" />
       </node>
     </node>
   </node>
