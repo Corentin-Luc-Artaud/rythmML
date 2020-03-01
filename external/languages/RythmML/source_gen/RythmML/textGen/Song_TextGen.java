@@ -7,11 +7,6 @@ import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
 import javax.sound.midi.Sequencer;
 import RythmML.behavior.Song__BehaviorDescriptor;
-import javax.sound.midi.MidiSystem;
-import java.io.File;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Song_TextGen extends TextGenDescriptorBase {
   @Override
@@ -28,24 +23,9 @@ public class Song_TextGen extends TextGenDescriptorBase {
       tgs.newLine();
       tgs.append(sequencer.getSequence().getTracks()[0].toString());
       tgs.newLine();
-      try {
-        MidiSystem.write(sequencer.getSequence(), 0, new File("~/" + SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.name$tAp1) + ".mid"));
-        tgs.append("Write");
-        tgs.newLine();
-      } catch (Exception e) {
-        e.printStackTrace();
-        tgs.append("Failed");
-        tgs.newLine();
-        tgs.append(e.getMessage());
-        tgs.newLine();
-      }
       sequencer.close();
       tgs.append("Finish");
       tgs.newLine();
     }
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 }

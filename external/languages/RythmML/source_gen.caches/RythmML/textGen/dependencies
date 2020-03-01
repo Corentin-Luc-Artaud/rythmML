@@ -2,17 +2,11 @@
 <dependenciesRoot>
   <dependency className="RythmML.textGen.Song_TextGen">
     <classNode dependClassName="RythmML.behavior.Song__BehaviorDescriptor" />
-    <classNode dependClassName="java.io.File" />
-    <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.sound.midi.MidiSystem" />
     <classNode dependClassName="javax.sound.midi.Sequencer" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.text.impl.TextGenSupport" />
     <classNode dependClassName="jetbrains.mps.text.rt.TextGenContext" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
     <classNode extendsClassName="jetbrains.mps.text.rt.TextGenDescriptorBase" />
   </dependency>
   <dependency className="RythmML.textGen.TextGenAspectDescriptor">
