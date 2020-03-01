@@ -1479,25 +1479,60 @@
               </node>
             </node>
             <node concept="3clFbH" id="6mhaJVXxONG" role="3cqZAp" />
-            <node concept="3cpWs8" id="6mhaJVXxPyY" role="3cqZAp">
-              <node concept="3cpWsn" id="6mhaJVXxPz1" role="3cpWs9">
+            <node concept="3cpWs8" id="4SUcQre6NUw" role="3cqZAp">
+              <node concept="3cpWsn" id="4SUcQre6NUz" role="3cpWs9">
                 <property role="TrG5h" value="durationOfTheTrackMS" />
-                <node concept="10Oyi0" id="6mhaJVXxPyW" role="1tU5fm" />
-                <node concept="FJ1c_" id="6mhaJVXxUBq" role="33vP2m">
-                  <node concept="37vLTw" id="6mhaJVXxUBN" role="3uHU7w">
+                <node concept="3cpWsb" id="4SUcQre6NUu" role="1tU5fm" />
+                <node concept="FJ1c_" id="4SUcQre6QPd" role="33vP2m">
+                  <node concept="37vLTw" id="4SUcQre6QVh" role="3uHU7w">
                     <ref role="3cqZAo" node="6mhaJVXwPIl" resolve="tempo" />
                   </node>
-                  <node concept="17qRlL" id="6mhaJVXxTzM" role="3uHU7B">
-                    <node concept="17qRlL" id="6mhaJVXxSFf" role="3uHU7B">
-                      <node concept="37vLTw" id="2Y2YZnnGm3j" role="3uHU7B">
-                        <ref role="3cqZAo" node="2Y2YZnnGi__" resolve="totalBar" />
+                  <node concept="17qRlL" id="4SUcQre6QeZ" role="3uHU7B">
+                    <node concept="17qRlL" id="4SUcQre6PTw" role="3uHU7B">
+                      <node concept="1eOMI4" id="4SUcQre6Pnf" role="3uHU7B">
+                        <node concept="3cpWs3" id="4SUcQre6PEF" role="1eOMHV">
+                          <node concept="3cmrfG" id="4SUcQre6PK0" role="3uHU7w">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                          <node concept="37vLTw" id="4SUcQre6PsD" role="3uHU7B">
+                            <ref role="3cqZAo" node="2Y2YZnnGi__" resolve="totalBar" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="37vLTw" id="6mhaJVXxSPT" role="3uHU7w">
+                      <node concept="37vLTw" id="4SUcQre6Q0$" role="3uHU7w">
                         <ref role="3cqZAo" node="6mhaJVXwQxO" resolve="nbBeatPerBar" />
                       </node>
                     </node>
-                    <node concept="3cmrfG" id="6mhaJVXxTzY" role="3uHU7w">
+                    <node concept="3cmrfG" id="4SUcQre6QkQ" role="3uHU7w">
                       <property role="3cmrfH" value="60000" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1X3_iC" id="4SUcQre6RB0" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3cpWs8" id="6mhaJVXxPyY" role="8Wnug">
+                <node concept="3cpWsn" id="6mhaJVXxPz1" role="3cpWs9">
+                  <property role="TrG5h" value="durationOfTheTrackMS" />
+                  <node concept="3cpWsb" id="4SUcQre6MUU" role="1tU5fm" />
+                  <node concept="FJ1c_" id="6mhaJVXxUBq" role="33vP2m">
+                    <node concept="37vLTw" id="6mhaJVXxUBN" role="3uHU7w">
+                      <ref role="3cqZAo" node="6mhaJVXwPIl" resolve="tempo" />
+                    </node>
+                    <node concept="17qRlL" id="6mhaJVXxTzM" role="3uHU7B">
+                      <node concept="17qRlL" id="6mhaJVXxSFf" role="3uHU7B">
+                        <node concept="37vLTw" id="2Y2YZnnGm3j" role="3uHU7B">
+                          <ref role="3cqZAo" node="2Y2YZnnGi__" resolve="totalBar" />
+                        </node>
+                        <node concept="37vLTw" id="6mhaJVXxSPT" role="3uHU7w">
+                          <ref role="3cqZAo" node="6mhaJVXwQxO" resolve="nbBeatPerBar" />
+                        </node>
+                      </node>
+                      <node concept="3cmrfG" id="6mhaJVXxTzY" role="3uHU7w">
+                        <property role="3cmrfH" value="60000" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -1519,8 +1554,8 @@
                       <node concept="Xl_RD" id="6mhaJVXxVIe" role="3uHU7B">
                         <property role="Xl_RC" value="sleeping " />
                       </node>
-                      <node concept="37vLTw" id="6mhaJVXxXbh" role="3uHU7w">
-                        <ref role="3cqZAo" node="6mhaJVXxPz1" resolve="durationOfTheTrackMS" />
+                      <node concept="37vLTw" id="4SUcQre75qp" role="3uHU7w">
+                        <ref role="3cqZAo" node="4SUcQre6NUz" resolve="durationOfTheTrackMS" />
                       </node>
                     </node>
                   </node>
@@ -1531,8 +1566,8 @@
               <node concept="2YIFZM" id="6mhaJVXxZEi" role="3clFbG">
                 <ref role="37wK5l" to="wyt6:~Thread.sleep(long)" resolve="sleep" />
                 <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-                <node concept="37vLTw" id="6mhaJVXxZQ8" role="37wK5m">
-                  <ref role="3cqZAo" node="6mhaJVXxPz1" resolve="durationOfTheTrackMS" />
+                <node concept="37vLTw" id="4SUcQre75LU" role="37wK5m">
+                  <ref role="3cqZAo" node="4SUcQre6NUz" resolve="durationOfTheTrackMS" />
                 </node>
               </node>
             </node>

@@ -48,8 +48,8 @@
       <node id="7318678144117318606" at="70,38,71,37" concept="1" />
       <node id="7318678144117325270" at="71,37,72,24" concept="1" />
       <node id="7318678144117329132" at="72,24,73,0" concept="9" />
-      <node id="7318678144117332158" at="73,0,74,73" concept="7" />
-      <node id="7318678144117355454" at="74,73,75,68" concept="1" />
+      <node id="5636874400245169824" at="73,0,74,80" concept="7" />
+      <node id="7318678144117355454" at="74,80,75,68" concept="1" />
       <node id="7318678144117370322" at="75,68,76,41" concept="1" />
       <node id="7318678144117377725" at="76,41,77,42" concept="1" />
       <node id="7318678144117383462" at="77,42,78,0" concept="9" />
@@ -150,7 +150,7 @@
         <var name="track" id="5961830490442421232" />
       </scope>
       <scope id="7318678144117068651" at="42,9,82,0">
-        <var name="durationOfTheTrackMS" id="7318678144117332161" />
+        <var name="durationOfTheTrackMS" id="5636874400245169827" />
         <var name="nbBeatPerBar" id="7318678144117074036" />
         <var name="resolution" id="7318678144117074401" />
         <var name="sequence" id="7318678144117074789" />

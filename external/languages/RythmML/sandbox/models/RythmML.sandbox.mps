@@ -75,10 +75,31 @@
           </node>
         </node>
       </node>
-      <node concept="3ScbWp" id="37_aAvBXo3j" role="3ScbVe">
+      <node concept="2o4e2z" id="4SUcQre6ey0" role="2o4L77">
+        <property role="TrG5h" value="intro2" />
+        <node concept="zm$w9" id="4SUcQre6ey1" role="2o4L75">
+          <property role="zm$w0" value="1" />
+          <node concept="2o4e2u" id="4SUcQre6ey2" role="zm$w6">
+            <node concept="zm$H4" id="4SUcQre6eyf" role="2o4RJb">
+              <property role="zm$H1" value="0.5" />
+              <node concept="2o4e2p" id="4SUcQre6eyn" role="zm$H3">
+                <property role="2o4OQV" value="2Zk4BgZ9qZQ/SideStick" />
+                <node concept="2o4e2j" id="4SUcQre6eyp" role="2o4Pu8">
+                  <property role="zm$zl" value="0." />
+                </node>
+              </node>
+              <node concept="2o4e2j" id="4SUcQre6eyi" role="2o4Pu8" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3ScbWp" id="4SUcQre6ezx" role="3ScbVe">
         <ref role="3ScbWo" node="37_aAvBXo2O" resolve="intro" />
       </node>
-      <node concept="3ScbWp" id="37_aAvBXo3d" role="3ScbVe">
+      <node concept="3ScbWp" id="4SUcQre7lsx" role="3ScbVe">
+        <ref role="3ScbWo" node="4SUcQre6ey0" resolve="intro2" />
+      </node>
+      <node concept="3ScbWp" id="4SUcQre7lsA" role="3ScbVe">
         <ref role="3ScbWo" node="37_aAvBXo2O" resolve="intro" />
       </node>
     </node>

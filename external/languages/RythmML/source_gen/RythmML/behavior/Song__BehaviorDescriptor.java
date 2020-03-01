@@ -71,7 +71,7 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
       sequencer.setTempoInBPM(tempo);
       sequencer.start();
 
-      int durationOfTheTrackMS = totalBar * nbBeatPerBar * 60000 / tempo;
+      long durationOfTheTrackMS = (totalBar + 1) * nbBeatPerBar * 60000 / tempo;
       System.out.println("sleeping " + durationOfTheTrackMS + "ms");
       Thread.sleep(durationOfTheTrackMS);
       System.out.println("stop sleeping");
