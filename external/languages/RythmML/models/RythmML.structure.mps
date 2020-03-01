@@ -197,15 +197,10 @@
     <property role="EcuMT" value="7318678144116968045" />
     <property role="TrG5h" value="Position" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6mhaJVXzeNO" role="1TKVEl">
-      <property role="IQ2nx" value="7318678144117697780" />
-      <property role="TrG5h" value="division" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
     <node concept="1TJgyi" id="5aWFjTLTInF" role="1TKVEl">
       <property role="IQ2nx" value="5961830490442229227" />
       <property role="TrG5h" value="beat" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="25R3W" id="6mhaJVXwzGI">
@@ -278,7 +273,7 @@
     <node concept="1TJgyi" id="5aWFjTLTIpZ" role="1TKVEl">
       <property role="IQ2nx" value="5961830490442229375" />
       <property role="TrG5h" value="frequency" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="25R3W" id="1ggJHVJaLr6">

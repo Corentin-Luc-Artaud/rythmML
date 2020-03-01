@@ -63,11 +63,11 @@
           <property role="zm$w0" value="1" />
           <node concept="2o4e2u" id="37_aAvBXo2Q" role="zm$w6">
             <node concept="zm$H4" id="37_aAvBXo2Z" role="2o4RJb">
-              <property role="zm$H1" value="1." />
+              <property role="zm$H1" value="1" />
               <node concept="2o4e2p" id="37_aAvBXo37" role="zm$H3">
                 <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
                 <node concept="2o4e2j" id="37_aAvBXo39" role="2o4Pu8">
-                  <property role="zm$zl" value="0." />
+                  <property role="zm$zl" value="0" />
                 </node>
               </node>
               <node concept="2o4e2j" id="37_aAvBXo32" role="2o4Pu8" />
@@ -85,7 +85,7 @@
               <node concept="2o4e2p" id="4SUcQre6eyn" role="zm$H3">
                 <property role="2o4OQV" value="2Zk4BgZ9qZQ/SideStick" />
                 <node concept="2o4e2j" id="4SUcQre6eyp" role="2o4Pu8">
-                  <property role="zm$zl" value="0." />
+                  <property role="zm$zl" value="0" />
                 </node>
               </node>
               <node concept="2o4e2j" id="4SUcQre6eyi" role="2o4Pu8" />
