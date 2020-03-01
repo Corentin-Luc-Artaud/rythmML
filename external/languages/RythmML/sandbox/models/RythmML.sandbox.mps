@@ -40,7 +40,9 @@
         <property id="5961830490442229375" name="frequency" index="zm$H1" />
         <child id="5961830490442229373" name="note" index="zm$H3" />
       </concept>
-      <concept id="3423575700059342060" name="RythmML.structure.sequence" flags="ng" index="3ScbWp" />
+      <concept id="3423575700059342060" name="RythmML.structure.sequence" flags="ng" index="3ScbWp">
+        <reference id="3423575700059342061" name="section" index="3ScbWo" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -52,28 +54,33 @@
     <property role="TrG5h" value="test" />
     <property role="zm$zo" value="60" />
     <property role="zm$zm" value="4" />
-    <node concept="2o4e2$" id="2Y2YZnnGOHl" role="2o4e1O">
+    <node concept="2o4e2$" id="37_aAvBXo2N" role="2o4e1O">
       <property role="TrG5h" value="drum" />
       <property role="zm$zg" value="drum" />
-      <node concept="2o4e2z" id="2Y2YZnnGOHm" role="2o4L77">
+      <node concept="2o4e2z" id="37_aAvBXo2O" role="2o4L77">
         <property role="TrG5h" value="intro" />
-        <node concept="zm$w9" id="2Y2YZnnGOHn" role="2o4L75">
-          <property role="zm$w0" value="4" />
-          <node concept="2o4e2u" id="2Y2YZnnGOHo" role="zm$w6">
-            <node concept="zm$H4" id="37_aAvBW1Mr" role="2o4RJb">
+        <node concept="zm$w9" id="37_aAvBXo2P" role="2o4L75">
+          <property role="zm$w0" value="1" />
+          <node concept="2o4e2u" id="37_aAvBXo2Q" role="zm$w6">
+            <node concept="zm$H4" id="37_aAvBXo2Z" role="2o4RJb">
               <property role="zm$H1" value="1." />
-              <node concept="2o4e2p" id="37_aAvBW1ME" role="zm$H3">
+              <node concept="2o4e2p" id="37_aAvBXo37" role="zm$H3">
                 <property role="2o4OQV" value="6HuNkDrR4Ai/ClosedHitHat" />
-                <node concept="2o4e2j" id="37_aAvBW1MG" role="2o4Pu8">
-                  <property role="zm$zl" value="1." />
+                <node concept="2o4e2j" id="37_aAvBXo39" role="2o4Pu8">
+                  <property role="zm$zl" value="0." />
                 </node>
               </node>
-              <node concept="2o4e2j" id="37_aAvBW1Mu" role="2o4Pu8" />
+              <node concept="2o4e2j" id="37_aAvBXo32" role="2o4Pu8" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3ScbWp" id="37_aAvBW_4p" role="3ScbVe" />
+      <node concept="3ScbWp" id="37_aAvBXo3j" role="3ScbVe">
+        <ref role="3ScbWo" node="37_aAvBXo2O" resolve="intro" />
+      </node>
+      <node concept="3ScbWp" id="37_aAvBXo3d" role="3ScbVe">
+        <ref role="3ScbWo" node="37_aAvBXo2O" resolve="intro" />
+      </node>
     </node>
   </node>
 </model>

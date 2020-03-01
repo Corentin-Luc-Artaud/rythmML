@@ -114,8 +114,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.sequence:
         if (props_sequence == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.shortDesc("object to reference track ");
-          cpb.rawPresentation("seq");
+          cpb.presentationByReference(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x2f82fbf5d7b244ecL, 0x2f82fbf5d7b244edL, "section", "", "");
           props_sequence = cpb.create();
         }
         return props_sequence;

@@ -25,6 +25,7 @@ import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
@@ -54,8 +55,8 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
         Track realTrack = sequence.createTrack();
         int curBar = 0;
 
-        for (SNode section : ListSequence.fromList(SLinkOperations.getChildren(track, LINKS.sections$gCYo))) {
-          for (SNode rep : ListSequence.fromList(SLinkOperations.getChildren(section, LINKS.repetitions$gCZp))) {
+        for (SNode seq : ListSequence.fromList(SLinkOperations.getChildren(track, LINKS.sequence$tupv))) {
+          for (SNode rep : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(seq, LINKS.section$OyN0), LINKS.repetitions$gCZp))) {
             curBar = (int) Repetition__BehaviorDescriptor.generate_id1ggJHVJ9xQg.invoke(rep, ((int) curBar), realTrack, ((int) nbBeatPerBar), ((int) resolution));
           }
         }
@@ -137,8 +138,9 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   private static final class LINKS {
+    /*package*/ static final SReferenceLink section$OyN0 = MetaAdapterFactory.getReferenceLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x2f82fbf5d7b244ecL, 0x2f82fbf5d7b244edL, "section");
     /*package*/ static final SContainmentLink repetitions$gCZp = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL, 0x65912afefd823b3bL, "repetitions");
-    /*package*/ static final SContainmentLink sections$gCYo = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL, 0x65912afefd823b39L, "sections");
+    /*package*/ static final SContainmentLink sequence$tupv = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL, 0x2f82fbf5d7b2453bL, "sequence");
     /*package*/ static final SContainmentLink track$4C47 = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x65912afefd81ca8aL, "track");
   }
 }

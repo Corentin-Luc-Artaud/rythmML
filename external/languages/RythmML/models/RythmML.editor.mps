@@ -28,6 +28,7 @@
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -283,14 +284,12 @@
   </node>
   <node concept="24kQdi" id="2Y2YZnnG$ka">
     <ref role="1XX52x" to="wvci:2Y2YZnnG$jG" resolve="sequence" />
-    <node concept="3EZMnI" id="37_aAvBW1Nh" role="2wV5jI">
-      <node concept="l2Vlx" id="37_aAvBW1Ni" role="2iSdaV" />
-      <node concept="1iCGBv" id="37_aAvBW1Ny" role="3EZMnx">
-        <ref role="1NtTu8" to="wvci:2Y2YZnnG$jH" resolve="section" />
-        <node concept="1sVBvm" id="37_aAvBW1N$" role="1sWHZn">
-          <node concept="3F2HdR" id="37_aAvBW1NF" role="2wV5jI">
-            <ref role="1NtTu8" to="wvci:6mhaJVXwzGV" resolve="repetitions" />
-          </node>
+    <node concept="1iCGBv" id="37_aAvBW_4v" role="2wV5jI">
+      <ref role="1NtTu8" to="wvci:2Y2YZnnG$jH" resolve="section" />
+      <node concept="1sVBvm" id="37_aAvBW_4w" role="1sWHZn">
+        <node concept="3F0A7n" id="37_aAvBW_4_" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>

@@ -13,13 +13,13 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
   <root>
     <file name="ConceptPresentationAspectImpl.java">
-      <unit at="11,0,126,0" name="RythmML.structure.ConceptPresentationAspectImpl" />
+      <unit at="11,0,125,0" name="RythmML.structure.ConceptPresentationAspectImpl" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <unit at="10,0,52,0" name="RythmML.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="18,0,217,0" name="RythmML.structure.StructureAspectDescriptor" />
+      <unit at="18,0,216,0" name="RythmML.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524870">
@@ -212,15 +212,14 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="3423575700059342060" at="24,0,25,0" concept="2" trace="props_sequence" />
       <node id="3423575700059342060" at="115,37,116,76" concept="5" />
-      <node id="3423575700059342060" at="116,76,117,54" concept="1" />
-      <node id="3423575700059342060" at="117,54,118,37" concept="1" />
-      <node id="3423575700059342060" at="118,37,119,40" concept="1" />
-      <node id="3423575700059342060" at="120,9,121,30" concept="6" />
-      <node id="3423575700059342060" at="114,42,120,9" concept="3" />
-      <scope id="3423575700059342060" at="115,37,119,40">
+      <node id="3423575700059342060" at="116,76,117,141" concept="1" />
+      <node id="3423575700059342060" at="117,141,118,40" concept="1" />
+      <node id="3423575700059342060" at="119,9,120,30" concept="6" />
+      <node id="3423575700059342060" at="114,42,119,9" concept="3" />
+      <scope id="3423575700059342060" at="115,37,118,40">
         <var name="cpb" id="3423575700059342060" />
       </scope>
-      <scope id="3423575700059342060" at="114,42,121,30" />
+      <scope id="3423575700059342060" at="114,42,120,30" />
     </file>
     <file name="LanguageConceptSwitch.java">
       <node id="3423575700059342060" at="24,0,25,0" concept="7" trace="sequence" />
@@ -234,14 +233,13 @@
       <node id="3423575700059342060" at="209,34,210,94" concept="1" />
       <node id="3423575700059342060" at="210,94,211,17" concept="1" />
       <node id="3423575700059342061" at="211,17,212,171" concept="1" />
-      <node id="3423575700059342060" at="212,171,213,19" concept="1" />
-      <node id="3423575700059342060" at="213,19,214,22" concept="6" />
-      <node id="3423575700059342060" at="207,0,216,0" concept="8" trace="createDescriptorForsequence#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="3423575700059342060" at="212,171,213,22" concept="6" />
+      <node id="3423575700059342060" at="207,0,215,0" concept="8" trace="createDescriptorForsequence#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="3423575700059342060" at="79,42,80,33" />
-      <scope id="3423575700059342060" at="207,66,214,22">
+      <scope id="3423575700059342060" at="207,66,213,22">
         <var name="b" id="3423575700059342060" />
       </scope>
-      <scope id="3423575700059342060" at="207,0,216,0" />
+      <scope id="3423575700059342060" at="207,0,215,0" />
     </file>
   </root>
   <root nodeRef="r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5961830490442229047">

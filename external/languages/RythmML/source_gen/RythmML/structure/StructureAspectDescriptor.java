@@ -210,7 +210,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3423575700059342060");
     b.version(2);
     b.associate("section", 0x2f82fbf5d7b244edL).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL).optional(false).origin("3423575700059342061").done();
-    b.alias("seq");
     return b.create();
   }
 }
