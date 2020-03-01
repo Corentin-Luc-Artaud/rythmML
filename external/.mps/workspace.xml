@@ -19,30 +19,15 @@
   <component name="ChangeListManager">
     <list default="true" id="75ac2c4c-1529-4632-afc0-798847cc90f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/BehaviorAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/BehaviorAspectDescriptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/SongUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/SongUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/classes_gen/RythmML/structure/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.constraints.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/models/RythmML.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/models/RythmML.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/sandbox/models/RythmML.sandbox.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/behavior/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/constraints/dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/constraints/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen.caches/RythmML/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/BehaviorAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/BehaviorAspectDescriptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/SongUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/SongUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/behavior/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/constraints/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/RythmML/source_gen/RythmML/structure/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,33 +40,13 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="e7ddb436-b23e-4034-ab2f-7368267c187e/r:fa0090d6-5903-4a31-9ed7-57c556ae2b65(TempModulee7ddb436-b23e-4034-ab2f-7368267c187e/ConsoleModel_1511007192557)">
+            <model ref="cfbc2562-c9fb-4488-a801-0f85966edbe1/r:a963c5c6-21f3-4fd9-852e-dd106963f1f9(TempModulecfbc2562-c9fb-4488-a801-0f85966edbe1/ConsoleModel_60591467217962)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
               </languages>
               <imports />
-              <registry>
-                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
-                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
-                    <child id="1583916890557930415" name="history" index="aymYE" />
-                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
-                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
-                  </concept>
-                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
-                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
-                  </concept>
-                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
-                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
-                </language>
-              </registry>
-              <node concept="aymSD" id="1ggJHVIKiqC">
-                <node concept="3balQm" id="1ggJHVIKiqD" role="aymYE" />
-                <node concept="2Clz$F" id="1ggJHVIKiqE" role="aymYO" />
-                <node concept="2_V_lH" id="1ggJHVIKiqF" role="1PhJh3">
-                  <ref role="2_V_lI" node="1ggJHVIKiqE" resolve="CommandHolder" />
-                </node>
-              </node>
+              <registry />
             </model>
           </tab>
         </TabState>
@@ -199,87 +164,21 @@
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:ce1e5a9c-7f28-4db5-97ed-2d20b56c6af8(RythmML.constraints) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.constraints.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RythmML" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.behavior.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,7 +228,69 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ce1e5a9c-7f28-4db5-97ed-2d20b56c6af8(RythmML.constraints) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="87afab5b-9413-4bc6-af0a-0be937b7c2e6" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RythmML" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:6cd261b8-e7aa-4bd3-b30c-1d6d97cb65e6(RythmML.textGen) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.textGen.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
@@ -342,21 +303,17 @@
               <option name="myItemId" value="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior) in IdeaFile[path: /home/octav/Documents/Polytech/Git/rythmML/external/languages/RythmML/models/RythmML.behavior.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
             <PATH_ELEMENT>
-              <option name="myItemId" value="1445865345090634066" />
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f1ebcfd5-fd1b-4a1d-a2ad-03091ad47f30(RythmML)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="" />
-            </path>
-          </expand>
-          <select />
         </subPane>
       </pane>
     </panes>
@@ -642,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582110009238</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="BASS">
+      <created>1582122852198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582122852198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -662,7 +626,8 @@
     <MESSAGE value="Add rep" />
     <MESSAGE value="Change scenario" />
     <MESSAGE value="Change stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change stuff" />
+    <MESSAGE value="BASS" />
+    <option name="LAST_COMMIT_MESSAGE" value="BASS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="218" key="#MPSPropertiesConfigurable" timestamp="1582096758563">
@@ -721,14 +686,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1044@0.0.1920.1044" timestamp="1582061527755" />
-    <state x="559" y="259" key="Vcs.Push.Dialog.v2" timestamp="1582110010645">
+    <state x="559" y="259" key="Vcs.Push.Dialog.v2" timestamp="1582122853440">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="559" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1582110010645" />
-    <state x="639" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1581491039926">
+    <state x="559" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1582122853440" />
+    <state x="639" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1583062694580">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="639" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1581491039926" />
+    <state x="639" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1583062694580" />
     <state x="628" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580912345503">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

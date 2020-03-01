@@ -161,12 +161,6 @@
       <unit id="1445865345086665810" at="30,0,141,0" name="RythmML.behavior.Song__BehaviorDescriptor" />
     </file>
   </root>
-  <root nodeRef="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior)/1445865345088730672">
-    <file name="GeneratedNote.java">
-      <node id="1445865345088730799" at="7,0,8,0" concept="2" trace="beat" />
-      <unit id="1445865345088730672" at="6,0,9,0" name="RythmML.behavior.GeneratedNote" />
-    </file>
-  </root>
   <root nodeRef="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior)/1445865345090198917">
     <file name="Repetition__BehaviorDescriptor.java">
       <node id="1445865345090198917" at="28,0,29,0" concept="10" trace="CONCEPT" />
@@ -276,7 +270,7 @@
       <node id="1445865345090647343" at="41,46,42,171" concept="7" />
       <node id="1445865345090647357" at="42,171,43,29" concept="1" />
       <node id="1445865345090778031" at="43,29,44,107" concept="7" />
-      <node id="1445865345090654339" at="44,107,45,170" concept="1" />
+      <node id="1445865345090654339" at="44,107,45,173" concept="1" />
       <node id="1445865345090634066" at="52,114,53,21" concept="1" />
       <node id="1445865345090634066" at="57,114,58,49" concept="7" />
       <node id="1445865345090634066" at="59,26,60,56" concept="13" />
@@ -336,7 +330,7 @@
         <var name="node" id="1445865345090634066" />
         <var name="parameters" id="1445865345090634066" />
       </scope>
-      <scope id="1445865345090634151" at="40,162,45,170">
+      <scope id="1445865345090634151" at="40,162,45,173">
         <var name="beat" id="1445865345090647344" />
         <var name="duration" id="1445865345090778032" />
         <var name="tick" id="1445865345090647336" />
@@ -374,15 +368,15 @@
     </file>
   </root>
   <root nodeRef="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior)/1445865345090634215">
-    <file name="BassEnum.java">
+    <file name="NoteElement.java">
       <node id="1445865345090678044" at="52,0,53,0" concept="2" trace="noteNumber" />
-      <node id="1445865345090680117" at="54,36,55,33" concept="1" />
-      <node id="1445865345090679826" at="54,0,57,0" concept="0" trace="BassEnum#(I)V" />
-      <scope id="1445865345090679829" at="54,36,55,33" />
+      <node id="1445865345090680117" at="54,39,55,33" concept="1" />
+      <node id="1445865345090679826" at="54,0,57,0" concept="0" trace="NoteElement#(I)V" />
+      <scope id="1445865345090679829" at="54,39,55,33" />
       <scope id="1445865345090679826" at="54,0,57,0">
         <var name="noteNumber" id="1445865345090679999" />
       </scope>
-      <unit id="1445865345090634215" at="6,0,58,0" name="RythmML.behavior.BassEnum" />
+      <unit id="1445865345090634215" at="6,0,58,0" name="RythmML.behavior.NoteElement" />
     </file>
   </root>
   <root nodeRef="r:4c02edff-8e75-4b3e-899f-410b93c7f82b(RythmML.behavior)/5961830490442512443">
@@ -671,8 +665,8 @@
       <node id="1445865345090639334" at="27,100,28,27" concept="7" />
       <node id="1445865345090639538" at="28,27,29,28" concept="7" />
       <node id="1445865345090639679" at="29,28,30,0" concept="9" />
-      <node id="1445865345090639746" at="30,0,31,61" concept="1" />
-      <node id="1445865345090641774" at="31,61,32,73" concept="1" />
+      <node id="1445865345090639746" at="30,0,31,60" concept="1" />
+      <node id="1445865345090641774" at="31,60,32,72" concept="1" />
       <node id="7318678144117148543" at="35,106,36,46" concept="7" />
       <node id="7318678144117150713" at="36,46,37,0" concept="9" />
       <node id="7318678144117152100" at="38,9,39,57" concept="1" />
@@ -709,7 +703,7 @@
         <var name="NOTEOFF" id="7318678144117147443" />
         <var name="NOTEON" id="7318678144117147276" />
       </scope>
-      <scope id="1445865345090638568" at="27,100,32,73">
+      <scope id="1445865345090638568" at="27,100,32,72">
         <var name="NOTEOFF" id="1445865345090639536" />
         <var name="NOTEON" id="1445865345090639332" />
       </scope>

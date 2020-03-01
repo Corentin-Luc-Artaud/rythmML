@@ -23,10 +23,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="RythmML.behavior.BassEnum" />
   <dependency className="RythmML.behavior.BassNote__BehaviorDescriptor">
     <classNode dependClassName="RythmML.behavior.ANote__BehaviorDescriptor" />
-    <classNode dependClassName="RythmML.behavior.BassEnum" />
+    <classNode dependClassName="RythmML.behavior.NoteElement" />
     <classNode dependClassName="RythmML.behavior.SongUtils" />
     <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Integer" />
@@ -101,7 +100,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="RythmML.behavior.GeneratedNote" />
+  <dependency className="RythmML.behavior.NoteElement" />
   <dependency className="RythmML.behavior.NoteFrequency__BehaviorDescriptor">
     <classNode dependClassName="RythmML.behavior.ANote__BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Double" />

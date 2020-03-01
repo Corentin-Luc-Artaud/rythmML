@@ -677,7 +677,7 @@
               <node concept="37vLTw" id="6mhaJVXxbL3" role="3uHU7B">
                 <ref role="3cqZAo" node="6mhaJVXx8o4" resolve="tick" />
               </node>
-              <node concept="37vLTw" id="5aWFjTLUnCW" role="3uHU7w">
+              <node concept="37vLTw" id="3Kzy1W_Xgtp" role="3uHU7w">
                 <ref role="3cqZAo" node="5aWFjTLUn$A" resolve="duration" />
               </node>
             </node>
@@ -747,7 +747,7 @@
               <ref role="3cqZAo" node="1ggJHVJbdn$" resolve="NOTEON" />
             </node>
             <node concept="3cmrfG" id="1ggJHVJbdD$" role="37wK5m">
-              <property role="3cmrfH" value="33" />
+              <property role="3cmrfH" value="4" />
             </node>
             <node concept="37vLTw" id="1ggJHVJbdIj" role="37wK5m">
               <ref role="3cqZAo" node="1ggJHVJbdgs" resolve="noteType" />
@@ -770,17 +770,17 @@
               <ref role="3cqZAo" node="1ggJHVJbdqK" resolve="NOTEOFF" />
             </node>
             <node concept="3cmrfG" id="1ggJHVJbe4y" role="37wK5m">
-              <property role="3cmrfH" value="33" />
+              <property role="3cmrfH" value="4" />
             </node>
             <node concept="37vLTw" id="1ggJHVJbe6z" role="37wK5m">
               <ref role="3cqZAo" node="1ggJHVJbdgs" resolve="noteType" />
             </node>
             <node concept="3cpWs3" id="1ggJHVJbeK4" role="37wK5m">
-              <node concept="37vLTw" id="1ggJHVJbeLH" role="3uHU7w">
-                <ref role="3cqZAo" node="1ggJHVJbdlw" resolve="duration" />
-              </node>
               <node concept="37vLTw" id="1ggJHVJbead" role="3uHU7B">
                 <ref role="3cqZAo" node="1ggJHVJbdi$" resolve="tick" />
+              </node>
+              <node concept="37vLTw" id="3Kzy1W_Xv2p" role="3uHU7w">
+                <ref role="3cqZAo" node="1ggJHVJbdlw" resolve="duration" />
               </node>
             </node>
             <node concept="37vLTw" id="1ggJHVJbeQs" role="37wK5m">
@@ -1572,15 +1572,6 @@
       <node concept="3clFbS" id="1ggJHVIW3hk" role="2VODD2" />
     </node>
   </node>
-  <node concept="312cEu" id="1ggJHVJ3VoK">
-    <property role="TrG5h" value="GeneratedNote" />
-    <node concept="312cEg" id="1ggJHVJ3VqJ" role="jymVt">
-      <property role="TrG5h" value="beat" />
-      <node concept="3Tm6S6" id="1ggJHVJ3Vql" role="1B3o_S" />
-      <node concept="10P55v" id="1ggJHVJ3Vq$" role="1tU5fm" />
-    </node>
-    <node concept="3Tm1VV" id="1ggJHVJ3VoL" role="1B3o_S" />
-  </node>
   <node concept="13h7C7" id="1ggJHVJ9xQ5">
     <ref role="13h7C2" to="wvci:5aWFjTLTIkR" resolve="Repetition" />
     <node concept="13i0hz" id="1ggJHVJ9xQg" role="13h7CS">
@@ -1874,7 +1865,7 @@
             </node>
             <node concept="2OqwBi" id="1ggJHVJblQd" role="37wK5m">
               <node concept="unr1b" id="1ggJHVJbkyX" role="2Oq$k0">
-                <ref role="un$jP" node="1ggJHVJbc7B" resolve="BassEnum" />
+                <ref role="un$jP" node="1ggJHVJbc7B" resolve="NoteElement" />
                 <node concept="2OqwBi" id="1ggJHVJbl8Q" role="unwt0">
                   <node concept="2OqwBi" id="1ggJHVJbkJ8" role="2Oq$k0">
                     <node concept="13iPFW" id="1ggJHVJbk_q" role="2Oq$k0" />
@@ -1897,11 +1888,11 @@
             <node concept="37vLTw" id="1ggJHVJbj9z" role="37wK5m">
               <ref role="3cqZAo" node="1ggJHVJbc6K" resolve="velocity" />
             </node>
-            <node concept="2OqwBi" id="1ggJHVJbKyZ" role="37wK5m">
-              <node concept="37vLTw" id="1ggJHVJbKbC" role="2Oq$k0">
+            <node concept="2OqwBi" id="3Kzy1W_XKzC" role="37wK5m">
+              <node concept="37vLTw" id="3Kzy1W_XKcj" role="2Oq$k0">
                 <ref role="3cqZAo" node="1ggJHVJbJeK" resolve="duration" />
               </node>
-              <node concept="liA8E" id="1ggJHVJbKU5" role="2OqNvi">
+              <node concept="liA8E" id="3Kzy1W_XKW$" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~Double.intValue()" resolve="intValue" />
               </node>
             </node>
@@ -1938,192 +1929,192 @@
     </node>
   </node>
   <node concept="Qs71p" id="1ggJHVJbc7B">
-    <property role="TrG5h" value="BassEnum" />
+    <property role="TrG5h" value="NoteElement" />
     <node concept="QsSxf" id="1ggJHVJcgKf" role="Qtgdg">
       <property role="TrG5h" value="A1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcGej" role="37wK5m">
         <property role="3cmrfH" value="33" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJchgb" role="Qtgdg">
       <property role="TrG5h" value="A2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcL4O" role="37wK5m">
         <property role="3cmrfH" value="45" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbuI5" role="Qtgdg">
       <property role="TrG5h" value="A5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbv7h" role="37wK5m">
         <property role="3cmrfH" value="81" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcieY" role="Qtgdg">
       <property role="TrG5h" value="AS1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcGEw" role="37wK5m">
         <property role="3cmrfH" value="34" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJciL$" role="Qtgdg">
       <property role="TrG5h" value="AS2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcLx1" role="37wK5m">
         <property role="3cmrfH" value="46" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbwR9" role="Qtgdg">
       <property role="TrG5h" value="AS5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbxy1" role="37wK5m">
         <property role="3cmrfH" value="82" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcjlv" role="Qtgdg">
       <property role="TrG5h" value="B1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcH6H" role="37wK5m">
         <property role="3cmrfH" value="35" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJckbl" role="Qtgdg">
       <property role="TrG5h" value="B2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcLXe" role="37wK5m">
         <property role="3cmrfH" value="47" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbvfs" role="Qtgdg">
       <property role="TrG5h" value="B5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbvMG" role="37wK5m">
         <property role="3cmrfH" value="83" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJckLU" role="Qtgdg">
       <property role="TrG5h" value="C1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcCGs" role="37wK5m">
         <property role="3cmrfH" value="24" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJclpO" role="Qtgdg">
       <property role="TrG5h" value="C2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcHyU" role="37wK5m">
         <property role="3cmrfH" value="36" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbvVu" role="Qtgdg">
       <property role="TrG5h" value="C5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbwo$" role="37wK5m">
         <property role="3cmrfH" value="72" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcm33" role="Qtgdg">
       <property role="TrG5h" value="CS1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcD8G" role="37wK5m">
         <property role="3cmrfH" value="25" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcnjF" role="Qtgdg">
       <property role="TrG5h" value="CS2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcHZa" role="37wK5m">
         <property role="3cmrfH" value="37" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbyfW" role="Qtgdg">
       <property role="TrG5h" value="CS5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbz7S" role="37wK5m">
         <property role="3cmrfH" value="73" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcoAQ" role="Qtgdg">
       <property role="TrG5h" value="D1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcD$T" role="37wK5m">
         <property role="3cmrfH" value="26" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcpk4" role="Qtgdg">
       <property role="TrG5h" value="D2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcIrq" role="37wK5m">
         <property role="3cmrfH" value="38" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbwxX" role="Qtgdg">
       <property role="TrG5h" value="D5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbzjF" role="37wK5m">
         <property role="3cmrfH" value="74" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcqnu" role="Qtgdg">
       <property role="TrG5h" value="DS1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcE16" role="37wK5m">
         <property role="3cmrfH" value="27" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcqJR" role="Qtgdg">
       <property role="TrG5h" value="DS2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcIRE" role="37wK5m">
         <property role="3cmrfH" value="39" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbzuT" role="Qtgdg">
       <property role="TrG5h" value="DS5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJb$eU" role="37wK5m">
         <property role="3cmrfH" value="75" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbqGA" role="Qtgdg">
       <property role="TrG5h" value="EM1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbqRG" role="37wK5m">
         <property role="3cmrfH" value="4" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbqT8" role="Qtgdg">
       <property role="TrG5h" value="E0" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbr2H" role="37wK5m">
         <property role="3cmrfH" value="16" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbr5m" role="Qtgdg">
       <property role="TrG5h" value="E1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbrhv" role="37wK5m">
         <property role="3cmrfH" value="28" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbrkJ" role="Qtgdg">
       <property role="TrG5h" value="E2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbrt4" role="37wK5m">
         <property role="3cmrfH" value="40" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbrwV" role="Qtgdg">
       <property role="TrG5h" value="E3" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbrMc" role="37wK5m">
         <property role="3cmrfH" value="52" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbrQE" role="Qtgdg">
       <property role="TrG5h" value="E4" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbsav" role="37wK5m">
         <property role="3cmrfH" value="64" />
       </node>
@@ -2160,119 +2151,119 @@
     <node concept="3Tm1VV" id="1ggJHVJbc7C" role="1B3o_S" />
     <node concept="QsSxf" id="1ggJHVJbmn2" role="Qtgdg">
       <property role="TrG5h" value="E5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbmp9" role="37wK5m">
         <property role="3cmrfH" value="76" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbsf$" role="Qtgdg">
       <property role="TrG5h" value="E6" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbswW" role="37wK5m">
         <property role="3cmrfH" value="88" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbsKE" role="Qtgdg">
       <property role="TrG5h" value="E7" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbt3Z" role="37wK5m">
         <property role="3cmrfH" value="100" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbtai" role="Qtgdg">
       <property role="TrG5h" value="E8" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbtpl" role="37wK5m">
         <property role="3cmrfH" value="112" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbtwf" role="Qtgdg">
       <property role="TrG5h" value="E9" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbtKC" role="37wK5m">
         <property role="3cmrfH" value="124" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcugj" role="Qtgdg">
       <property role="TrG5h" value="F1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcEtm" role="37wK5m">
         <property role="3cmrfH" value="29" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcvpx" role="Qtgdg">
       <property role="TrG5h" value="F2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcJjU" role="37wK5m">
         <property role="3cmrfH" value="41" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJb_pC" role="Qtgdg">
       <property role="TrG5h" value="F5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbAcd" role="37wK5m">
         <property role="3cmrfH" value="77" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcw$F" role="Qtgdg">
       <property role="TrG5h" value="FS1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcETG" role="37wK5m">
         <property role="3cmrfH" value="30" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcy9F" role="Qtgdg">
       <property role="TrG5h" value="FS2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcJK7" role="37wK5m">
         <property role="3cmrfH" value="42" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbAoA" role="Qtgdg">
       <property role="TrG5h" value="FS5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbB1q" role="37wK5m">
         <property role="3cmrfH" value="78" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcz0c" role="Qtgdg">
       <property role="TrG5h" value="G1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcFlT" role="37wK5m">
         <property role="3cmrfH" value="31" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJczS2" role="Qtgdg">
       <property role="TrG5h" value="G2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcKcn" role="37wK5m">
         <property role="3cmrfH" value="43" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbBeq" role="Qtgdg">
       <property role="TrG5h" value="G5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbBTb" role="37wK5m">
         <property role="3cmrfH" value="79" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJc_aW" role="Qtgdg">
       <property role="TrG5h" value="GS1" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcFM6" role="37wK5m">
         <property role="3cmrfH" value="32" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJcAU8" role="Qtgdg">
       <property role="TrG5h" value="GS2" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcKCB" role="37wK5m">
         <property role="3cmrfH" value="44" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbC6M" role="Qtgdg">
       <property role="TrG5h" value="GS5" />
-      <ref role="37wK5l" node="1ggJHVJbngi" resolve="BassEnum" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbCNw" role="37wK5m">
         <property role="3cmrfH" value="80" />
       </node>

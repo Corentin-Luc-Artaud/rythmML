@@ -19,6 +19,9 @@
         <property id="1445865345090445312" name="duration" index="3VelVu" />
         <property id="1445865345090525234" name="note" index="3VeUrG" />
       </concept>
+      <concept id="7318678144116968039" name="RythmML.structure.DrumNote" flags="ng" index="2o4e2p">
+        <property id="7318678144117008197" name="drum" index="2o4OQV" />
+      </concept>
       <concept id="7318678144116968035" name="RythmML.structure.ANote" flags="ng" index="2o4e2t">
         <child id="7318678144117013878" name="position" index="2o4Pu8" />
       </concept>
@@ -56,60 +59,17 @@
         <node concept="zm$w9" id="1ggJHVJaYBh" role="2o4L75">
           <property role="zm$w0" value="4" />
           <node concept="2o4e2u" id="1ggJHVJaYBi" role="zm$w6">
-            <node concept="3VeUrF" id="1ggJHVJcgnY" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgvF/FS2" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJcgnZ" role="2o4Pu8">
-                <property role="zm$zl" value="0." />
-              </node>
-            </node>
-            <node concept="3VeUrF" id="1ggJHVJd1t6" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgr2/CS1" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJd1t8" role="2o4Pu8">
-                <property role="zm$zl" value="0.5" />
-              </node>
-            </node>
-            <node concept="3VeUrF" id="1ggJHVJd1um" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgtL/E2" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJd1un" role="2o4Pu8">
-                <property role="zm$zl" value="1." />
-              </node>
-            </node>
-            <node concept="3VeUrF" id="1ggJHVJd1tq" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgvF/FS2" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJd1tr" role="2o4Pu8">
-                <property role="zm$zl" value="1.5" />
-              </node>
-            </node>
-            <node concept="3VeUrF" id="1ggJHVJd1ty" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgtL/E2" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJd1tz" role="2o4Pu8">
+            <node concept="3VeUrF" id="3Kzy1W_WpZq" role="2o4RJb">
+              <property role="3VeUrG" value="1ggJHVJaLrx/G5" />
+              <property role="3VelVu" value="2." />
+              <node concept="2o4e2j" id="3Kzy1W_WpZs" role="2o4Pu8">
                 <property role="zm$zl" value="2." />
               </node>
             </node>
-            <node concept="3VeUrF" id="1ggJHVJd1tG" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgr2/CS1" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJd1tH" role="2o4Pu8">
-                <property role="zm$zl" value="2.5" />
-              </node>
-            </node>
-            <node concept="3VeUrF" id="1ggJHVJd1tS" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgpj/B1" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJd1tT" role="2o4Pu8">
-                <property role="zm$zl" value="3." />
-              </node>
-            </node>
-            <node concept="3VeUrF" id="1ggJHVJd1u6" role="2o4RJb">
-              <property role="3VeUrG" value="1ggJHVJcgr2/CS1" />
-              <property role="3VelVu" value="0.5" />
-              <node concept="2o4e2j" id="1ggJHVJd1u7" role="2o4Pu8">
-                <property role="zm$zl" value="3.5" />
+            <node concept="2o4e2p" id="3Kzy1W_QY_7" role="2o4RJb">
+              <property role="2o4OQV" value="1ggJHVIKOcj/AcousticBassDrum" />
+              <node concept="2o4e2j" id="3Kzy1W_QY_9" role="2o4Pu8">
+                <property role="zm$zl" value="1." />
               </node>
             </node>
           </node>

@@ -28,8 +28,8 @@ public class SongUtils {
     final int NOTEON = 144;
     final int NOTEOFF = 128;
 
-    createEvent(track, NOTEON, 33, noteType, tick, velocity);
-    createEvent(track, NOTEOFF, 33, noteType, tick + duration, velocity);
+    createEvent(track, NOTEON, 4, noteType, tick, velocity);
+    createEvent(track, NOTEOFF, 4, noteType, tick + duration, velocity);
   }
 
   public static void createEvent(Track track, int type, int chan, int noteType, long tick, int velocity) {
