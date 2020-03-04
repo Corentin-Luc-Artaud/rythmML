@@ -26,34 +26,43 @@ public class EnumerationDescriptor_NoteEnum extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_B5_0 = new EnumerationDescriptor.MemberDescriptor("B5", "B5", 0x1410bedeef2b16c8L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524872");
   private final EnumerationDescriptor.MemberDescriptor myMember_C1_0 = new EnumerationDescriptor.MemberDescriptor("C1", "C1", 0x1410bedeef310699L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090913945");
   private final EnumerationDescriptor.MemberDescriptor myMember_C2_0 = new EnumerationDescriptor.MemberDescriptor("C2", "C2", 0x1410bedeef3106adL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090913965");
+  private final EnumerationDescriptor.MemberDescriptor myMember_C3_0 = new EnumerationDescriptor.MemberDescriptor("C3", "C3", 0x51432fafbe9236bcL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812348");
   private final EnumerationDescriptor.MemberDescriptor myMember_C5_0 = new EnumerationDescriptor.MemberDescriptor("C5", "C5", 0x1410bedeef2b16cbL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524875");
   private final EnumerationDescriptor.MemberDescriptor myMember_CS1_0 = new EnumerationDescriptor.MemberDescriptor("CS1", "CS1", 0x1410bedeef3106c2L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090913986");
   private final EnumerationDescriptor.MemberDescriptor myMember_CS2_0 = new EnumerationDescriptor.MemberDescriptor("CS2", "CS2", 0x1410bedeef3106d8L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914008");
+  private final EnumerationDescriptor.MemberDescriptor myMember_CS3_0 = new EnumerationDescriptor.MemberDescriptor("CS3", "CS3", 0x51432fafbe9236e2L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812386");
   private final EnumerationDescriptor.MemberDescriptor myMember_CS5_0 = new EnumerationDescriptor.MemberDescriptor("CS5", "CS5", 0x1410bedeef2e9077L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090752631");
   private final EnumerationDescriptor.MemberDescriptor myMember_D1_0 = new EnumerationDescriptor.MemberDescriptor("D1", "D1", 0x1410bedeef3106efL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914031");
   private final EnumerationDescriptor.MemberDescriptor myMember_D2_0 = new EnumerationDescriptor.MemberDescriptor("D2", "D2", 0x1410bedeef310707L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914055");
+  private final EnumerationDescriptor.MemberDescriptor myMember_D3_0 = new EnumerationDescriptor.MemberDescriptor("D3", "D3", 0x51432fafbe923709L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812425");
   private final EnumerationDescriptor.MemberDescriptor myMember_D5_0 = new EnumerationDescriptor.MemberDescriptor("D5", "D5", 0x1410bedeef2b16cfL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524879");
   private final EnumerationDescriptor.MemberDescriptor myMember_DS1_0 = new EnumerationDescriptor.MemberDescriptor("DS1", "DS1", 0x1410bedeef310720L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914080");
   private final EnumerationDescriptor.MemberDescriptor myMember_DS2_0 = new EnumerationDescriptor.MemberDescriptor("DS2", "DS2", 0x1410bedeef31073aL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914106");
+  private final EnumerationDescriptor.MemberDescriptor myMember_DS3_0 = new EnumerationDescriptor.MemberDescriptor("DS3", "DS3", 0x51432fafbe923731L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812465");
   private final EnumerationDescriptor.MemberDescriptor myMember_DS5_0 = new EnumerationDescriptor.MemberDescriptor("DS5", "DS5", 0x1410bedeef2e9081L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090752641");
   private final EnumerationDescriptor.MemberDescriptor myMember_E1_0 = new EnumerationDescriptor.MemberDescriptor("E1", "E1", 0x1410bedeef310755L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914133");
   private final EnumerationDescriptor.MemberDescriptor myMember_E2_0 = new EnumerationDescriptor.MemberDescriptor("E2", "E2", 0x1410bedeef310771L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914161");
+  private final EnumerationDescriptor.MemberDescriptor myMember_E3_0 = new EnumerationDescriptor.MemberDescriptor("E3", "E3", 0x51432fafbe92375aL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812506");
   private final EnumerationDescriptor.MemberDescriptor myMember_E5_0 = new EnumerationDescriptor.MemberDescriptor("E5", "E5", 0x1410bedeef2b16d4L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524884");
   private final EnumerationDescriptor.MemberDescriptor myMember_F1_0 = new EnumerationDescriptor.MemberDescriptor("F1", "F1", 0x1410bedeef31078eL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914190");
   private final EnumerationDescriptor.MemberDescriptor myMember_F2_0 = new EnumerationDescriptor.MemberDescriptor("F2", "F2", 0x1410bedeef3107acL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914220");
+  private final EnumerationDescriptor.MemberDescriptor myMember_F3_0 = new EnumerationDescriptor.MemberDescriptor("F3", "F3", 0x51432fafbe923784L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812548");
   private final EnumerationDescriptor.MemberDescriptor myMember_F5_0 = new EnumerationDescriptor.MemberDescriptor("F5", "F5", 0x1410bedeef2b16daL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524890");
   private final EnumerationDescriptor.MemberDescriptor myMember_FS1_0 = new EnumerationDescriptor.MemberDescriptor("FS1", "FS1", 0x1410bedeef3107cbL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914251");
   private final EnumerationDescriptor.MemberDescriptor myMember_FS2_0 = new EnumerationDescriptor.MemberDescriptor("FS2", "FS2", 0x1410bedeef3107ebL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914283");
+  private final EnumerationDescriptor.MemberDescriptor myMember_FS3_0 = new EnumerationDescriptor.MemberDescriptor("FS3", "FS3", 0x51432fafbe9237afL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812591");
   private final EnumerationDescriptor.MemberDescriptor myMember_FS5_0 = new EnumerationDescriptor.MemberDescriptor("FS5", "FS5", 0x1410bedeef2e908cL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090752652");
   private final EnumerationDescriptor.MemberDescriptor myMember_G1_0 = new EnumerationDescriptor.MemberDescriptor("G1", "G1", 0x1410bedeef31080cL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914316");
   private final EnumerationDescriptor.MemberDescriptor myMember_G2_0 = new EnumerationDescriptor.MemberDescriptor("G2", "G2", 0x1410bedeef31082eL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914350");
+  private final EnumerationDescriptor.MemberDescriptor myMember_G3_0 = new EnumerationDescriptor.MemberDescriptor("G3", "G3", 0x51432fafbe9237dbL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812635");
   private final EnumerationDescriptor.MemberDescriptor myMember_G5_0 = new EnumerationDescriptor.MemberDescriptor("G5", "G5", 0x1410bedeef2b16e1L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090524897");
   private final EnumerationDescriptor.MemberDescriptor myMember_GS1_0 = new EnumerationDescriptor.MemberDescriptor("GS1", "GS1", 0x1410bedeef310851L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914385");
   private final EnumerationDescriptor.MemberDescriptor myMember_GS2_0 = new EnumerationDescriptor.MemberDescriptor("GS2", "GS2", 0x1410bedeef310875L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090914421");
+  private final EnumerationDescriptor.MemberDescriptor myMember_GS3_0 = new EnumerationDescriptor.MemberDescriptor("GS3", "GS3", 0x51432fafbe923808L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374812680");
   private final EnumerationDescriptor.MemberDescriptor myMember_GS5_0 = new EnumerationDescriptor.MemberDescriptor("GS5", "GS5", 0x1410bedeef2e9098L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/1445865345090752664");
 
-  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x1410bedeef2b16c6L, 0x1410bedeef310636L, 0x1410bedeef310663L, 0x1410bedeef2b16c7L, 0x1410bedeef310644L, 0x1410bedeef310674L, 0x1410bedeef2e906eL, 0x1410bedeef310653L, 0x1410bedeef310686L, 0x1410bedeef2b16c8L, 0x1410bedeef310699L, 0x1410bedeef3106adL, 0x1410bedeef2b16cbL, 0x1410bedeef3106c2L, 0x1410bedeef3106d8L, 0x1410bedeef2e9077L, 0x1410bedeef3106efL, 0x1410bedeef310707L, 0x1410bedeef2b16cfL, 0x1410bedeef310720L, 0x1410bedeef31073aL, 0x1410bedeef2e9081L, 0x1410bedeef310755L, 0x1410bedeef310771L, 0x1410bedeef2b16d4L, 0x1410bedeef31078eL, 0x1410bedeef3107acL, 0x1410bedeef2b16daL, 0x1410bedeef3107cbL, 0x1410bedeef3107ebL, 0x1410bedeef2e908cL, 0x1410bedeef31080cL, 0x1410bedeef31082eL, 0x1410bedeef2b16e1L, 0x1410bedeef310851L, 0x1410bedeef310875L, 0x1410bedeef2e9098L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_A1_0, myMember_A2_0, myMember_A5_0, myMember_AS1_0, myMember_AS2_0, myMember_AS5_0, myMember_B1_0, myMember_B2_0, myMember_B5_0, myMember_C1_0, myMember_C2_0, myMember_C5_0, myMember_CS1_0, myMember_CS2_0, myMember_CS5_0, myMember_D1_0, myMember_D2_0, myMember_D5_0, myMember_DS1_0, myMember_DS2_0, myMember_DS5_0, myMember_E1_0, myMember_E2_0, myMember_E5_0, myMember_F1_0, myMember_F2_0, myMember_F5_0, myMember_FS1_0, myMember_FS2_0, myMember_FS5_0, myMember_G1_0, myMember_G2_0, myMember_G5_0, myMember_GS1_0, myMember_GS2_0, myMember_GS5_0);
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x1410bedeef2b16c6L, 0x1410bedeef310636L, 0x1410bedeef310663L, 0x1410bedeef2b16c7L, 0x1410bedeef310644L, 0x1410bedeef310674L, 0x1410bedeef2e906eL, 0x1410bedeef310653L, 0x1410bedeef310686L, 0x1410bedeef2b16c8L, 0x1410bedeef310699L, 0x1410bedeef3106adL, 0x51432fafbe9236bcL, 0x1410bedeef2b16cbL, 0x1410bedeef3106c2L, 0x1410bedeef3106d8L, 0x51432fafbe9236e2L, 0x1410bedeef2e9077L, 0x1410bedeef3106efL, 0x1410bedeef310707L, 0x51432fafbe923709L, 0x1410bedeef2b16cfL, 0x1410bedeef310720L, 0x1410bedeef31073aL, 0x51432fafbe923731L, 0x1410bedeef2e9081L, 0x1410bedeef310755L, 0x1410bedeef310771L, 0x51432fafbe92375aL, 0x1410bedeef2b16d4L, 0x1410bedeef31078eL, 0x1410bedeef3107acL, 0x51432fafbe923784L, 0x1410bedeef2b16daL, 0x1410bedeef3107cbL, 0x1410bedeef3107ebL, 0x51432fafbe9237afL, 0x1410bedeef2e908cL, 0x1410bedeef31080cL, 0x1410bedeef31082eL, 0x51432fafbe9237dbL, 0x1410bedeef2b16e1L, 0x1410bedeef310851L, 0x1410bedeef310875L, 0x51432fafbe923808L, 0x1410bedeef2e9098L);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_A1_0, myMember_A2_0, myMember_A5_0, myMember_AS1_0, myMember_AS2_0, myMember_AS5_0, myMember_B1_0, myMember_B2_0, myMember_B5_0, myMember_C1_0, myMember_C2_0, myMember_C3_0, myMember_C5_0, myMember_CS1_0, myMember_CS2_0, myMember_CS3_0, myMember_CS5_0, myMember_D1_0, myMember_D2_0, myMember_D3_0, myMember_D5_0, myMember_DS1_0, myMember_DS2_0, myMember_DS3_0, myMember_DS5_0, myMember_E1_0, myMember_E2_0, myMember_E3_0, myMember_E5_0, myMember_F1_0, myMember_F2_0, myMember_F3_0, myMember_F5_0, myMember_FS1_0, myMember_FS2_0, myMember_FS3_0, myMember_FS5_0, myMember_G1_0, myMember_G2_0, myMember_G3_0, myMember_G5_0, myMember_GS1_0, myMember_GS2_0, myMember_GS3_0, myMember_GS5_0);
 
   @Nullable
   @Override
@@ -96,54 +105,72 @@ public class EnumerationDescriptor_NoteEnum extends EnumerationDescriptorBase {
         return myMember_C1_0;
       case "C2":
         return myMember_C2_0;
+      case "C3":
+        return myMember_C3_0;
       case "C5":
         return myMember_C5_0;
       case "CS1":
         return myMember_CS1_0;
       case "CS2":
         return myMember_CS2_0;
+      case "CS3":
+        return myMember_CS3_0;
       case "CS5":
         return myMember_CS5_0;
       case "D1":
         return myMember_D1_0;
       case "D2":
         return myMember_D2_0;
+      case "D3":
+        return myMember_D3_0;
       case "D5":
         return myMember_D5_0;
       case "DS1":
         return myMember_DS1_0;
       case "DS2":
         return myMember_DS2_0;
+      case "DS3":
+        return myMember_DS3_0;
       case "DS5":
         return myMember_DS5_0;
       case "E1":
         return myMember_E1_0;
       case "E2":
         return myMember_E2_0;
+      case "E3":
+        return myMember_E3_0;
       case "E5":
         return myMember_E5_0;
       case "F1":
         return myMember_F1_0;
       case "F2":
         return myMember_F2_0;
+      case "F3":
+        return myMember_F3_0;
       case "F5":
         return myMember_F5_0;
       case "FS1":
         return myMember_FS1_0;
       case "FS2":
         return myMember_FS2_0;
+      case "FS3":
+        return myMember_FS3_0;
       case "FS5":
         return myMember_FS5_0;
       case "G1":
         return myMember_G1_0;
       case "G2":
         return myMember_G2_0;
+      case "G3":
+        return myMember_G3_0;
       case "G5":
         return myMember_G5_0;
       case "GS1":
         return myMember_GS1_0;
       case "GS2":
         return myMember_GS2_0;
+      case "GS3":
+        return myMember_GS3_0;
       case "GS5":
         return myMember_GS5_0;
     }

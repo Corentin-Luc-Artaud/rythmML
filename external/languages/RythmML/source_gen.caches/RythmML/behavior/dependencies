@@ -100,6 +100,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
+  <dependency className="RythmML.behavior.InstrumentElement" />
   <dependency className="RythmML.behavior.NoteElement" />
   <dependency className="RythmML.behavior.NoteFrequency__BehaviorDescriptor">
     <classNode dependClassName="RythmML.behavior.ANote__BehaviorDescriptor" />

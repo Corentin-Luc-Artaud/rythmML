@@ -12,7 +12,9 @@ public enum DrumElement {
   AcousticSnare(38),
   ElectricSnare(40),
   LowFloorTom(41),
-  OpenHitHat(46);
+  OpenHitHat(46),
+  RideCymbal1(51),
+  RideCymbal2(59);
 
   public int noteNumber;
 

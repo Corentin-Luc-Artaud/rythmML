@@ -775,7 +775,7 @@
               <property role="3cmrfH" value="1" />
             </node>
             <node concept="3cmrfG" id="553bUYYw1kT" role="37wK5m">
-              <property role="3cmrfH" value="37" />
+              <property role="3cmrfH" value="36" />
             </node>
             <node concept="3cmrfG" id="553bUYYxiVE" role="37wK5m">
               <property role="3cmrfH" value="1" />
@@ -1252,6 +1252,20 @@
       <ref role="37wK5l" node="6mhaJVXx62w" resolve="DrumElement" />
       <node concept="3cmrfG" id="6mhaJVXx5i8" role="37wK5m">
         <property role="3cmrfH" value="46" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="553bUYYzahS" role="Qtgdg">
+      <property role="TrG5h" value="RideCymbal1" />
+      <ref role="37wK5l" node="6mhaJVXx62w" resolve="DrumElement" />
+      <node concept="3cmrfG" id="553bUYYzawX" role="37wK5m">
+        <property role="3cmrfH" value="51" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="553bUYYzqgn" role="Qtgdg">
+      <property role="TrG5h" value="RideCymbal2" />
+      <ref role="37wK5l" node="6mhaJVXx62w" resolve="DrumElement" />
+      <node concept="3cmrfG" id="553bUYYzqBE" role="37wK5m">
+        <property role="3cmrfH" value="59" />
       </node>
     </node>
   </node>
@@ -2228,6 +2242,13 @@
         <property role="3cmrfH" value="36" />
       </node>
     </node>
+    <node concept="QsSxf" id="553bUYY$c0a" role="Qtgdg">
+      <property role="TrG5h" value="C3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$dUz" role="37wK5m">
+        <property role="3cmrfH" value="48" />
+      </node>
+    </node>
     <node concept="QsSxf" id="1ggJHVJbvVu" role="Qtgdg">
       <property role="TrG5h" value="C5" />
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
@@ -2247,6 +2268,13 @@
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcHZa" role="37wK5m">
         <property role="3cmrfH" value="37" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="553bUYY$kR8" role="Qtgdg">
+      <property role="TrG5h" value="CS3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$mmC" role="37wK5m">
+        <property role="3cmrfH" value="49" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbyfW" role="Qtgdg">
@@ -2270,6 +2298,13 @@
         <property role="3cmrfH" value="38" />
       </node>
     </node>
+    <node concept="QsSxf" id="553bUYY$gkB" role="Qtgdg">
+      <property role="TrG5h" value="D3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$hRm" role="37wK5m">
+        <property role="3cmrfH" value="50" />
+      </node>
+    </node>
     <node concept="QsSxf" id="1ggJHVJbwxX" role="Qtgdg">
       <property role="TrG5h" value="D5" />
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
@@ -2289,6 +2324,13 @@
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcIRE" role="37wK5m">
         <property role="3cmrfH" value="39" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="553bUYY$emZ" role="Qtgdg">
+      <property role="TrG5h" value="DS3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$fRL" role="37wK5m">
+        <property role="3cmrfH" value="51" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbzuT" role="Qtgdg">
@@ -2419,6 +2461,13 @@
         <property role="3cmrfH" value="41" />
       </node>
     </node>
+    <node concept="QsSxf" id="553bUYY$pvt" role="Qtgdg">
+      <property role="TrG5h" value="F3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$u48" role="37wK5m">
+        <property role="3cmrfH" value="53" />
+      </node>
+    </node>
     <node concept="QsSxf" id="1ggJHVJb_pC" role="Qtgdg">
       <property role="TrG5h" value="F5" />
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
@@ -2438,6 +2487,13 @@
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJcJK7" role="37wK5m">
         <property role="3cmrfH" value="42" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="553bUYY$rzx" role="Qtgdg">
+      <property role="TrG5h" value="FS3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$u$2" role="37wK5m">
+        <property role="3cmrfH" value="54" />
       </node>
     </node>
     <node concept="QsSxf" id="1ggJHVJbAoA" role="Qtgdg">
@@ -2461,6 +2517,13 @@
         <property role="3cmrfH" value="43" />
       </node>
     </node>
+    <node concept="QsSxf" id="553bUYY$v3n" role="Qtgdg">
+      <property role="TrG5h" value="G3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$wHU" role="37wK5m">
+        <property role="3cmrfH" value="55" />
+      </node>
+    </node>
     <node concept="QsSxf" id="1ggJHVJbBeq" role="Qtgdg">
       <property role="TrG5h" value="G5" />
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
@@ -2482,11 +2545,72 @@
         <property role="3cmrfH" value="44" />
       </node>
     </node>
+    <node concept="QsSxf" id="553bUYY$xdT" role="Qtgdg">
+      <property role="TrG5h" value="GS3" />
+      <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
+      <node concept="3cmrfG" id="553bUYY$yUp" role="37wK5m">
+        <property role="3cmrfH" value="56" />
+      </node>
+    </node>
     <node concept="QsSxf" id="1ggJHVJbC6M" role="Qtgdg">
       <property role="TrG5h" value="GS5" />
       <ref role="37wK5l" node="1ggJHVJbngi" resolve="NoteElement" />
       <node concept="3cmrfG" id="1ggJHVJbCNw" role="37wK5m">
         <property role="3cmrfH" value="80" />
+      </node>
+    </node>
+  </node>
+  <node concept="Qs71p" id="553bUYY$C3i">
+    <property role="TrG5h" value="InstrumentElement" />
+    <node concept="312cEg" id="553bUYY$CJb" role="jymVt">
+      <property role="TrG5h" value="instrumentNumber" />
+      <node concept="3Tm1VV" id="553bUYY$CJc" role="1B3o_S" />
+      <node concept="10Oyi0" id="553bUYY$CJd" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="553bUYY$CJe" role="jymVt" />
+    <node concept="3clFbW" id="553bUYY$CJf" role="jymVt">
+      <node concept="3cqZAl" id="553bUYY$CJg" role="3clF45" />
+      <node concept="3clFbS" id="553bUYY$CJh" role="3clF47">
+        <node concept="3clFbF" id="553bUYY$CJi" role="3cqZAp">
+          <node concept="37vLTI" id="553bUYY$CJj" role="3clFbG">
+            <node concept="37vLTw" id="553bUYY$CJk" role="37vLTx">
+              <ref role="3cqZAo" node="553bUYY$CJp" resolve="instrumentNumber" />
+            </node>
+            <node concept="2OqwBi" id="553bUYY$CJl" role="37vLTJ">
+              <node concept="Xjq3P" id="553bUYY$CJm" role="2Oq$k0" />
+              <node concept="2OwXpG" id="553bUYY$CJn" role="2OqNvi">
+                <ref role="2Oxat5" node="553bUYY$CJb" resolve="instrumentNumber" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="553bUYY$CJo" role="1B3o_S" />
+      <node concept="37vLTG" id="553bUYY$CJp" role="3clF46">
+        <property role="TrG5h" value="instrumentNumber" />
+        <node concept="10Oyi0" id="553bUYY$CJq" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="553bUYY$C3j" role="1B3o_S" />
+    <node concept="QsSxf" id="553bUYY$CYc" role="Qtgdg">
+      <property role="TrG5h" value="FretlessBass" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="553bUYY$D6K" role="37wK5m">
+        <property role="3cmrfH" value="36" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="553bUYY$D8h" role="Qtgdg">
+      <property role="TrG5h" value="AcousticBass" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="553bUYY$DlV" role="37wK5m">
+        <property role="3cmrfH" value="33" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="553bUYY$Eje" role="Qtgdg">
+      <property role="TrG5h" value="Drum" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="553bUYY$Eu9" role="37wK5m">
+        <property role="3cmrfH" value="115" />
       </node>
     </node>
   </node>

@@ -30,6 +30,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptTrack = createDescriptorForTrack();
   /*package*/ final ConceptDescriptor myConceptsequence = createDescriptorForsequence();
   /*package*/ final EnumerationDescriptor myEnumerationDrumEnum = new EnumerationDescriptor_DrumEnum();
+  /*package*/ final EnumerationDescriptor myEnumerationInstrumentEnum = new EnumerationDescriptor_InstrumentEnum();
   /*package*/ final EnumerationDescriptor myEnumerationNoteEnum = new EnumerationDescriptor_NoteEnum();
   private final LanguageConceptSwitch myIndexSwitch;
 
@@ -85,7 +86,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationDrumEnum, myEnumerationNoteEnum);
+    return Arrays.asList(myEnumerationDrumEnum, myEnumerationInstrumentEnum, myEnumerationNoteEnum);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -200,7 +201,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116968026");
     b.version(2);
-    b.property("instrument", 0x52bcad3e71e6e5eeL).type(PrimitiveTypeId.STRING).origin("5961830490442229230").done();
+    b.property("instrument", 0x52bcad3e71e6e5eeL).type(MetaIdFactory.dataTypeId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x51432fafbe90960bL)).origin("5961830490442229230").done();
     b.aggregate("sections", 0x65912afefd823b39L).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL).optional(false).ordered(true).multiple(true).origin("7318678144116996921").done();
     b.aggregate("sequence", 0x2f82fbf5d7b2453bL).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x2f82fbf5d7b244ecL).optional(false).ordered(true).multiple(true).origin("3423575700059342139").done();
     return b.create();

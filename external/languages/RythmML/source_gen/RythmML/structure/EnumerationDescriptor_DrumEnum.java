@@ -23,9 +23,11 @@ public class EnumerationDescriptor_DrumEnum extends EnumerationDescriptorBase {
   private final EnumerationDescriptor.MemberDescriptor myMember_SideStick_0 = new EnumerationDescriptor.MemberDescriptor("SideStick", "SideStick", 0x2fd412743f25aff6L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212854");
   private final EnumerationDescriptor.MemberDescriptor myMember_LowFloorTom_0 = new EnumerationDescriptor.MemberDescriptor("LowFloorTom", "LowFloorTom", 0x2fd412743f25b005L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212869");
   private final EnumerationDescriptor.MemberDescriptor myMember_OpenHitHat_0 = new EnumerationDescriptor.MemberDescriptor("OpenHitHat", "OpenHitHat", 0x2fd412743f25b030L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/3446399905330212912");
+  private final EnumerationDescriptor.MemberDescriptor myMember_RideCymbal1_0 = new EnumerationDescriptor.MemberDescriptor("RideCymbal1", "RideCymbal1", 0x51432fafbe8c9bd6L, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374445014");
+  private final EnumerationDescriptor.MemberDescriptor myMember_RideCymbal2_0 = new EnumerationDescriptor.MemberDescriptor("RideCymbal2", "RideCymbal2", 0x51432fafbe8da26bL, "r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5855576372374512235");
 
-  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd823b2eL, 0x6b5ecd4a5bdc4992L, 0x1410bedeeec34313L, 0x1410bedeeec34316L, 0x2fd412743f25afebL, 0x2fd412743f25aff0L, 0x2fd412743f25aff6L, 0x2fd412743f25b005L, 0x2fd412743f25b030L);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ClosedHitHat_0, myMember_AcousticBassDrum_0, myMember_AcousticSnare_0, myMember_HandClap_0, myMember_BassDrum1_0, myMember_SideStick_0, myMember_LowFloorTom_0, myMember_OpenHitHat_0);
+  private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd823b2eL, 0x6b5ecd4a5bdc4992L, 0x1410bedeeec34313L, 0x1410bedeeec34316L, 0x2fd412743f25afebL, 0x2fd412743f25aff0L, 0x2fd412743f25aff6L, 0x2fd412743f25b005L, 0x2fd412743f25b030L, 0x51432fafbe8c9bd6L, 0x51432fafbe8da26bL);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_ClosedHitHat_0, myMember_AcousticBassDrum_0, myMember_AcousticSnare_0, myMember_HandClap_0, myMember_BassDrum1_0, myMember_SideStick_0, myMember_LowFloorTom_0, myMember_OpenHitHat_0, myMember_RideCymbal1_0, myMember_RideCymbal2_0);
 
   @Nullable
   @Override
@@ -62,6 +64,10 @@ public class EnumerationDescriptor_DrumEnum extends EnumerationDescriptorBase {
         return myMember_LowFloorTom_0;
       case "OpenHitHat":
         return myMember_OpenHitHat_0;
+      case "RideCymbal1":
+        return myMember_RideCymbal1_0;
+      case "RideCymbal2":
+        return myMember_RideCymbal2_0;
     }
     return null;
   }

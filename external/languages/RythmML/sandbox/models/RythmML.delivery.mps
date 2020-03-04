@@ -60,8 +60,8 @@
     <property role="zm$zo" value="118" />
     <property role="zm$zm" value="4" />
     <node concept="2o4e2$" id="553bUYYyPVf" role="2o4e1O">
-      <property role="TrG5h" value="dum" />
-      <property role="zm$zg" value="drum" />
+      <property role="TrG5h" value="drum" />
+      <property role="zm$zg" value="Drum" />
       <node concept="2o4e2z" id="553bUYYyPVg" role="2o4L77">
         <property role="TrG5h" value="intro_drum" />
         <node concept="zm$w9" id="553bUYYyPVh" role="2o4L75">
@@ -106,7 +106,7 @@
     </node>
     <node concept="2o4e2$" id="2Y2YZnnGe3B" role="2o4e1O">
       <property role="TrG5h" value="bass" />
-      <property role="zm$zg" value="bass" />
+      <property role="zm$zg" value="FretlessBass" />
       <node concept="2o4e2z" id="2Y2YZnnGe3C" role="2o4L77">
         <property role="TrG5h" value="intro_bass" />
         <node concept="zm$w9" id="2Y2YZnnGe3D" role="2o4L75">

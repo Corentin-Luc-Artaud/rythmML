@@ -29,7 +29,7 @@ public class SongUtils {
     final int NOTEOFF = 128;
     final int PROGRAM_CHANGE = 192;
 
-    createEvent(track, PROGRAM_CHANGE, 1, 37, 1, 0);
+    createEvent(track, PROGRAM_CHANGE, 1, 36, 1, 0);
     createEvent(track, NOTEON, 1, noteType, tick, velocity);
     createEvent(track, NOTEOFF, 1, noteType, duration, velocity);
   }

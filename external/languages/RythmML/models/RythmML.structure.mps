@@ -116,7 +116,7 @@
     <node concept="1TJgyi" id="5aWFjTLTInI" role="1TKVEl">
       <property role="IQ2nx" value="5961830490442229230" />
       <property role="TrG5h" value="instrument" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="553bUYY$9ob" resolve="InstrumentEnum" />
     </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDt">
@@ -246,6 +246,14 @@
       <property role="3tVfz5" value="3446399905330212912" />
       <property role="TrG5h" value="OpenHitHat" />
     </node>
+    <node concept="25R33" id="553bUYYz9Jm" role="25R1y">
+      <property role="3tVfz5" value="5855576372374445014" />
+      <property role="TrG5h" value="RideCymbal1" />
+    </node>
+    <node concept="25R33" id="553bUYYzq9F" role="25R1y">
+      <property role="3tVfz5" value="5855576372374512235" />
+      <property role="TrG5h" value="RideCymbal2" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5aWFjTLTIkR">
     <property role="EcuMT" value="5961830490442229047" />
@@ -342,6 +350,11 @@
       <property role="TrG5h" value="C2" />
       <property role="1L1pqM" value="C2" />
     </node>
+    <node concept="25R33" id="553bUYY$zqW" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812348" />
+      <property role="TrG5h" value="C3" />
+      <property role="1L1pqM" value="C3" />
+    </node>
     <node concept="25R33" id="1ggJHVJaLrb" role="25R1y">
       <property role="3tVfz5" value="1445865345090524875" />
       <property role="TrG5h" value="C5" />
@@ -356,6 +369,11 @@
       <property role="3tVfz5" value="1445865345090914008" />
       <property role="TrG5h" value="CS2" />
       <property role="1L1pqM" value="CS2" />
+    </node>
+    <node concept="25R33" id="553bUYY$zry" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812386" />
+      <property role="TrG5h" value="CS3" />
+      <property role="1L1pqM" value="CS3" />
     </node>
     <node concept="25R33" id="1ggJHVJbD1R" role="25R1y">
       <property role="3tVfz5" value="1445865345090752631" />
@@ -372,6 +390,11 @@
       <property role="TrG5h" value="D2" />
       <property role="1L1pqM" value="D2" />
     </node>
+    <node concept="25R33" id="553bUYY$zs9" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812425" />
+      <property role="TrG5h" value="D3" />
+      <property role="1L1pqM" value="D3" />
+    </node>
     <node concept="25R33" id="1ggJHVJaLrf" role="25R1y">
       <property role="3tVfz5" value="1445865345090524879" />
       <property role="TrG5h" value="D5" />
@@ -386,6 +409,11 @@
       <property role="3tVfz5" value="1445865345090914106" />
       <property role="TrG5h" value="DS2" />
       <property role="1L1pqM" value="DS2" />
+    </node>
+    <node concept="25R33" id="553bUYY$zsL" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812465" />
+      <property role="TrG5h" value="DS3" />
+      <property role="1L1pqM" value="DS3" />
     </node>
     <node concept="25R33" id="1ggJHVJbD21" role="25R1y">
       <property role="3tVfz5" value="1445865345090752641" />
@@ -402,6 +430,11 @@
       <property role="TrG5h" value="E2" />
       <property role="1L1pqM" value="E2" />
     </node>
+    <node concept="25R33" id="553bUYY$ztq" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812506" />
+      <property role="TrG5h" value="E3" />
+      <property role="1L1pqM" value="E3" />
+    </node>
     <node concept="25R33" id="1ggJHVJaLrk" role="25R1y">
       <property role="3tVfz5" value="1445865345090524884" />
       <property role="TrG5h" value="E5" />
@@ -416,6 +449,11 @@
       <property role="3tVfz5" value="1445865345090914220" />
       <property role="TrG5h" value="F2" />
       <property role="1L1pqM" value="F2" />
+    </node>
+    <node concept="25R33" id="553bUYY$zu4" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812548" />
+      <property role="TrG5h" value="F3" />
+      <property role="1L1pqM" value="F3" />
     </node>
     <node concept="25R33" id="1ggJHVJaLrq" role="25R1y">
       <property role="3tVfz5" value="1445865345090524890" />
@@ -432,6 +470,11 @@
       <property role="TrG5h" value="FS2" />
       <property role="1L1pqM" value="FS2" />
     </node>
+    <node concept="25R33" id="553bUYY$zuJ" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812591" />
+      <property role="TrG5h" value="FS3" />
+      <property role="1L1pqM" value="FS3" />
+    </node>
     <node concept="25R33" id="1ggJHVJbD2c" role="25R1y">
       <property role="3tVfz5" value="1445865345090752652" />
       <property role="TrG5h" value="FS5" />
@@ -447,6 +490,11 @@
       <property role="TrG5h" value="G2" />
       <property role="1L1pqM" value="G2" />
     </node>
+    <node concept="25R33" id="553bUYY$zvr" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812635" />
+      <property role="TrG5h" value="G3" />
+      <property role="1L1pqM" value="G3" />
+    </node>
     <node concept="25R33" id="1ggJHVJaLrx" role="25R1y">
       <property role="3tVfz5" value="1445865345090524897" />
       <property role="TrG5h" value="G5" />
@@ -461,6 +509,11 @@
       <property role="3tVfz5" value="1445865345090914421" />
       <property role="TrG5h" value="GS2" />
       <property role="1L1pqM" value="GS2" />
+    </node>
+    <node concept="25R33" id="553bUYY$zw8" role="25R1y">
+      <property role="3tVfz5" value="5855576372374812680" />
+      <property role="TrG5h" value="GS3" />
+      <property role="1L1pqM" value="GS3" />
     </node>
     <node concept="25R33" id="1ggJHVJbD2o" role="25R1y">
       <property role="3tVfz5" value="1445865345090752664" />
@@ -482,6 +535,25 @@
       <property role="20kJfa" value="section" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6mhaJVXwsDt" resolve="Section" />
+    </node>
+  </node>
+  <node concept="25R3W" id="553bUYY$9ob">
+    <property role="3F6X1D" value="5855576372374705675" />
+    <property role="TrG5h" value="InstrumentEnum" />
+    <node concept="25R33" id="553bUYY$9oc" role="25R1y">
+      <property role="3tVfz5" value="5855576372374705676" />
+      <property role="TrG5h" value="AcousticBass" />
+      <property role="1L1pqM" value="Acoustic Bass" />
+    </node>
+    <node concept="25R33" id="553bUYY$C33" role="25R1y">
+      <property role="3tVfz5" value="5855576372374831299" />
+      <property role="TrG5h" value="FretlessBass" />
+      <property role="1L1pqM" value="Fretless Bass" />
+    </node>
+    <node concept="25R33" id="553bUYY$C36" role="25R1y">
+      <property role="3tVfz5" value="5855576372374831302" />
+      <property role="TrG5h" value="Drum" />
+      <property role="1L1pqM" value="Drum" />
     </node>
   </node>
 </model>
