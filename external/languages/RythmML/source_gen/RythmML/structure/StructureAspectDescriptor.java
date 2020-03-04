@@ -131,7 +131,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L);
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/5961830490442229370");
     b.version(2);
-    b.property("frequency", 0x52bcad3e71e6e67fL).type(MetaIdFactory.dataTypeId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10324579ea7L)).origin("5961830490442229375").done();
+    b.property("frequency", 0x52bcad3e71e6e67fL).type(PrimitiveTypeId.STRING).origin("5961830490442229375").done();
     b.aggregate("note", 0x52bcad3e71e6e67dL).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L).optional(false).ordered(true).multiple(false).origin("5961830490442229373").done();
     return b.create();
   }
@@ -140,8 +140,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116968045");
     b.version(2);
-    b.property("division", 0x65912afefd8cecf4L).type(MetaIdFactory.dataTypeId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10324579ea7L)).origin("7318678144117697780").done();
-    b.property("beat", 0x52bcad3e71e6e5ebL).type(MetaIdFactory.dataTypeId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10324579ea7L)).origin("5961830490442229227").done();
+    b.property("beat", 0x52bcad3e71e6e5ebL).type(PrimitiveTypeId.STRING).origin("5961830490442229227").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRepetition() {
