@@ -106,7 +106,7 @@
     </node>
     <node concept="2o4e2$" id="553bUYY$9pn" role="2o4e1O">
       <property role="TrG5h" value="bass" />
-      <property role="zm$zg" value="Acoustic Bass" />
+      <property role="zm$zg" value="553bUYY$9oc/AcousticBass" />
       <node concept="2o4e2z" id="553bUYY$9po" role="2o4L77">
         <property role="TrG5h" value="verse_bass" />
         <node concept="zm$w9" id="553bUYY$9pp" role="2o4L75">

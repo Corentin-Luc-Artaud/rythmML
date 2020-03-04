@@ -19,10 +19,6 @@
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
-      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
-        <child id="1068498886297" name="rValue" index="37vLTx" />
-        <child id="1068498886295" name="lValue" index="37vLTJ" />
-      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
         <child id="1173175577737" name="index" index="AHEQo" />
@@ -59,7 +55,6 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
-      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -180,38 +175,6 @@
                 </node>
                 <node concept="37vLTw" id="$AQ9Lc38sx" role="37wK5m">
                   <ref role="3cqZAo" node="$AQ9Lc30ZU" resolve="res" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="$AQ9Lc3rVO" role="3cqZAp">
-              <node concept="37vLTI" id="$AQ9Lc3sMD" role="3clFbG">
-                <node concept="2YIFZM" id="$AQ9Lc3tA5" role="37vLTx">
-                  <ref role="37wK5l" to="wyt6:~String.valueOf(java.lang.Object)" resolve="valueOf" />
-                  <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                  <node concept="2OqwBi" id="$AQ9Lc3udV" role="37wK5m">
-                    <node concept="37vLTw" id="$AQ9Lc3tD_" role="2Oq$k0">
-                      <ref role="3cqZAo" node="$AQ9Lc30ZU" resolve="res" />
-                    </node>
-                    <node concept="liA8E" id="$AQ9Lc3uDt" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~ByteArrayOutputStream.toByteArray()" resolve="toByteArray" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="$AQ9Lc3saq" role="37vLTJ">
-                  <node concept="117lpO" id="$AQ9Lc3rVM" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="$AQ9Lc3soU" role="2OqNvi">
-                    <ref role="3TsBF5" to="wvci:$AQ9Lc3qHR" resolve="output" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="lc7rE" id="$AQ9Lc3uTS" role="3cqZAp">
-              <node concept="l9hG8" id="$AQ9Lc3v07" role="lcghm">
-                <node concept="2OqwBi" id="$AQ9Lc3v9A" role="lb14g">
-                  <node concept="117lpO" id="$AQ9Lc3v1X" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="$AQ9Lc3vmh" role="2OqNvi">
-                    <ref role="3TsBF5" to="wvci:$AQ9Lc3qHR" resolve="output" />
-                  </node>
                 </node>
               </node>
             </node>
