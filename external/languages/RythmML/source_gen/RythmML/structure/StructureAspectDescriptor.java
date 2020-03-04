@@ -180,6 +180,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("tempo", 0x52bcad3e71e6e5e6L).type(PrimitiveTypeId.INTEGER).origin("5961830490442229222").done();
     b.property("musical_div", 0x52bcad3e71e6e5e8L).type(PrimitiveTypeId.INTEGER).origin("5961830490442229224").done();
+    b.property("output", 0x926d89c4c0dab77L).type(PrimitiveTypeId.STRING).origin("659452561258818423").done();
     b.aggregate("track", 0x65912afefd81ca8aL).target(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL).optional(false).ordered(true).multiple(true).origin("7318678144116968074").done();
     return b.create();
   }
