@@ -66,6 +66,9 @@
     <node concept="PrWs8" id="1ggJHVIW$uw" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
+    <node concept="PrWs8" id="553bUYYvlrw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="6mhaJVXwsEa" role="1TKVEi">
       <property role="IQ2ns" value="7318678144116968074" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

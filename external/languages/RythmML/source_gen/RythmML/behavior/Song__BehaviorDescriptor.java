@@ -11,29 +11,35 @@ import jetbrains.mps.core.aspects.behaviour.SMethodBuilder;
 import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
+import jetbrains.mps.scope.Scope;
+import org.jetbrains.mps.openapi.model.SNode;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.mps.openapi.model.SNode;
 import javax.sound.midi.MidiSystem;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import javax.sound.midi.Sequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import javax.sound.midi.Track;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.scope.SimpleRoleScope;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SProperty;
 import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, "RythmML.structure.Song");
 
   public static final SMethod<Sequencer> main_id1ggJHVIW3ht = new SMethodBuilder<Sequencer>(new SJavaCompoundTypeImpl(Sequencer.class)).name("main").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1ggJHVIW3ht").build();
+  public static final SMethod<Scope> getScope_id52_Geb4QDV$ = new SMethodBuilder<Scope>(new SJavaCompoundTypeImpl(Scope.class)).name("getScope").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("52_Geb4QDV$").build(SMethodBuilder.createJavaParameter((Class<SAbstractConcept>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(main_id1ggJHVIW3ht);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(main_id1ggJHVIW3ht, getScope_id52_Geb4QDV$);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
@@ -85,6 +91,13 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
       return null;
     }
   }
+  /*package*/ static Scope getScope_id52_Geb4QDV$(@NotNull SNode __thisNode__, SAbstractConcept kind, SNode child) {
+    if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(kind), CONCEPTS.Track$OJ)) {
+
+      return SimpleRoleScope.forNamedElements(__thisNode__, LINKS.track$4C47);
+    }
+    return null;
+  }
 
   /*package*/ Song__BehaviorDescriptor() {
   }
@@ -103,6 +116,8 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
     switch (methodIndex) {
       case 0:
         return (T) ((Sequencer) main_id1ggJHVIW3ht(node));
+      case 1:
+        return (T) ((Scope) getScope_id52_Geb4QDV$(node, (SAbstractConcept) parameters[0], (SNode) parameters[1]));
       default:
         throw new BHMethodNotFoundException(this, method);
     }
@@ -142,5 +157,9 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
     /*package*/ static final SContainmentLink repetitions$gCZp = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5dL, 0x65912afefd823b3bL, "repetitions");
     /*package*/ static final SContainmentLink sequence$tupv = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL, 0x2f82fbf5d7b2453bL, "sequence");
     /*package*/ static final SContainmentLink track$4C47 = MetaAdapterFactory.getContainmentLink(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x65912afefd81ca8aL, "track");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept Track$OJ = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL, "RythmML.structure.Track");
   }
 }

@@ -41,8 +41,10 @@ public final class BassNote__BehaviorDescriptor extends BaseBHDescriptor {
     long tick = bar * beatPerBar * resolution;
     Double beat = (Double.parseDouble(SPropertyOperations.getString(SLinkOperations.getTarget(__thisNode__, LINKS.position$ezGg), PROPS.beat$t$AP)) + offset) * resolution;
     tick += beat.longValue();
-    Double duration = Double.parseDouble(SPropertyOperations.getString(__thisNode__, PROPS.duration$VAO8));
-    SongUtils.addBassNote(track, NoteElement.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.note$qCDG).toString()).noteNumber, tick, velocity, duration.intValue());
+    Double duration = (Double.parseDouble(SPropertyOperations.getString(__thisNode__, PROPS.duration$VAO8)) + Double.parseDouble(SPropertyOperations.getString(SLinkOperations.getTarget(__thisNode__, LINKS.position$ezGg), PROPS.beat$t$AP)) + offset) * resolution;
+    long durationTick = (bar * beatPerBar * resolution);
+    durationTick += duration.longValue();
+    SongUtils.addBassNote(track, NoteElement.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.note$qCDG).toString()).noteNumber, tick, velocity, durationTick);
   }
 
   /*package*/ BassNote__BehaviorDescriptor() {

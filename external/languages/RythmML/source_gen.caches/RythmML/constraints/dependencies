@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="RythmML.constraints.ConstraintsAspectDescriptor">
     <classNode dependClassName="RythmML.constraints.Position_Constraints" />
+    <classNode dependClassName="RythmML.constraints.Song_Constraints" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.ConceptSwitchIndex" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.ConceptSwitchIndexBuilder" />
@@ -19,6 +20,11 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="RythmML.constraints.Song_Constraints">
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
 </dependenciesRoot>

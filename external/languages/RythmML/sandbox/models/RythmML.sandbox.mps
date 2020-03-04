@@ -15,6 +15,10 @@
       <concept id="7318678144116968045" name="RythmML.structure.Position" flags="ng" index="2o4e2j">
         <property id="5961830490442229227" name="beat" index="zm$zl" />
       </concept>
+      <concept id="7318678144116968042" name="RythmML.structure.StandarNote" flags="ng" index="2o4e2k">
+        <property id="1445865345090445312" name="duration" index="3VelVu" />
+        <property id="1445865345090525234" name="note" index="3VeUrG" />
+      </concept>
       <concept id="7318678144116968039" name="RythmML.structure.DrumNote" flags="ng" index="2o4e2p">
         <property id="7318678144117008197" name="drum" index="2o4OQV" />
       </concept>
@@ -43,6 +47,7 @@
       <concept id="3423575700059342060" name="RythmML.structure.sequence" flags="ng" index="3ScbWp">
         <reference id="3423575700059342061" name="section" index="3ScbWo" />
       </concept>
+      <concept id="1445865345090525237" name="RythmML.structure.BassNote" flags="ng" index="3VeUrF" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -80,23 +85,27 @@
         <node concept="zm$w9" id="4SUcQre6ey1" role="2o4L75">
           <property role="zm$w0" value="1" />
           <node concept="2o4e2u" id="4SUcQre6ey2" role="zm$w6">
-            <node concept="zm$H4" id="4SUcQre6eyf" role="2o4RJb">
-              <property role="zm$H1" value="0.5" />
-              <node concept="2o4e2p" id="4SUcQre6eyn" role="zm$H3">
-                <property role="2o4OQV" value="2Zk4BgZ9qZQ/SideStick" />
-                <node concept="2o4e2j" id="4SUcQre6eyp" role="2o4Pu8">
-                  <property role="zm$zl" value="0." />
+            <node concept="zm$H4" id="553bUYYvXHH" role="2o4RJb">
+              <property role="zm$H1" value="2." />
+              <node concept="3VeUrF" id="553bUYYvXHN" role="zm$H3">
+                <property role="3VeUrG" value="1ggJHVJcgtl/E1" />
+                <property role="3VelVu" value="2." />
+                <node concept="2o4e2j" id="553bUYYvXHP" role="2o4Pu8">
+                  <property role="zm$zl" value="1." />
                 </node>
               </node>
-              <node concept="2o4e2j" id="4SUcQre6eyi" role="2o4Pu8" />
+              <node concept="2o4e2j" id="553bUYYvXHJ" role="2o4Pu8" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3ScbWp" id="4SUcQre6ezx" role="3ScbVe">
+      <node concept="3ScbWp" id="553bUYYx$rp" role="3ScbVe">
+        <ref role="3ScbWo" node="4SUcQre6ey0" resolve="intro2" />
+      </node>
+      <node concept="3ScbWp" id="553bUYYx$rv" role="3ScbVe">
         <ref role="3ScbWo" node="37_aAvBXo2O" resolve="intro" />
       </node>
-      <node concept="3ScbWp" id="4SUcQre7lsx" role="3ScbVe">
+      <node concept="3ScbWp" id="553bUYYwhm0" role="3ScbVe">
         <ref role="3ScbWo" node="4SUcQre6ey0" resolve="intro2" />
       </node>
       <node concept="3ScbWp" id="4SUcQre7lsA" role="3ScbVe">

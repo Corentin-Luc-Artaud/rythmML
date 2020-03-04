@@ -21,15 +21,17 @@ public class SongUtils {
     final int NOTEOFF = 128;
 
     createEvent(track, NOTEON, 9, noteType, tick, velocity);
-    createEvent(track, NOTEOFF, 9, noteType, tick + duration, velocity);
+    createEvent(track, NOTEOFF, 9, noteType, tick, velocity);
   }
 
-  public static void addBassNote(Track track, int noteType, long tick, int velocity, int duration) {
+  public static void addBassNote(Track track, int noteType, long tick, int velocity, long duration) {
     final int NOTEON = 144;
     final int NOTEOFF = 128;
+    final int PROGRAM_CHANGE = 192;
 
-    createEvent(track, NOTEON, 4, noteType, tick, velocity);
-    createEvent(track, NOTEOFF, 4, noteType, tick + duration, velocity);
+    createEvent(track, PROGRAM_CHANGE, 1, 33, 1, 0);
+    createEvent(track, NOTEON, 1, noteType, tick, velocity);
+    createEvent(track, NOTEOFF, 1, noteType, duration, velocity);
   }
 
   public static void createEvent(Track track, int type, int chan, int noteType, long tick, int velocity) {

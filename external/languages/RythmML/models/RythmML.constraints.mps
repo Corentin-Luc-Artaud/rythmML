@@ -33,5 +33,8 @@
       <ref role="EomxK" to="wvci:5aWFjTLTInF" resolve="beat" />
     </node>
   </node>
+  <node concept="1M2fIO" id="553bUYYvlHT">
+    <ref role="1M2myG" to="wvci:6mhaJVXwlNt" resolve="Song" />
+  </node>
 </model>
 

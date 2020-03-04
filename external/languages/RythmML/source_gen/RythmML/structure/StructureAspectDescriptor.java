@@ -176,6 +176,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.parent(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, 0x40c1a7cb987d20d5L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x33d23ee961a0cbf3L);
     b.origin("r:916f00b6-5fe2-4b5f-89a4-4c707c5c502b(RythmML.structure)/7318678144116939997");
     b.version(2);
     b.property("tempo", 0x52bcad3e71e6e5e6L).type(PrimitiveTypeId.INTEGER).origin("5961830490442229222").done();
