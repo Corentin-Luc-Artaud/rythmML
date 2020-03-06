@@ -60,10 +60,11 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
       for (SNode track : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.track$4C47))) {
         Track realTrack = sequence.createTrack();
         int curBar = 0;
+        int instrument = InstrumentElement.valueOf(SPropertyOperations.getEnum(track, PROPS.instrument$t$Lw).getName()).instrumentNumber;
 
         for (SNode seq : ListSequence.fromList(SLinkOperations.getChildren(track, LINKS.sequence$tupv))) {
           for (SNode rep : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(seq, LINKS.section$OyN0), LINKS.repetitions$gCZp))) {
-            curBar = (int) Repetition__BehaviorDescriptor.generate_id1ggJHVJ9xQg.invoke(rep, ((int) curBar), realTrack, ((int) nbBeatPerBar), ((int) resolution));
+            curBar = (int) Repetition__BehaviorDescriptor.generate_id1ggJHVJ9xQg.invoke(rep, ((int) curBar), realTrack, ((int) nbBeatPerBar), ((int) resolution), ((int) instrument));
           }
         }
 
@@ -150,6 +151,7 @@ public final class Song__BehaviorDescriptor extends BaseBHDescriptor {
   private static final class PROPS {
     /*package*/ static final SProperty tempo$j9_s = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x52bcad3e71e6e5e6L, "tempo");
     /*package*/ static final SProperty musical_div$j9Aq = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x52bcad3e71e6e5e8L, "musical_div");
+    /*package*/ static final SProperty instrument$t$Lw = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca5aL, 0x52bcad3e71e6e5eeL, "instrument");
   }
 
   private static final class LINKS {

@@ -35,11 +35,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
-/*package*/ class BassNote_EditorBuilder_a extends AbstractEditorBuilder {
+/*package*/ class Note_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
   private SNode myNode;
 
-  public BassNote_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
+  public Note_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
     super(context);
     myNode = node;
   }
@@ -56,7 +56,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private EditorCell createCollection_0() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Indent());
-    editorCell.setCellId("Collection_wj9la5_a");
+    editorCell.setCellId("Collection_k5fwh9_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createProperty_0());
@@ -92,14 +92,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new positionSingleRoleHandler_wj9la5_b0(myNode, LINKS.position$ezGg, getEditorContext());
+    SingleRoleCellProvider provider = new positionSingleRoleHandler_k5fwh9_b0(myNode, LINKS.position$ezGg, getEditorContext());
     return provider.createCell();
   }
-  private static class positionSingleRoleHandler_wj9la5_b0 extends SingleRoleCellProvider {
+  private static class positionSingleRoleHandler_k5fwh9_b0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public positionSingleRoleHandler_wj9la5_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public positionSingleRoleHandler_k5fwh9_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -148,7 +148,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "for");
-    editorCell.setCellId("Constant_wj9la5_c0");
+    editorCell.setCellId("Constant_k5fwh9_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -179,7 +179,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
   private EditorCell createConstant_1() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "beat");
-    editorCell.setCellId("Constant_wj9la5_e0");
+    editorCell.setCellId("Constant_k5fwh9_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }

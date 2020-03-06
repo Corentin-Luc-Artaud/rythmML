@@ -13,7 +13,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1153952380246:jetbrains.mps.baseLanguage.structure.TryStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="16,0,62,0" name="RythmML.editor.EditorAspectDescriptorImpl" />
+      <unit at="16,0,64,0" name="RythmML.editor.EditorAspectDescriptorImpl" />
     </file>
     <file name="sequence_SubstituteMenu.java">
       <unit at="90,0,93,0" name="RythmML.editor.sequence_SubstituteMenu$CONCEPTS" />
@@ -24,18 +24,18 @@
     </file>
   </root>
   <root nodeRef="r:157d8961-beec-4a6b-a0fc-86d36105315d(RythmML.editor)/1445865345090525265">
-    <file name="BassNote_Editor.java">
-      <node id="1445865345090525265" at="11,79,12,74" concept="6" />
+    <file name="Note_Editor.java">
+      <node id="1445865345090525265" at="11,79,12,70" concept="6" />
       <node id="1445865345090525265" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="1445865345090525265" at="11,79,12,74" />
+      <scope id="1445865345090525265" at="11,79,12,70" />
       <scope id="1445865345090525265" at="11,0,14,0">
         <var name="editorContext" id="1445865345090525265" />
         <var name="node" id="1445865345090525265" />
       </scope>
-      <unit id="1445865345090525265" at="10,0,15,0" name="RythmML.editor.BassNote_Editor" />
+      <unit id="1445865345090525265" at="10,0,15,0" name="RythmML.editor.Note_Editor" />
     </file>
-    <file name="BassNote_EditorBuilder_a.java">
-      <node id="1445865345090525265" at="42,88,43,19" concept="9" />
+    <file name="Note_EditorBuilder_a.java">
+      <node id="1445865345090525265" at="42,84,43,19" concept="9" />
       <node id="1445865345090525265" at="43,19,44,18" concept="1" />
       <node id="1445865345090525265" at="49,26,50,18" concept="6" />
       <node id="1445865345090525265" at="53,39,54,32" concept="6" />
@@ -118,9 +118,9 @@
       <node id="1445865345090525265" at="126,7,129,7" concept="3" />
       <node id="1445865345090525265" at="145,0,148,0" concept="4" trace="getNoTargetText#()Ljava/lang/String;" />
       <node id="1445865345090525298" at="167,0,170,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="1445865345090525265" at="42,0,46,0" concept="0" trace="BassNote_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1445865345090525265" at="42,0,46,0" concept="0" trace="Note_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="1445865345090525265" at="94,0,98,0" concept="4" trace="createRefNode_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="1445865345090525265" at="102,0,106,0" concept="0" trace="positionSingleRoleHandler_wj9la5_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1445865345090525265" at="102,0,106,0" concept="0" trace="positionSingleRoleHandler_k5fwh9_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="1445865345090525265" at="47,0,52,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="1445865345090525274" at="79,188,84,9" concept="5" />
       <node id="1445865345090525274" at="84,9,89,24" concept="3" />
@@ -149,7 +149,7 @@
       <scope id="1445865345090525265" at="145,40,146,29" />
       <scope id="1445865345090525298" at="167,41,168,118" />
       <scope id="1445865345090525298" at="176,15,177,40" />
-      <scope id="1445865345090525265" at="42,88,44,18" />
+      <scope id="1445865345090525265" at="42,84,44,18" />
       <scope id="1445865345090525274" at="85,74,87,145">
         <var name="manager" id="1445865345090525274" />
       </scope>
@@ -225,13 +225,13 @@
       <scope id="1445865345090525298" at="155,41,178,5" />
       <scope id="1445865345090525274" at="69,0,94,0" />
       <scope id="1445865345090525298" at="155,0,180,0" />
-      <unit id="1445865345090525265" at="192,0,195,0" name="RythmML.editor.BassNote_EditorBuilder_a$CONCEPTS" />
-      <unit id="1445865345090525265" at="196,0,199,0" name="RythmML.editor.BassNote_EditorBuilder_a$LINKS" />
-      <unit id="1445865345090525274" at="80,102,84,7" name="RythmML.editor.BassNote_EditorBuilder_a$1" />
-      <unit id="1445865345090525298" at="166,102,170,7" name="RythmML.editor.BassNote_EditorBuilder_a$2" />
-      <unit id="1445865345090525265" at="187,0,191,0" name="RythmML.editor.BassNote_EditorBuilder_a$PROPS" />
-      <unit id="1445865345090525265" at="98,0,149,0" name="RythmML.editor.BassNote_EditorBuilder_a$positionSingleRoleHandler_wj9la5_b0" />
-      <unit id="1445865345090525265" at="38,0,200,0" name="RythmML.editor.BassNote_EditorBuilder_a" />
+      <unit id="1445865345090525265" at="192,0,195,0" name="RythmML.editor.Note_EditorBuilder_a$CONCEPTS" />
+      <unit id="1445865345090525265" at="196,0,199,0" name="RythmML.editor.Note_EditorBuilder_a$LINKS" />
+      <unit id="1445865345090525274" at="80,102,84,7" name="RythmML.editor.Note_EditorBuilder_a$1" />
+      <unit id="1445865345090525298" at="166,102,170,7" name="RythmML.editor.Note_EditorBuilder_a$2" />
+      <unit id="1445865345090525265" at="187,0,191,0" name="RythmML.editor.Note_EditorBuilder_a$PROPS" />
+      <unit id="1445865345090525265" at="98,0,149,0" name="RythmML.editor.Note_EditorBuilder_a$positionSingleRoleHandler_k5fwh9_b0" />
+      <unit id="1445865345090525265" at="38,0,200,0" name="RythmML.editor.Note_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:157d8961-beec-4a6b-a0fc-86d36105315d(RythmML.editor)/3423575700059342090">
@@ -2149,6 +2149,58 @@
       <unit id="7318678144117759832" at="187,0,238,0" name="RythmML.editor.Track_EditorBuilder_a$sectionsListHandler_97q2ds_b1a" />
       <unit id="7318678144117759832" at="264,0,315,0" name="RythmML.editor.Track_EditorBuilder_a$sequenceListHandler_97q2ds_b2a" />
       <unit id="7318678144117759832" at="46,0,332,0" name="RythmML.editor.Track_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:157d8961-beec-4a6b-a0fc-86d36105315d(RythmML.editor)/8074442134176141907">
+    <file name="Silence_Editor.java">
+      <node id="8074442134176141907" at="11,79,12,73" concept="6" />
+      <node id="8074442134176141907" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="8074442134176141907" at="11,79,12,73" />
+      <scope id="8074442134176141907" at="11,0,14,0">
+        <var name="editorContext" id="8074442134176141907" />
+        <var name="node" id="8074442134176141907" />
+      </scope>
+      <unit id="8074442134176141907" at="10,0,15,0" name="RythmML.editor.Silence_Editor" />
+    </file>
+    <file name="Silence_EditorBuilder_a.java">
+      <node id="8074442134176141907" at="18,87,19,19" concept="9" />
+      <node id="8074442134176141907" at="19,19,20,18" concept="1" />
+      <node id="8074442134176141907" at="25,26,26,18" concept="6" />
+      <node id="8074442134176141907" at="29,39,30,32" concept="6" />
+      <node id="8074442134176141907" at="33,43,34,118" concept="5" />
+      <node id="8074442134176141907" at="34,118,35,48" concept="1" />
+      <node id="8074442134176141907" at="35,48,36,28" concept="1" />
+      <node id="8074442134176141907" at="36,28,37,31" concept="1" />
+      <node id="8074442134176141916" at="37,31,38,49" concept="1" />
+      <node id="8074442134176141907" at="38,49,39,22" concept="6" />
+      <node id="8074442134176141916" at="41,41,42,100" concept="5" />
+      <node id="8074442134176141916" at="42,100,43,47" concept="1" />
+      <node id="8074442134176141916" at="43,47,44,34" concept="1" />
+      <node id="8074442134176141916" at="44,34,45,22" concept="6" />
+      <node id="8074442134176141907" at="15,0,17,0" concept="2" trace="myNode" />
+      <node id="8074442134176141907" at="29,0,32,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8074442134176141907" at="18,0,22,0" concept="0" trace="Silence_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="8074442134176141907" at="23,0,28,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="8074442134176141916" at="41,0,47,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="8074442134176141907" at="33,0,41,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="8074442134176141907" at="25,26,26,18" />
+      <scope id="8074442134176141907" at="29,39,30,32" />
+      <scope id="8074442134176141907" at="18,87,20,18" />
+      <scope id="8074442134176141907" at="29,0,32,0" />
+      <scope id="8074442134176141907" at="18,0,22,0">
+        <var name="context" id="8074442134176141907" />
+        <var name="node" id="8074442134176141907" />
+      </scope>
+      <scope id="8074442134176141916" at="41,41,45,22">
+        <var name="editorCell" id="8074442134176141916" />
+      </scope>
+      <scope id="8074442134176141907" at="23,0,28,0" />
+      <scope id="8074442134176141907" at="33,43,39,22">
+        <var name="editorCell" id="8074442134176141907" />
+      </scope>
+      <scope id="8074442134176141916" at="41,0,47,0" />
+      <scope id="8074442134176141907" at="33,0,41,0" />
+      <unit id="8074442134176141907" at="14,0,48,0" name="RythmML.editor.Silence_EditorBuilder_a" />
     </file>
   </root>
 </debug-info>

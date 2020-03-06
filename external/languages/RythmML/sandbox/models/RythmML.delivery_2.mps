@@ -47,7 +47,7 @@
       <concept id="3423575700059342060" name="RythmML.structure.sequence" flags="ng" index="3ScbWp">
         <reference id="3423575700059342061" name="section" index="3ScbWo" />
       </concept>
-      <concept id="1445865345090525237" name="RythmML.structure.BassNote" flags="ng" index="3VeUrF" />
+      <concept id="1445865345090525237" name="RythmML.structure.Note" flags="ng" index="3VeUrF" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -56,7 +56,7 @@
     </language>
   </registry>
   <node concept="2o47oz" id="553bUYY$9od">
-    <property role="TrG5h" value="johnny" />
+    <property role="TrG5h" value="Johnny B. Goode" />
     <property role="zm$zo" value="170" />
     <property role="zm$zm" value="4" />
     <node concept="2o4e2$" id="553bUYY$9oe" role="2o4e1O">
@@ -113,28 +113,28 @@
           <property role="zm$w0" value="2" />
           <node concept="2o4e2u" id="553bUYY$9q4" role="zm$w6">
             <node concept="3VeUrF" id="553bUYY$9qa" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgp4/AS1" />
               <node concept="2o4e2j" id="553bUYY$9qc" role="2o4Pu8">
                 <property role="zm$zl" value="0" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$9qk" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgs7/D2" />
               <node concept="2o4e2j" id="553bUYY$9qm" role="2o4Pu8">
                 <property role="zm$zl" value="1" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$9qy" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcguG/F2" />
               <node concept="2o4e2j" id="553bUYY$9q$" role="2o4Pu8">
                 <property role="zm$zl" value="2" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$9qO" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgwI/G2" />
               <node concept="2o4e2j" id="553bUYY$9qQ" role="2o4Pu8">
                 <property role="zm$zl" value="3" />
@@ -143,28 +143,28 @@
           </node>
           <node concept="2o4e2u" id="553bUYY$9pq" role="zm$w6">
             <node concept="3VeUrF" id="553bUYY$9r0" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgpO/AS2" />
               <node concept="2o4e2j" id="553bUYY$9r2" role="2o4Pu8">
                 <property role="zm$zl" value="0" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$9ra" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgwI/G2" />
               <node concept="2o4e2j" id="553bUYY$9rc" role="2o4Pu8">
                 <property role="zm$zl" value="1" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$9ro" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcguG/F2" />
               <node concept="2o4e2j" id="553bUYY$9rq" role="2o4Pu8">
                 <property role="zm$zl" value="2" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$9rE" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgs7/D2" />
               <node concept="2o4e2j" id="553bUYY$9rG" role="2o4Pu8">
                 <property role="zm$zl" value="3" />
@@ -176,28 +176,28 @@
           <property role="zm$w0" value="1" />
           <node concept="2o4e2u" id="553bUYY$bYU" role="zm$w6">
             <node concept="3VeUrF" id="553bUYY$bZ7" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgsU/DS2" />
               <node concept="2o4e2j" id="553bUYY$bZ9" role="2o4Pu8">
                 <property role="zm$zl" value="0" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bZh" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgwI/G2" />
               <node concept="2o4e2j" id="553bUYY$bZj" role="2o4Pu8">
                 <property role="zm$zl" value="1" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bZv" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgpO/AS2" />
               <node concept="2o4e2j" id="553bUYY$bZx" role="2o4Pu8">
                 <property role="zm$zl" value="2" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bZL" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="553bUYY$zqW/C3" />
               <node concept="2o4e2j" id="553bUYY$bZN" role="2o4Pu8">
                 <property role="zm$zl" value="3" />
@@ -206,28 +206,28 @@
           </node>
           <node concept="2o4e2u" id="553bUYY$bWn" role="zm$w6">
             <node concept="3VeUrF" id="553bUYY$bY4" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="553bUYY$zsL/DS3" />
               <node concept="2o4e2j" id="553bUYY$bY6" role="2o4Pu8">
                 <property role="zm$zl" value="0" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bYe" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="553bUYY$zqW/C3" />
               <node concept="2o4e2j" id="553bUYY$bYg" role="2o4Pu8">
                 <property role="zm$zl" value="1" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bYs" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgpO/AS2" />
               <node concept="2o4e2j" id="553bUYY$bYu" role="2o4Pu8">
                 <property role="zm$zl" value="2" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bYI" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgwI/G2" />
               <node concept="2o4e2j" id="553bUYY$bYK" role="2o4Pu8">
                 <property role="zm$zl" value="3" />
@@ -239,28 +239,28 @@
           <property role="zm$w0" value="1" />
           <node concept="2o4e2u" id="553bUYY$bX9" role="zm$w6">
             <node concept="3VeUrF" id="553bUYY$bXa" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgp4/AS1" />
               <node concept="2o4e2j" id="553bUYY$bXb" role="2o4Pu8">
                 <property role="zm$zl" value="0" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bXc" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgs7/D2" />
               <node concept="2o4e2j" id="553bUYY$bXd" role="2o4Pu8">
                 <property role="zm$zl" value="1" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bXe" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcguG/F2" />
               <node concept="2o4e2j" id="553bUYY$bXf" role="2o4Pu8">
                 <property role="zm$zl" value="2" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bXg" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgwI/G2" />
               <node concept="2o4e2j" id="553bUYY$bXh" role="2o4Pu8">
                 <property role="zm$zl" value="3" />
@@ -269,28 +269,28 @@
           </node>
           <node concept="2o4e2u" id="553bUYY$bXi" role="zm$w6">
             <node concept="3VeUrF" id="553bUYY$bXj" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgpO/AS2" />
               <node concept="2o4e2j" id="553bUYY$bXk" role="2o4Pu8">
                 <property role="zm$zl" value="0" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bXl" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgwI/G2" />
               <node concept="2o4e2j" id="553bUYY$bXm" role="2o4Pu8">
                 <property role="zm$zl" value="1" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bXn" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcguG/F2" />
               <node concept="2o4e2j" id="553bUYY$bXo" role="2o4Pu8">
                 <property role="zm$zl" value="2" />
               </node>
             </node>
             <node concept="3VeUrF" id="553bUYY$bXp" role="2o4RJb">
-              <property role="3VelVu" value="1." />
+              <property role="3VelVu" value="1" />
               <property role="3VeUrG" value="1ggJHVJcgs7/D2" />
               <node concept="2o4e2j" id="553bUYY$bXq" role="2o4Pu8">
                 <property role="zm$zl" value="3" />

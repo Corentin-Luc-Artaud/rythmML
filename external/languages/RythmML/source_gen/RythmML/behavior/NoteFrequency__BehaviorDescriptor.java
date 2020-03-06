@@ -26,21 +26,21 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class NoteFrequency__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL, "RythmML.structure.NoteFrequency");
 
-  public static final SMethod<Void> generate_id5aWFjTLUNx6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5aWFjTLUNx6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
-  public static final SMethod<Void> generate_id1ggJHVJ3VK6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1ggJHVJ3VK6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Double.TYPE, ""));
+  public static final SMethod<Void> generate_id5aWFjTLUNx6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5aWFjTLUNx6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
+  public static final SMethod<Void> generate_id1ggJHVJ3VK6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1ggJHVJ3VK6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Double.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(generate_id5aWFjTLUNx6, generate_id1ggJHVJ3VK6);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static void generate_id5aWFjTLUNx6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity) {
+  /*package*/ static void generate_id5aWFjTLUNx6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity, int instrument) {
     double increment = Double.parseDouble(SPropertyOperations.getString(__thisNode__, PROPS.frequency$7tTs));
     for (double current = 0.; current < beatPerBar; current += increment) {
-      ANote__BehaviorDescriptor.generate_id1ggJHVJ3VK6.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.note$7tSu), track, ((int) bar), ((int) beatPerBar), ((int) resolution), ((int) velocity), ((double) current));
+      ANote__BehaviorDescriptor.generate_id1ggJHVJ3VK6.invoke(SLinkOperations.getTarget(__thisNode__, LINKS.note$7tSu), track, ((int) bar), ((int) beatPerBar), ((int) resolution), ((int) velocity), ((double) current), ((int) instrument));
     }
   }
-  /*package*/ static void generate_id1ggJHVJ3VK6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity, double offset) {
+  /*package*/ static void generate_id1ggJHVJ3VK6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity, double offset, int instrument) {
   }
 
   /*package*/ NoteFrequency__BehaviorDescriptor() {
@@ -59,10 +59,10 @@ public final class NoteFrequency__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        generate_id5aWFjTLUNx6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]));
+        generate_id5aWFjTLUNx6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]), ((int) (Integer) parameters[5]));
         return null;
       case 1:
-        generate_id1ggJHVJ3VK6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]), ((double) (Double) parameters[5]));
+        generate_id1ggJHVJ3VK6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]), ((double) (Double) parameters[5]), ((int) (Integer) parameters[6]));
         return null;
       default:
         throw new BHMethodNotFoundException(this, method);

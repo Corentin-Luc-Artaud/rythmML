@@ -16,6 +16,7 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -257,6 +258,10 @@
         <property role="TrG5h" value="velocity" />
         <node concept="10Oyi0" id="5aWFjTLUN_P" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="70eb_sYYtwQ" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYtxe" role="1tU5fm" />
+      </node>
     </node>
     <node concept="13i0hz" id="1ggJHVJ3VK6" role="13h7CS">
       <property role="13i0iv" value="true" />
@@ -290,6 +295,10 @@
       <node concept="37vLTG" id="1ggJHVJ3W1L" role="3clF46">
         <property role="TrG5h" value="offset" />
         <node concept="10P55v" id="1ggJHVJ3W29" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="70eb_sYYtxB" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYty1" role="1tU5fm" />
       </node>
     </node>
   </node>
@@ -325,6 +334,9 @@
               <node concept="3b6qkQ" id="1ggJHVJ8JKz" role="37wK5m">
                 <property role="$nhwW" value="0." />
               </node>
+              <node concept="37vLTw" id="70eb_sYYw7H" role="37wK5m">
+                <ref role="3cqZAo" node="70eb_sYYvnW" resolve="instrument" />
+              </node>
             </node>
           </node>
         </node>
@@ -352,6 +364,10 @@
       <node concept="37vLTG" id="5aWFjTLUVKU" role="3clF46">
         <property role="TrG5h" value="velocity" />
         <node concept="10Oyi0" id="5aWFjTLUVKV" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="70eb_sYYvnW" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYvsD" role="1tU5fm" />
       </node>
     </node>
     <node concept="13i0hz" id="1ggJHVJ3W3b" role="13h7CS">
@@ -491,6 +507,10 @@
       <node concept="37vLTG" id="1ggJHVJ3W3A" role="3clF46">
         <property role="TrG5h" value="offset" />
         <node concept="10P55v" id="1ggJHVJ3W3B" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="70eb_sYYvt2" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYw0$" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="1ggJHVJ3W3C" role="3clF45" />
     </node>
@@ -729,7 +749,7 @@
     </node>
     <node concept="2tJIrI" id="1ggJHVJbd08" role="jymVt" />
     <node concept="2YIFZL" id="1ggJHVJbdb_" role="jymVt">
-      <property role="TrG5h" value="addBassNote" />
+      <property role="TrG5h" value="addNote" />
       <node concept="3clFbS" id="1ggJHVJbdbC" role="3clF47">
         <node concept="3cpWs8" id="1ggJHVJbdnA" role="3cqZAp">
           <node concept="3cpWsn" id="1ggJHVJbdn$" role="3cpWs9">
@@ -774,8 +794,8 @@
             <node concept="3cmrfG" id="553bUYYvZX5" role="37wK5m">
               <property role="3cmrfH" value="1" />
             </node>
-            <node concept="3cmrfG" id="553bUYYw1kT" role="37wK5m">
-              <property role="3cmrfH" value="36" />
+            <node concept="37vLTw" id="70eb_sYYQrI" role="37wK5m">
+              <ref role="3cqZAo" node="70eb_sYYQgS" resolve="instrument" />
             </node>
             <node concept="3cmrfG" id="553bUYYxiVE" role="37wK5m">
               <property role="3cmrfH" value="1" />
@@ -855,6 +875,10 @@
       <node concept="37vLTG" id="1ggJHVJbdlw" role="3clF46">
         <property role="TrG5h" value="duration" />
         <node concept="3cpWsb" id="553bUYYyaMO" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="70eb_sYYQgS" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYQjw" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="6mhaJVXx8vC" role="jymVt" />
@@ -1079,6 +1103,9 @@
                   <node concept="37vLTw" id="1ggJHVJ4Lx1" role="37wK5m">
                     <ref role="3cqZAo" node="5aWFjTLUZDe" resolve="current" />
                   </node>
+                  <node concept="37vLTw" id="70eb_sYY_mn" role="37wK5m">
+                    <ref role="3cqZAo" node="70eb_sYY_0v" resolve="instrument" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1123,6 +1150,10 @@
         <property role="TrG5h" value="velocity" />
         <node concept="10Oyi0" id="5aWFjTLUZCF" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="70eb_sYY_0v" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYY_dj" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="5aWFjTLUZCG" role="3clF45" />
     </node>
     <node concept="13i0hz" id="1ggJHVJ3YV8" role="13h7CS">
@@ -1155,6 +1186,10 @@
       <node concept="37vLTG" id="1ggJHVJ3YVz" role="3clF46">
         <property role="TrG5h" value="offset" />
         <node concept="10P55v" id="1ggJHVJ3YV$" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="70eb_sYY_dE" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYY_dU" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="1ggJHVJ3YV_" role="3clF45" />
     </node>
@@ -1395,6 +1430,33 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3cpWs8" id="70eb_sYZnVr" role="3cqZAp">
+                  <node concept="3cpWsn" id="70eb_sYZnVu" role="3cpWs9">
+                    <property role="TrG5h" value="instrument" />
+                    <node concept="10Oyi0" id="70eb_sYZnVp" role="1tU5fm" />
+                    <node concept="2OqwBi" id="70eb_sYZsqe" role="33vP2m">
+                      <node concept="unr1b" id="70eb_sYZq45" role="2Oq$k0">
+                        <ref role="un$jP" node="553bUYY$C3i" resolve="InstrumentElement" />
+                        <node concept="2OqwBi" id="70eb_sYZrti" role="unwt0">
+                          <node concept="2OqwBi" id="70eb_sYZqLs" role="2Oq$k0">
+                            <node concept="2GrUjf" id="70eb_sYZq$7" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="5aWFjTLUtfK" resolve="track" />
+                            </node>
+                            <node concept="3TrcHB" id="70eb_sYZrdH" role="2OqNvi">
+                              <ref role="3TsBF5" to="wvci:5aWFjTLTInI" resolve="instrument" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="70eb_sYZrWM" role="2OqNvi">
+                            <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OwXpG" id="70eb_sYZsTU" role="2OqNvi">
+                        <ref role="2Oxat5" node="553bUYY$CJb" resolve="instrumentNumber" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbH" id="37_aAvBWW6E" role="3cqZAp" />
                 <node concept="2Gpval" id="37_aAvBWWgj" role="3cqZAp">
                   <node concept="2GrKxI" id="37_aAvBWWgl" role="2Gsz3X">
@@ -1446,6 +1508,9 @@
                                 </node>
                                 <node concept="37vLTw" id="37_aAvBX2_u" role="37wK5m">
                                   <ref role="3cqZAo" node="6mhaJVXwQBx" resolve="resolution" />
+                                </node>
+                                <node concept="37vLTw" id="70eb_sYZuG5" role="37wK5m">
+                                  <ref role="3cqZAo" node="70eb_sYZnVu" resolve="instrument" />
                                 </node>
                               </node>
                             </node>
@@ -1782,6 +1847,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="70eb_sZ40LH" role="3cqZAp" />
                 <node concept="2Gpval" id="1ggJHVJ9$fM" role="3cqZAp">
                   <node concept="2GrKxI" id="1ggJHVJ9$fN" role="2Gsz3X">
                     <property role="TrG5h" value="note" />
@@ -1790,7 +1856,7 @@
                     <node concept="2GrUjf" id="1ggJHVJ9$gK" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="1ggJHVJ9zqH" resolve="bar" />
                     </node>
-                    <node concept="3Tsc0h" id="1ggJHVJ9$zS" role="2OqNvi">
+                    <node concept="3Tsc0h" id="70eb_sZ2lzX" role="2OqNvi">
                       <ref role="3TtcxE" to="wvci:6mhaJVXw_4P" resolve="notes" />
                     </node>
                   </node>
@@ -1816,6 +1882,9 @@
                           </node>
                           <node concept="3cmrfG" id="1ggJHVJ9_OV" role="37wK5m">
                             <property role="3cmrfH" value="110" />
+                          </node>
+                          <node concept="37vLTw" id="70eb_sYYwiv" role="37wK5m">
+                            <ref role="3cqZAo" node="70eb_sYYbJt" resolve="instrument" />
                           </node>
                         </node>
                       </node>
@@ -1873,13 +1942,17 @@
         <property role="TrG5h" value="resolution" />
         <node concept="10Oyi0" id="1ggJHVJ9_vk" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="70eb_sYYbJt" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYbWn" role="1tU5fm" />
+      </node>
     </node>
     <node concept="13hLZK" id="1ggJHVJ9xQ6" role="13h7CW">
       <node concept="3clFbS" id="1ggJHVJ9xQ7" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="1ggJHVJbc5i">
-    <ref role="13h7C2" to="wvci:1ggJHVJaLwP" resolve="BassNote" />
+    <ref role="13h7C2" to="wvci:1ggJHVJaLwP" resolve="Note" />
     <node concept="13hLZK" id="1ggJHVJbc5j" role="13h7CW">
       <node concept="3clFbS" id="1ggJHVJbc5k" role="2VODD2" />
     </node>
@@ -1911,6 +1984,9 @@
               <node concept="3cmrfG" id="1ggJHVJbq$f" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
+              <node concept="37vLTw" id="70eb_sYYuGf" role="37wK5m">
+                <ref role="3cqZAo" node="70eb_sYYufY" resolve="instrument" />
+              </node>
             </node>
           </node>
         </node>
@@ -1936,6 +2012,10 @@
       <node concept="37vLTG" id="1ggJHVJbc5O" role="3clF46">
         <property role="TrG5h" value="velocity" />
         <node concept="10Oyi0" id="1ggJHVJbc5P" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="70eb_sYYufY" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYugc" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="1ggJHVJbc5Q" role="3clF45" />
     </node>
@@ -2098,7 +2178,7 @@
         </node>
         <node concept="3clFbF" id="1ggJHVJbh23" role="3cqZAp">
           <node concept="2YIFZM" id="1ggJHVJbh3P" role="3clFbG">
-            <ref role="37wK5l" node="1ggJHVJbdb_" resolve="addBassNote" />
+            <ref role="37wK5l" node="1ggJHVJbdb_" resolve="addNote" />
             <ref role="1Pybhc" node="6mhaJVXwWiS" resolve="SongUtils" />
             <node concept="37vLTw" id="1ggJHVJbhlP" role="37wK5m">
               <ref role="3cqZAo" node="1ggJHVJbc6C" resolve="track" />
@@ -2131,6 +2211,9 @@
             <node concept="37vLTw" id="553bUYYyawi" role="37wK5m">
               <ref role="3cqZAo" node="553bUYYy55E" resolve="durationTick" />
             </node>
+            <node concept="37vLTw" id="70eb_sYZ7c1" role="37wK5m">
+              <ref role="3cqZAo" node="70eb_sYYuoZ" resolve="instrument" />
+            </node>
           </node>
         </node>
       </node>
@@ -2159,6 +2242,10 @@
       <node concept="37vLTG" id="1ggJHVJbc6M" role="3clF46">
         <property role="TrG5h" value="offset" />
         <node concept="10P55v" id="1ggJHVJbc6N" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="70eb_sYYuoZ" role="3clF46">
+        <property role="TrG5h" value="instrument" />
+        <node concept="10Oyi0" id="70eb_sYYuwf" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="1ggJHVJbc6O" role="3clF45" />
     </node>
@@ -2562,6 +2649,111 @@
   </node>
   <node concept="Qs71p" id="553bUYY$C3i">
     <property role="TrG5h" value="InstrumentElement" />
+    <node concept="QsSxf" id="70eb_sZ0vyt" role="Qtgdg">
+      <property role="TrG5h" value="AcousticGrandPiano" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0yxh" role="37wK5m">
+        <property role="3cmrfH" value="1" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0w1d" role="Qtgdg">
+      <property role="TrG5h" value="BrightAcousticPiano" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0yFU" role="37wK5m">
+        <property role="3cmrfH" value="2" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0wDL" role="Qtgdg">
+      <property role="TrG5h" value="ElectricGrandPiano" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0yQz" role="37wK5m">
+        <property role="3cmrfH" value="3" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0x7s" role="Qtgdg">
+      <property role="TrG5h" value="HonkyTonkPiano" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0z1c" role="37wK5m">
+        <property role="3cmrfH" value="4" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0xPl" role="Qtgdg">
+      <property role="TrG5h" value="ElectricPiano1" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0zbP" role="37wK5m">
+        <property role="3cmrfH" value="5" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0zm0" role="Qtgdg">
+      <property role="TrG5h" value="ElectricPiano2" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0zNJ" role="37wK5m">
+        <property role="3cmrfH" value="6" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0zYx" role="Qtgdg">
+      <property role="TrG5h" value="Accordion" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0$tA" role="37wK5m">
+        <property role="3cmrfH" value="22" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0$Du" role="Qtgdg">
+      <property role="TrG5h" value="AcousticGuitarN" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0_m1" role="37wK5m">
+        <property role="3cmrfH" value="25" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0_yz" role="Qtgdg">
+      <property role="TrG5h" value="AcousticGuitarS" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0AgQ" role="37wK5m">
+        <property role="3cmrfH" value="26" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0Auc" role="Qtgdg">
+      <property role="TrG5h" value="ElectricGuitarJ" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0B1j" role="37wK5m">
+        <property role="3cmrfH" value="27" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0Bfg" role="Qtgdg">
+      <property role="TrG5h" value="ElectricGuitarC" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0BWh" role="37wK5m">
+        <property role="3cmrfH" value="28" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0CaM" role="Qtgdg">
+      <property role="TrG5h" value="ElectricGuitarM" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0CK_" role="37wK5m">
+        <property role="3cmrfH" value="29" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0CZz" role="Qtgdg">
+      <property role="TrG5h" value="OverdrivenGuitar" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0DZs" role="37wK5m">
+        <property role="3cmrfH" value="30" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0Efe" role="Qtgdg">
+      <property role="TrG5h" value="DistortionGuitar" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0ERH" role="37wK5m">
+        <property role="3cmrfH" value="31" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0F7T" role="Qtgdg">
+      <property role="TrG5h" value="GuitarHarmonics" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0FLV" role="37wK5m">
+        <property role="3cmrfH" value="32" />
+      </node>
+    </node>
     <node concept="312cEg" id="553bUYY$CJb" role="jymVt">
       <property role="TrG5h" value="instrumentNumber" />
       <node concept="3Tm1VV" id="553bUYY$CJc" role="1B3o_S" />
@@ -2592,6 +2784,27 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="553bUYY$C3j" role="1B3o_S" />
+    <node concept="QsSxf" id="553bUYY$D8h" role="Qtgdg">
+      <property role="TrG5h" value="AcousticBass" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="553bUYY$DlV" role="37wK5m">
+        <property role="3cmrfH" value="33" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="6M4bbStG4T0" role="Qtgdg">
+      <property role="TrG5h" value="ElectricBassF" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="6M4bbStG52y" role="37wK5m">
+        <property role="3cmrfH" value="34" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="6M4bbStG565" role="Qtgdg">
+      <property role="TrG5h" value="ElectricBassP" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="6M4bbStG5hG" role="37wK5m">
+        <property role="3cmrfH" value="35" />
+      </node>
+    </node>
     <node concept="QsSxf" id="553bUYY$CYc" role="Qtgdg">
       <property role="TrG5h" value="FretlessBass" />
       <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
@@ -2599,11 +2812,46 @@
         <property role="3cmrfH" value="36" />
       </node>
     </node>
-    <node concept="QsSxf" id="553bUYY$D8h" role="Qtgdg">
-      <property role="TrG5h" value="AcousticBass" />
+    <node concept="QsSxf" id="6M4bbStG5Jb" role="Qtgdg">
+      <property role="TrG5h" value="SlapBass1" />
       <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
-      <node concept="3cmrfG" id="553bUYY$DlV" role="37wK5m">
-        <property role="3cmrfH" value="33" />
+      <node concept="3cmrfG" id="6M4bbStG5Xu" role="37wK5m">
+        <property role="3cmrfH" value="37" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="6M4bbStG62J" role="Qtgdg">
+      <property role="TrG5h" value="SlapBass2" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="6M4bbStG62K" role="37wK5m">
+        <property role="3cmrfH" value="38" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sYZYaM" role="Qtgdg">
+      <property role="TrG5h" value="Violin" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sYZYxB" role="37wK5m">
+        <property role="3cmrfH" value="41" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0ehv" role="Qtgdg">
+      <property role="TrG5h" value="Viola" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0eDE" role="37wK5m">
+        <property role="3cmrfH" value="42" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0eK3" role="Qtgdg">
+      <property role="TrG5h" value="Cello" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0f5r" role="37wK5m">
+        <property role="3cmrfH" value="43" />
+      </node>
+    </node>
+    <node concept="QsSxf" id="70eb_sZ0fcr" role="Qtgdg">
+      <property role="TrG5h" value="Contrabass" />
+      <ref role="37wK5l" node="553bUYY$CJf" resolve="InstrumentElement" />
+      <node concept="3cmrfG" id="70eb_sZ0fy6" role="37wK5m">
+        <property role="3cmrfH" value="44" />
       </node>
     </node>
     <node concept="QsSxf" id="553bUYY$Eje" role="Qtgdg">

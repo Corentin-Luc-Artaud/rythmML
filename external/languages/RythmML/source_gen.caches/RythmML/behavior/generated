@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-c321v9mb1rju2m1z0wfk5j290p21i4n">
-  <files names="ANote__BehaviorDescriptor.java:BassNote__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:DrumElement.java:DrumNote__BehaviorDescriptor.java:InstrumentElement.java:NoteElement.java:NoteFrequency__BehaviorDescriptor.java:Repetition__BehaviorDescriptor.java:SongUtils.java:Song__BehaviorDescriptor.java" />
+<product version="3" modelHash="au3tfautcixxgv1malvqy7in6hlp8y6">
+  <files names="ANote__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:DrumElement.java:DrumNote__BehaviorDescriptor.java:InstrumentElement.java:NoteElement.java:NoteFrequency__BehaviorDescriptor.java:Note__BehaviorDescriptor.java:Repetition__BehaviorDescriptor.java:SongUtils.java:Song__BehaviorDescriptor.java" />
 </product>
 

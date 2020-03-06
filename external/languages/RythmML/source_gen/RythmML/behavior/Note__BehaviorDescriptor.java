@@ -23,31 +23,31 @@ import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
 
-public final class BassNote__BehaviorDescriptor extends BaseBHDescriptor {
-  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x1410bedeef2b1835L, "RythmML.structure.BassNote");
+public final class Note__BehaviorDescriptor extends BaseBHDescriptor {
+  private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x1410bedeef2b1835L, "RythmML.structure.Note");
 
-  public static final SMethod<Void> generate_id5aWFjTLUNx6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5aWFjTLUNx6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
-  public static final SMethod<Void> generate_id1ggJHVJ3VK6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1ggJHVJ3VK6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Double.TYPE, ""));
+  public static final SMethod<Void> generate_id5aWFjTLUNx6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5aWFjTLUNx6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
+  public static final SMethod<Void> generate_id1ggJHVJ3VK6 = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generate").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1ggJHVJ3VK6").build(SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Double.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(generate_id5aWFjTLUNx6, generate_id1ggJHVJ3VK6);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static void generate_id5aWFjTLUNx6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity) {
-    ANote__BehaviorDescriptor.generate_id1ggJHVJ3VK6.invoke(__thisNode__, track, ((int) bar), ((int) beatPerBar), ((int) resolution), ((int) velocity), ((double) 0));
+  /*package*/ static void generate_id5aWFjTLUNx6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity, int instrument) {
+    ANote__BehaviorDescriptor.generate_id1ggJHVJ3VK6.invoke(__thisNode__, track, ((int) bar), ((int) beatPerBar), ((int) resolution), ((int) velocity), ((double) 0), ((int) instrument));
   }
-  /*package*/ static void generate_id1ggJHVJ3VK6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity, double offset) {
+  /*package*/ static void generate_id1ggJHVJ3VK6(@NotNull SNode __thisNode__, Track track, int bar, int beatPerBar, int resolution, int velocity, double offset, int instrument) {
     long tick = bar * beatPerBar * resolution;
     Double beat = (Double.parseDouble(SPropertyOperations.getString(SLinkOperations.getTarget(__thisNode__, LINKS.position$ezGg), PROPS.beat$t$AP)) + offset) * resolution;
     tick += beat.longValue();
     Double duration = (Double.parseDouble(SPropertyOperations.getString(__thisNode__, PROPS.duration$VAO8)) + Double.parseDouble(SPropertyOperations.getString(SLinkOperations.getTarget(__thisNode__, LINKS.position$ezGg), PROPS.beat$t$AP)) + offset) * resolution;
     long durationTick = (bar * beatPerBar * resolution);
     durationTick += duration.longValue();
-    SongUtils.addBassNote(track, NoteElement.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.note$qCDG).toString()).noteNumber, tick, velocity, durationTick);
+    SongUtils.addNote(track, NoteElement.valueOf(SPropertyOperations.getEnum(__thisNode__, PROPS.note$qCDG).toString()).noteNumber, tick, velocity, durationTick, instrument);
   }
 
-  /*package*/ BassNote__BehaviorDescriptor() {
+  /*package*/ Note__BehaviorDescriptor() {
   }
 
   @Override
@@ -63,10 +63,10 @@ public final class BassNote__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        generate_id5aWFjTLUNx6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]));
+        generate_id5aWFjTLUNx6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]), ((int) (Integer) parameters[5]));
         return null;
       case 1:
-        generate_id1ggJHVJ3VK6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]), ((double) (Double) parameters[5]));
+        generate_id1ggJHVJ3VK6(node, (Track) parameters[0], ((int) (Integer) parameters[1]), ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4]), ((double) (Double) parameters[5]), ((int) (Integer) parameters[6]));
         return null;
       default:
         throw new BHMethodNotFoundException(this, method);

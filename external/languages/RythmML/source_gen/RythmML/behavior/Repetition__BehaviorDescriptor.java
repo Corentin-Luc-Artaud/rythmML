@@ -27,19 +27,20 @@ import org.jetbrains.mps.openapi.language.SProperty;
 public final class Repetition__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L, "RythmML.structure.Repetition");
 
-  public static final SMethod<Integer> generate_id1ggJHVJ9xQg = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("generate").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1ggJHVJ9xQg").build(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
+  public static final SMethod<Integer> generate_id1ggJHVJ9xQg = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("generate").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1ggJHVJ9xQg").build(SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Track.class, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""), SMethodBuilder.createJavaParameter(Integer.TYPE, ""));
 
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(generate_id1ggJHVJ9xQg);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static int generate_id1ggJHVJ9xQg(@NotNull SNode __thisNode__, int curBar, Track realTrack, int nbBeatPerBar, int resolution) {
+  /*package*/ static int generate_id1ggJHVJ9xQg(@NotNull SNode __thisNode__, int curBar, Track realTrack, int nbBeatPerBar, int resolution, int instrument) {
     for (int rep = 0; rep < SPropertyOperations.getInteger(__thisNode__, PROPS.repetition$76S5); rep++) {
       for (SNode bar : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.bars$76F0))) {
         curBar = curBar + 1;
+
         for (SNode note : ListSequence.fromList(SLinkOperations.getChildren(bar, LINKS.notes$tuaG))) {
-          ANote__BehaviorDescriptor.generate_id5aWFjTLUNx6.invoke(note, realTrack, ((int) curBar), ((int) nbBeatPerBar), ((int) resolution), ((int) 110));
+          ANote__BehaviorDescriptor.generate_id5aWFjTLUNx6.invoke(note, realTrack, ((int) curBar), ((int) nbBeatPerBar), ((int) resolution), ((int) 110), ((int) instrument));
         }
       }
     }
@@ -62,7 +63,7 @@ public final class Repetition__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        return (T) ((Integer) generate_id1ggJHVJ9xQg(node, ((int) (Integer) parameters[0]), (Track) parameters[1], ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3])));
+        return (T) ((Integer) generate_id1ggJHVJ9xQg(node, ((int) (Integer) parameters[0]), (Track) parameters[1], ((int) (Integer) parameters[2]), ((int) (Integer) parameters[3]), ((int) (Integer) parameters[4])));
       default:
         throw new BHMethodNotFoundException(this, method);
     }

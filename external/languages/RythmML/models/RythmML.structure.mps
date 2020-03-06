@@ -156,14 +156,6 @@
     <property role="EcuMT" value="7318678144116968036" />
     <property role="TrG5h" value="Silence" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6mhaJVXwsD_" role="PzmwI">
-      <ref role="PrY4T" node="6mhaJVXwsDz" resolve="ANote" />
-    </node>
-    <node concept="1TJgyi" id="1ggJHVJaLr4" role="1TKVEl">
-      <property role="IQ2nx" value="1445865345090524868" />
-      <property role="TrG5h" value="duration" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6mhaJVXwsDB">
     <property role="EcuMT" value="7318678144116968039" />
@@ -188,7 +180,7 @@
     <node concept="1TJgyi" id="1ggJHVJau00" role="1TKVEl">
       <property role="IQ2nx" value="1445865345090445312" />
       <property role="TrG5h" value="duration" />
-      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1ggJHVJaLwM" role="1TKVEl">
       <property role="IQ2nx" value="1445865345090525234" />
@@ -518,7 +510,7 @@
   </node>
   <node concept="1TIwiD" id="1ggJHVJaLwP">
     <property role="EcuMT" value="1445865345090525237" />
-    <property role="TrG5h" value="BassNote" />
+    <property role="TrG5h" value="Note" />
     <ref role="1TJDcQ" node="6mhaJVXwsDE" resolve="StandarNote" />
   </node>
   <node concept="1TIwiD" id="2Y2YZnnG$jG">
@@ -535,15 +527,130 @@
   <node concept="25R3W" id="553bUYY$9ob">
     <property role="3F6X1D" value="5855576372374705675" />
     <property role="TrG5h" value="InstrumentEnum" />
+    <node concept="25R33" id="70eb_sZ0vt4" role="25R1y">
+      <property role="3tVfz5" value="8074442134176003908" />
+      <property role="1L1pqM" value="Acoustic Grand Piano" />
+      <property role="TrG5h" value="AcousticGrandPiano" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vth" role="25R1y">
+      <property role="3tVfz5" value="8074442134176003921" />
+      <property role="1L1pqM" value="Bright Acoustic Piano" />
+      <property role="TrG5h" value="BrightAcousticPiano" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vtv" role="25R1y">
+      <property role="3tVfz5" value="8074442134176003935" />
+      <property role="1L1pqM" value="Electric Grand Piano" />
+      <property role="TrG5h" value="ElectricGrandPiano" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vtI" role="25R1y">
+      <property role="3tVfz5" value="8074442134176003950" />
+      <property role="1L1pqM" value="Honky-tonk Piano" />
+      <property role="TrG5h" value="HonkyTonkPiano" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vuu" role="25R1y">
+      <property role="3tVfz5" value="8074442134176003998" />
+      <property role="1L1pqM" value="Electric Piano 1" />
+      <property role="TrG5h" value="ElectricPiano1" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vuJ" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004015" />
+      <property role="1L1pqM" value="Electric Piano 2" />
+      <property role="TrG5h" value="ElectricPiano2" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vv1" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004033" />
+      <property role="TrG5h" value="Accordion" />
+      <property role="1L1pqM" value="Accordion" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vvk" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004052" />
+      <property role="1L1pqM" value="Acoustic Guitar (nylon)" />
+      <property role="TrG5h" value="AcousticGuitarN" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vvC" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004072" />
+      <property role="1L1pqM" value="Acoustic Guitar (steel)" />
+      <property role="TrG5h" value="AcousticGuitarS" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vvX" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004093" />
+      <property role="1L1pqM" value="Electric Guitar (jazz)" />
+      <property role="TrG5h" value="ElectricGuitarJ" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vwj" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004115" />
+      <property role="1L1pqM" value="Electric Guitar (clean)" />
+      <property role="TrG5h" value="ElectricGuitarC" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vwE" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004138" />
+      <property role="1L1pqM" value="Electric Guitar (muted)" />
+      <property role="TrG5h" value="ElectricGuitarM" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vx2" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004162" />
+      <property role="1L1pqM" value="Overdriven Guitar" />
+      <property role="TrG5h" value="OverdrivenGuitar" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vxr" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004187" />
+      <property role="1L1pqM" value="Distortion Guitar" />
+      <property role="TrG5h" value="DistortionGuitar" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0vxP" role="25R1y">
+      <property role="3tVfz5" value="8074442134176004213" />
+      <property role="1L1pqM" value="Guitar harmonics" />
+      <property role="TrG5h" value="GuitarHarmonics" />
+    </node>
     <node concept="25R33" id="553bUYY$9oc" role="25R1y">
       <property role="3tVfz5" value="5855576372374705676" />
       <property role="TrG5h" value="AcousticBass" />
       <property role="1L1pqM" value="Acoustic Bass" />
     </node>
+    <node concept="25R33" id="6M4bbStG4KK" role="25R1y">
+      <property role="3tVfz5" value="7819424048075525168" />
+      <property role="1L1pqM" value="Electric Bass (finger)" />
+      <property role="TrG5h" value="ElectricBassF" />
+    </node>
+    <node concept="25R33" id="6M4bbStG4KP" role="25R1y">
+      <property role="3tVfz5" value="7819424048075525173" />
+      <property role="1L1pqM" value="Electric Bass (pick)" />
+      <property role="TrG5h" value="ElectricBassP" />
+    </node>
     <node concept="25R33" id="553bUYY$C33" role="25R1y">
       <property role="3tVfz5" value="5855576372374831299" />
       <property role="TrG5h" value="FretlessBass" />
       <property role="1L1pqM" value="Fretless Bass" />
+    </node>
+    <node concept="25R33" id="6M4bbStG6dl" role="25R1y">
+      <property role="3tVfz5" value="7819424048075531093" />
+      <property role="1L1pqM" value="Slap Bass 1" />
+      <property role="TrG5h" value="SlapBass1" />
+    </node>
+    <node concept="25R33" id="6M4bbStG6ds" role="25R1y">
+      <property role="3tVfz5" value="7819424048075531100" />
+      <property role="1L1pqM" value="Slap Bass 2" />
+      <property role="TrG5h" value="SlapBass2" />
+    </node>
+    <node concept="25R33" id="70eb_sYZYBp" role="25R1y">
+      <property role="3tVfz5" value="8074442134175869401" />
+      <property role="TrG5h" value="Violin" />
+      <property role="1L1pqM" value="Violin" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0ebF" role="25R1y">
+      <property role="3tVfz5" value="8074442134175933163" />
+      <property role="TrG5h" value="Viola" />
+      <property role="1L1pqM" value="Viola" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0ebP" role="25R1y">
+      <property role="3tVfz5" value="8074442134175933173" />
+      <property role="TrG5h" value="Cello" />
+      <property role="1L1pqM" value="Cello" />
+    </node>
+    <node concept="25R33" id="70eb_sZ0ec0" role="25R1y">
+      <property role="3tVfz5" value="8074442134175933184" />
+      <property role="TrG5h" value="Contrabass" />
+      <property role="1L1pqM" value="Contrabass" />
     </node>
     <node concept="25R33" id="553bUYY$C36" role="25R1y">
       <property role="3tVfz5" value="5855576372374831302" />

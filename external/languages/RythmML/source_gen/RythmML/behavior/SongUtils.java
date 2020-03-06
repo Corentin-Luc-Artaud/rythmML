@@ -24,12 +24,12 @@ public class SongUtils {
     createEvent(track, NOTEOFF, 9, noteType, tick, velocity);
   }
 
-  public static void addBassNote(Track track, int noteType, long tick, int velocity, long duration) {
+  public static void addNote(Track track, int noteType, long tick, int velocity, long duration, int instrument) {
     final int NOTEON = 144;
     final int NOTEOFF = 128;
     final int PROGRAM_CHANGE = 192;
 
-    createEvent(track, PROGRAM_CHANGE, 1, 36, 1, 0);
+    createEvent(track, PROGRAM_CHANGE, 1, instrument, 1, 0);
     createEvent(track, NOTEON, 1, noteType, tick, velocity);
     createEvent(track, NOTEOFF, 1, noteType, duration, velocity);
   }

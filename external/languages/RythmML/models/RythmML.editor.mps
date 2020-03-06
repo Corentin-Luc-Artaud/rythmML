@@ -264,7 +264,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1ggJHVJaLxh">
-    <ref role="1XX52x" to="wvci:1ggJHVJaLwP" resolve="BassNote" />
+    <ref role="1XX52x" to="wvci:1ggJHVJaLwP" resolve="Note" />
     <node concept="3EZMnI" id="1ggJHVJaLxj" role="2wV5jI">
       <node concept="3F0A7n" id="1ggJHVJaLxq" role="3EZMnx">
         <ref role="1NtTu8" to="wvci:1ggJHVJaLwM" resolve="note" />
@@ -294,6 +294,15 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="70eb_sZ119j">
+    <ref role="1XX52x" to="wvci:6mhaJVXwsD$" resolve="Silence" />
+    <node concept="3EZMnI" id="70eb_sZ119l" role="2wV5jI">
+      <node concept="3F0ifn" id="70eb_sZ119s" role="3EZMnx">
+        <property role="3F0ifm" value="silence" />
+      </node>
+      <node concept="l2Vlx" id="70eb_sZ119o" role="2iSdaV" />
     </node>
   </node>
 </model>

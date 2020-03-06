@@ -12,7 +12,7 @@ import jetbrains.mps.lang.smodel.ConceptSwitchIndexBuilder;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor {
-  private final BHDescriptor myBassNote__BehaviorDescriptor = new BassNote__BehaviorDescriptor();
+  private final BHDescriptor myNote__BehaviorDescriptor = new Note__BehaviorDescriptor();
   private final BHDescriptor myRepetition__BehaviorDescriptor = new Repetition__BehaviorDescriptor();
   private final BHDescriptor myNoteFrequency__BehaviorDescriptor = new NoteFrequency__BehaviorDescriptor();
   private final BHDescriptor mySong__BehaviorDescriptor = new Song__BehaviorDescriptor();
@@ -29,9 +29,9 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
       case 0:
         return myANote__BehaviorDescriptor;
       case 1:
-        return myBassNote__BehaviorDescriptor;
-      case 2:
         return myDrumNote__BehaviorDescriptor;
+      case 2:
+        return myNote__BehaviorDescriptor;
       case 3:
         return myNoteFrequency__BehaviorDescriptor;
       case 4:
@@ -42,5 +42,5 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x1410bedeef2b1835L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca63L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd81ca67L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x1410bedeef2b1835L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e67aL), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x52bcad3e71e6e537L), MetaIdFactory.conceptId(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL)).seal();
 }

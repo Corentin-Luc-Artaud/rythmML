@@ -9,9 +9,6 @@ import javax.sound.midi.Sequencer;
 import RythmML.behavior.Song__BehaviorDescriptor;
 import java.io.ByteArrayOutputStream;
 import javax.sound.midi.MidiSystem;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SProperty;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Song_TextGen extends TextGenDescriptorBase {
   @Override
@@ -21,8 +18,6 @@ public class Song_TextGen extends TextGenDescriptorBase {
     try {
       ByteArrayOutputStream res = new ByteArrayOutputStream();
       MidiSystem.write(sequencer.getSequence(), 1, res);
-      SPropertyOperations.assign(ctx.getPrimaryInput(), PROPS.output$CH00, String.valueOf(res.toByteArray()));
-      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.output$CH00));
     } catch (Exception e) {
       tgs.append("error");
       if (sequencer == null) {
@@ -39,9 +34,5 @@ public class Song_TextGen extends TextGenDescriptorBase {
         tgs.newLine();
       }
     }
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty output$CH00 = MetaAdapterFactory.getProperty(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L, 0x65912afefd815cddL, 0x926d89c4c0dab77L, "output");
   }
 }

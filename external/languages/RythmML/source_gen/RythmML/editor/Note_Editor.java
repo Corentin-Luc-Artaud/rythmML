@@ -7,8 +7,8 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class BassNote_Editor extends DefaultNodeEditor {
+public class Note_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new BassNote_EditorBuilder_a(editorContext, node).createCell();
+    return new Note_EditorBuilder_a(editorContext, node).createCell();
   }
 }

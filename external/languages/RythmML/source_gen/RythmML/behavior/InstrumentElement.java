@@ -4,8 +4,31 @@ package RythmML.behavior;
 
 
 public enum InstrumentElement {
-  FretlessBass(36),
+  AcousticGrandPiano(1),
+  BrightAcousticPiano(2),
+  ElectricGrandPiano(3),
+  HonkyTonkPiano(4),
+  ElectricPiano1(5),
+  ElectricPiano2(6),
+  Accordion(22),
+  AcousticGuitarN(25),
+  AcousticGuitarS(26),
+  ElectricGuitarJ(27),
+  ElectricGuitarC(28),
+  ElectricGuitarM(29),
+  OverdrivenGuitar(30),
+  DistortionGuitar(31),
+  GuitarHarmonics(32),
   AcousticBass(33),
+  ElectricBassF(34),
+  ElectricBassP(35),
+  FretlessBass(36),
+  SlapBass1(37),
+  SlapBass2(38),
+  Violin(41),
+  Viola(42),
+  Cello(43),
+  Contrabass(44),
   Drum(115);
 
   public int instrumentNumber;

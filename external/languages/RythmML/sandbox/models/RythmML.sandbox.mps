@@ -47,7 +47,7 @@
       <concept id="3423575700059342060" name="RythmML.structure.sequence" flags="ng" index="3ScbWp">
         <reference id="3423575700059342061" name="section" index="3ScbWo" />
       </concept>
-      <concept id="1445865345090525237" name="RythmML.structure.BassNote" flags="ng" index="3VeUrF" />
+      <concept id="1445865345090525237" name="RythmML.structure.Note" flags="ng" index="3VeUrF" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -61,7 +61,7 @@
     <property role="zm$zm" value="4" />
     <node concept="2o4e2$" id="37_aAvBXo2N" role="2o4e1O">
       <property role="TrG5h" value="drum" />
-      <property role="zm$zg" value="drum" />
+      <property role="zm$zg" value="70eb_sZ0vv1/Accordion" />
       <node concept="2o4e2z" id="37_aAvBXo2O" role="2o4L77">
         <property role="TrG5h" value="intro" />
         <node concept="zm$w9" id="37_aAvBXo2P" role="2o4L75">

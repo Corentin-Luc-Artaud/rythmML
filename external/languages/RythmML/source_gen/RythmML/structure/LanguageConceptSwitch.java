@@ -11,8 +11,8 @@ public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int ANote = 0;
   public static final int Bar = 1;
-  public static final int BassNote = 2;
-  public static final int DrumNote = 3;
+  public static final int DrumNote = 2;
+  public static final int Note = 3;
   public static final int NoteFrequency = 4;
   public static final int Position = 5;
   public static final int Repetition = 6;
@@ -27,8 +27,8 @@ public final class LanguageConceptSwitch {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf1ebcfd5fd1b4a1dL, 0xa2ad03091ad47f30L);
     builder.put(0x65912afefd81ca63L, ANote);
     builder.put(0x65912afefd81ca60L, Bar);
-    builder.put(0x1410bedeef2b1835L, BassNote);
     builder.put(0x65912afefd81ca67L, DrumNote);
+    builder.put(0x1410bedeef2b1835L, Note);
     builder.put(0x52bcad3e71e6e67aL, NoteFrequency);
     builder.put(0x65912afefd81ca6dL, Position);
     builder.put(0x52bcad3e71e6e537L, Repetition);

@@ -11,8 +11,8 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_ANote;
   private ConceptPresentation props_Bar;
-  private ConceptPresentation props_BassNote;
   private ConceptPresentation props_DrumNote;
+  private ConceptPresentation props_Note;
   private ConceptPresentation props_NoteFrequency;
   private ConceptPresentation props_Position;
   private ConceptPresentation props_Repetition;
@@ -41,13 +41,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Bar = cpb.create();
         }
         return props_Bar;
-      case LanguageConceptSwitch.BassNote:
-        if (props_BassNote == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("BassNote");
-          props_BassNote = cpb.create();
-        }
-        return props_BassNote;
       case LanguageConceptSwitch.DrumNote:
         if (props_DrumNote == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -55,6 +48,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DrumNote = cpb.create();
         }
         return props_DrumNote;
+      case LanguageConceptSwitch.Note:
+        if (props_Note == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Note");
+          props_Note = cpb.create();
+        }
+        return props_Note;
       case LanguageConceptSwitch.NoteFrequency:
         if (props_NoteFrequency == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
